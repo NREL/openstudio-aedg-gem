@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>zedgk_12_exterior_wall_construction</name>
   <uid>39d1c328-0bbb-40ee-a18c-ba977b462a11</uid>
-  <version_id>b28338ae-e85f-4059-b1a3-0f332811bed8</version_id>
-  <version_modified>20200316T195030Z</version_modified>
+  <version_id>5c14c266-4e19-42e5-baad-4c095ad25e11</version_id>
+  <version_modified>20200316T215643Z</version_modified>
   <xml_checksum>5091078B</xml_checksum>
   <class_name>ZEDGK12ExteriorWallConstruction</class_name>
   <display_name>ZEDG K12 ExteriorWallConstruction</display_name>
@@ -76,16 +76,22 @@
       <checksum>DB2FCB07</checksum>
     </file>
     <file>
+      <filename>LICENSE.md</filename>
+      <filetype>md</filetype>
+      <usage_type>license</usage_type>
+      <checksum>E0468DD6</checksum>
+    </file>
+    <file>
       <filename>measure_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>3EFA688D</checksum>
+      <checksum>51F8FB9D</checksum>
     </file>
     <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>5979EE87</checksum>
+      <checksum>46CD8DD9</checksum>
     </file>
     <file>
       <version>
@@ -96,25 +102,19 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>13FD4FA0</checksum>
-    </file>
-    <file>
-      <filename>LICENSE.md</filename>
-      <filetype>md</filetype>
-      <usage_type>license</usage_type>
-      <checksum>E0468DD6</checksum>
+      <checksum>8F46AF63</checksum>
     </file>
     <file>
       <filename>os_lib_constructions.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>E1FA367A</checksum>
+      <checksum>A30C5218</checksum>
     </file>
     <file>
       <filename>os_lib_helper_methods.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>07B01D67</checksum>
+      <checksum>AD62E6A4</checksum>
     </file>
   </files>
 </measure>

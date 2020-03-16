@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>zedgk_12_fenestration_and_daylighting_controls</name>
   <uid>eb3bfd3d-64b6-4a9f-857d-3dd8a7becec5</uid>
-  <version_id>85dfbfa4-1d9a-40d7-a7e0-d3a0deaa5dc4</version_id>
-  <version_modified>20200316T195030Z</version_modified>
+  <version_id>89929c72-2be3-4824-b9d7-c8b16e351c04</version_id>
+  <version_modified>20200316T215642Z</version_modified>
   <xml_checksum>7D3EA3A9</xml_checksum>
   <class_name>ZEDGK12FenestrationAndDaylightingControls</class_name>
   <display_name>ZEDG K12 - Fenestration and Daylighting Controls</display_name>
@@ -81,16 +81,22 @@
       <checksum>3C648083</checksum>
     </file>
     <file>
+      <filename>LICENSE.md</filename>
+      <filetype>md</filetype>
+      <usage_type>license</usage_type>
+      <checksum>E0468DD6</checksum>
+    </file>
+    <file>
       <filename>measure_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>911B27F7</checksum>
+      <checksum>46B14437</checksum>
     </file>
     <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>69D4E2FC</checksum>
+      <checksum>07FD66DF</checksum>
     </file>
     <file>
       <version>
@@ -101,49 +107,43 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>DDD67402</checksum>
-    </file>
-    <file>
-      <filename>LICENSE.md</filename>
-      <filetype>md</filetype>
-      <usage_type>license</usage_type>
-      <checksum>E0468DD6</checksum>
+      <checksum>6BB811D3</checksum>
     </file>
     <file>
       <filename>os_lib_constructions.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>E1FA367A</checksum>
+      <checksum>A30C5218</checksum>
     </file>
     <file>
       <filename>os_lib_helper_methods.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>07B01D67</checksum>
+      <checksum>AD62E6A4</checksum>
     </file>
     <file>
       <filename>os_lib_lighting_and_equipment.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>6CE32103</checksum>
+      <checksum>2C1B6156</checksum>
     </file>
     <file>
       <filename>os_lib_outdoorair_and_infiltration.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>273C65BE</checksum>
+      <checksum>B56DF2D9</checksum>
     </file>
     <file>
       <filename>os_lib_schedules.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>C82D00CC</checksum>
+      <checksum>8F8F3535</checksum>
     </file>
     <file>
       <filename>os_lib_geometry.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>47A6EB77</checksum>
+      <checksum>DFD50CB5</checksum>
     </file>
   </files>
 </measure>

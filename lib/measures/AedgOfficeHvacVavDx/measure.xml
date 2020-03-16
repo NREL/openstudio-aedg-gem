@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>aedg_office_hvac_vav_dx</name>
   <uid>ffdf05ce-34c2-498e-9ca8-4ef8fe3a9af5</uid>
-  <version_id>0beb6fdf-a224-415a-b1a6-cc9a3b5a8ffc</version_id>
-  <version_modified>20200316T195030Z</version_modified>
+  <version_id>10090430-3f34-40f1-ab0c-58ce9a4213cd</version_id>
+  <version_modified>20200316T215643Z</version_modified>
   <xml_checksum>4435983D</xml_checksum>
   <class_name>AedgOfficeHvacVavDx</class_name>
   <display_name>AedgOfficeHvacVavDx</display_name>
@@ -82,22 +82,22 @@
       <checksum>98D27D80</checksum>
     </file>
     <file>
+      <filename>LICENSE.md</filename>
+      <filetype>md</filetype>
+      <usage_type>license</usage_type>
+      <checksum>E0468DD6</checksum>
+    </file>
+    <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>EDB45706</checksum>
+      <checksum>99805712</checksum>
     </file>
     <file>
       <filename>AedgOfficeHvacVavDx_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>6F1640DC</checksum>
-    </file>
-    <file>
-      <filename>LICENSE.md</filename>
-      <filetype>md</filetype>
-      <usage_type>license</usage_type>
-      <checksum>E0468DD6</checksum>
+      <checksum>8D4C02AD</checksum>
     </file>
     <file>
       <version>
@@ -108,43 +108,43 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>B859AF99</checksum>
+      <checksum>B906598E</checksum>
     </file>
     <file>
       <filename>os_lib_constructions.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>E1FA367A</checksum>
+      <checksum>A30C5218</checksum>
     </file>
     <file>
       <filename>os_lib_helper_methods.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>07B01D67</checksum>
+      <checksum>AD62E6A4</checksum>
     </file>
     <file>
       <filename>os_lib_lighting_and_equipment.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>6CE32103</checksum>
+      <checksum>2C1B6156</checksum>
     </file>
     <file>
       <filename>os_lib_hvac.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>D359E7D9</checksum>
+      <checksum>5F715E91</checksum>
     </file>
     <file>
       <filename>os_lib_schedules.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>C82D00CC</checksum>
+      <checksum>8F8F3535</checksum>
     </file>
     <file>
       <filename>os_lib_geometry.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>47A6EB77</checksum>
+      <checksum>DFD50CB5</checksum>
     </file>
   </files>
 </measure>

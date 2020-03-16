@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_interior_lighting</name>
   <uid>2faf0e50-8589-427f-8ee8-928169b1f7fa</uid>
-  <version_id>5be12397-4070-4a71-a53d-5baa3908ea8a</version_id>
-  <version_modified>20200316T195029Z</version_modified>
+  <version_id>84bd97ec-22c5-4fce-b75c-5f14f5a273d9</version_id>
+  <version_modified>20200316T215641Z</version_modified>
   <xml_checksum>2DDDDD82</xml_checksum>
   <class_name>AedgK12InteriorLighting</class_name>
   <display_name>AedgK12InteriorLighting</display_name>
@@ -57,22 +57,22 @@
       <checksum>DBEAF8A3</checksum>
     </file>
     <file>
+      <filename>LICENSE.md</filename>
+      <filetype>md</filetype>
+      <usage_type>license</usage_type>
+      <checksum>E0468DD6</checksum>
+    </file>
+    <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>652337A6</checksum>
+      <checksum>68AC092B</checksum>
     </file>
     <file>
       <filename>AedgK12InteriorLighting_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>4C62A2AE</checksum>
-    </file>
-    <file>
-      <filename>LICENSE.md</filename>
-      <filetype>md</filetype>
-      <usage_type>license</usage_type>
-      <checksum>E0468DD6</checksum>
+      <checksum>C29405D3</checksum>
     </file>
     <file>
       <version>
@@ -83,25 +83,25 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>B09A829C</checksum>
+      <checksum>08725ABC</checksum>
     </file>
     <file>
       <filename>os_lib_helper_methods.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>07B01D67</checksum>
+      <checksum>AD62E6A4</checksum>
     </file>
     <file>
       <filename>os_lib_lighting_and_equipment.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>6CE32103</checksum>
+      <checksum>2C1B6156</checksum>
     </file>
     <file>
       <filename>os_lib_schedules.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>C82D00CC</checksum>
+      <checksum>8F8F3535</checksum>
     </file>
   </files>
 </measure>

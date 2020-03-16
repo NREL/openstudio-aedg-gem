@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>aedg_small_to_medium_office_interior_finishes</name>
   <uid>d426daf2-995d-4c76-bec4-4b34e7ae2f38</uid>
-  <version_id>c12889ac-886f-4b29-a850-95b38bd0c16d</version_id>
-  <version_modified>20200316T195030Z</version_modified>
+  <version_id>79411fb3-4df6-477f-a735-d391a31b7514</version_id>
+  <version_modified>20200316T215642Z</version_modified>
   <xml_checksum>1E963D9C</xml_checksum>
   <class_name>AedgSmallToMediumOfficeInteriorFinishes</class_name>
   <display_name>AedgSmallToMediumOfficeInteriorFinishes</display_name>
@@ -17,10 +17,10 @@
       <type>Choice</type>
       <required>true</required>
       <model_dependent>false</model_dependent>
-      <default_value>{87377e89-a912-4db1-9719-b84d3919a777}</default_value>
+      <default_value>{74827ad8-9b4b-4f81-b161-26f20401af64}</default_value>
       <choices>
         <choice>
-          <value>{87377e89-a912-4db1-9719-b84d3919a777}</value>
+          <value>{74827ad8-9b4b-4f81-b161-26f20401af64}</value>
           <display_name>*All Interior Partition Surfaces*</display_name>
         </choice>
       </choices>
@@ -81,22 +81,22 @@
       <checksum>326F488E</checksum>
     </file>
     <file>
+      <filename>LICENSE.md</filename>
+      <filetype>md</filetype>
+      <usage_type>license</usage_type>
+      <checksum>E0468DD6</checksum>
+    </file>
+    <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>EDB45706</checksum>
+      <checksum>99805712</checksum>
     </file>
     <file>
       <filename>AedgSmallToMediumOfficeInteriorFinishes_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>1426B9B5</checksum>
-    </file>
-    <file>
-      <filename>LICENSE.md</filename>
-      <filetype>md</filetype>
-      <usage_type>license</usage_type>
-      <checksum>E0468DD6</checksum>
+      <checksum>2C1BD75B</checksum>
     </file>
     <file>
       <version>
@@ -107,25 +107,25 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>C848C9C5</checksum>
+      <checksum>4AE1261D</checksum>
     </file>
     <file>
       <filename>os_lib_constructions.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>E1FA367A</checksum>
+      <checksum>A30C5218</checksum>
     </file>
     <file>
       <filename>os_lib_helper_methods.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>07B01D67</checksum>
+      <checksum>AD62E6A4</checksum>
     </file>
     <file>
       <filename>os_lib_geometry.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>47A6EB77</checksum>
+      <checksum>DFD50CB5</checksum>
     </file>
   </files>
 </measure>

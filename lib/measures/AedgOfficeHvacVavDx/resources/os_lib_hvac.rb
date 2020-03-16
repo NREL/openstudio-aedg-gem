@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # *******************************************************************************
 # OpenStudio(R), Copyright (c) 2008-2020, Alliance for Sustainable Energy, LLC.
 # All rights reserved.
@@ -175,8 +177,7 @@ module OsLib_HVAC
     return result
   end
 
-  def self.reportConditions(model, runner, condition,extra_string = '')
-
+  def self.reportConditions(model, runner, condition, extra_string = '')
     airloops = model.getAirLoopHVACs
     plantLoops = model.getPlantLoops
     zones = model.getThermalZones
@@ -186,7 +187,7 @@ module OsLib_HVAC
     zonesWithEquipCounter = 0
 
     zones.each do |zone|
-      if zone.equipment.size > 0
+      if !zone.equipment.empty?
         zone.equipment.each do |equip|
           unless equip.to_FanZoneExhaust.is_initialized
             zonesWithEquipCounter += 1
@@ -196,12 +197,11 @@ module OsLib_HVAC
       end
     end
 
-    if condition == "initial"
+    if condition == 'initial'
       runner.registerInitialCondition("The building started with #{airloops.size} air loops and #{plantLoops.size} plant loops. #{zonesWithEquipCounter} zones were conditioned with zone equipment.")
-    elsif condition == "final"
+    elsif condition == 'final'
       runner.registerFinalCondition("The building finished with #{airloops.size} air loops and #{plantLoops.size} plant loops. #{zonesWithEquipCounter} zones are conditioned with zone equipment. #{extra_string}")
     end
-
   end
 
   def self.removeEquipment(model, runner)
@@ -1474,23 +1474,19 @@ module OsLib_HVAC
   end
 
   def self.addDCV(model, runner, options)
-    unless options['primary_airloops'].nil?
-      options['primary_airloops'].each do |airloop|
-        if options['allHVAC']['primary']['fan'] == 'Variable'
-          controller_mv = airloop.airLoopHVACOutdoorAirSystem.get.getControllerOutdoorAir.controllerMechanicalVentilation
-          controller_mv.setDemandControlledVentilation(true)
-          runner.registerInfo("Enabling demand control ventilation for #{airloop.name}")
-        end
+    options['primary_airloops']&.each do |airloop|
+      if options['allHVAC']['primary']['fan'] == 'Variable'
+        controller_mv = airloop.airLoopHVACOutdoorAirSystem.get.getControllerOutdoorAir.controllerMechanicalVentilation
+        controller_mv.setDemandControlledVentilation(true)
+        runner.registerInfo("Enabling demand control ventilation for #{airloop.name}")
       end
     end
 
-    unless options['secondary_airloops'].nil?
-      options['secondary_airloops'].each do |airloop|
-        if options['allHVAC']['secondary']['fan'] == 'Variable'
-          controller_mv = airloop.airLoopHVACOutdoorAirSystem.get.getControllerOutdoorAir.controllerMechanicalVentilation
-          controller_mv.setDemandControlledVentilation(true)
-          runner.registerInfo("Enabling demand control ventilation for #{airloop.name}")
-        end
+    options['secondary_airloops']&.each do |airloop|
+      if options['allHVAC']['secondary']['fan'] == 'Variable'
+        controller_mv = airloop.airLoopHVACOutdoorAirSystem.get.getControllerOutdoorAir.controllerMechanicalVentilation
+        controller_mv.setDemandControlledVentilation(true)
+        runner.registerInfo("Enabling demand control ventilation for #{airloop.name}")
       end
     end
   end

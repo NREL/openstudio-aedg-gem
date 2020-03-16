@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>zedgk_12_envelope_infiltration</name>
   <uid>e6232b68-8c72-4986-8693-84c0fe1d00ec</uid>
-  <version_id>cd6da214-1ebd-4aa2-b302-f88d8e97c0fa</version_id>
-  <version_modified>20200316T195030Z</version_modified>
+  <version_id>2d32b4bb-eb14-4695-a5bf-68fb3e05927d</version_id>
+  <version_modified>20200316T215643Z</version_modified>
   <xml_checksum>F85A5EF9</xml_checksum>
   <class_name>ZEDGK12EnvelopeInfiltration</class_name>
   <display_name>ZEDG K12 Envelope Infiltration</display_name>
@@ -75,16 +75,22 @@
       <checksum>832CE6E3</checksum>
     </file>
     <file>
+      <filename>LICENSE.md</filename>
+      <filetype>md</filetype>
+      <usage_type>license</usage_type>
+      <checksum>E0468DD6</checksum>
+    </file>
+    <file>
       <filename>measure_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>5FD87046</checksum>
+      <checksum>95F883BB</checksum>
     </file>
     <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>50216F18</checksum>
+      <checksum>68AC092B</checksum>
     </file>
     <file>
       <version>
@@ -95,31 +101,25 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>69E85AA7</checksum>
-    </file>
-    <file>
-      <filename>LICENSE.md</filename>
-      <filetype>md</filetype>
-      <usage_type>license</usage_type>
-      <checksum>E0468DD6</checksum>
+      <checksum>4EA33717</checksum>
     </file>
     <file>
       <filename>os_lib_helper_methods.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>07B01D67</checksum>
+      <checksum>AD62E6A4</checksum>
     </file>
     <file>
       <filename>os_lib_outdoorair_and_infiltration.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>273C65BE</checksum>
+      <checksum>B56DF2D9</checksum>
     </file>
     <file>
       <filename>os_lib_schedules.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>C82D00CC</checksum>
+      <checksum>8F8F3535</checksum>
     </file>
   </files>
 </measure>

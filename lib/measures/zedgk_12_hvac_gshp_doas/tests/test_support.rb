@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # *******************************************************************************
 # OpenStudio(R), Copyright (c) 2008-2020, Alliance for Sustainable Energy, LLC.
 # All rights reserved.
@@ -42,11 +44,11 @@ def runSimulation(output_model_path)
   config_options.fastFindEnergyPlus
   tools = config_options.getTools
 
-  epw_path = config_options.getDefaultEPWLocation / OpenStudio::Path.new("USA_IL_Chicago-OHare.Intl.AP.725300_TMY3.epw")
+  epw_path = config_options.getDefaultEPWLocation / OpenStudio::Path.new('USA_IL_Chicago-OHare.Intl.AP.725300_TMY3.epw')
   db_path = outdir / OpenStudio::Path.new('rm.db')
 
   wf = OpenStudio::Runmanager::Workflow.new
-  wf.addWorkflow(OpenStudio::Runmanager::Workflow.new("ModelToIdf->EnergyPlus"))
+  wf.addWorkflow(OpenStudio::Runmanager::Workflow.new('ModelToIdf->EnergyPlus'))
 
   wf.add(tools)
   j = wf.create(outdir, output_model_path, epw_path)
@@ -55,8 +57,7 @@ def runSimulation(output_model_path)
   kit.setPaused(true)
   kit.enqueue(j, false)
   kit.setPaused(false)
-  kit.waitForFinished()
+  kit.waitForFinished
 
-  return OpenStudio::SqlFile.new(j.treeAllFiles().getLastByFilename("eplusout.sql").fullPath)
+  return OpenStudio::SqlFile.new(j.treeAllFiles.getLastByFilename('eplusout.sql').fullPath)
 end
-
