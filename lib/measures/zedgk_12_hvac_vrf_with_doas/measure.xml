@@ -1,9 +1,10 @@
+<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>zedgvrf_with_doas</name>
   <uid>633b8efc-7bcb-4aa0-8821-d0ee08f960db</uid>
-  <version_id>8a3bcad6-b4de-4b76-bfc3-44177212c6fa</version_id>
-  <version_modified>20191209T064145Z</version_modified>
+  <version_id>60d212a3-3c83-47fd-9a4f-e8edbb1a7d7f</version_id>
+  <version_modified>20200316T195029Z</version_modified>
   <xml_checksum>87BA8B1E</xml_checksum>
   <class_name>ZEDGVRFWithDOAS</class_name>
   <display_name>ZEDG VRF with DOAS</display_name>
@@ -45,8 +46,8 @@
       </choices>
     </argument>
   </arguments>
-  <outputs/>
-  <provenances/>
+  <outputs />
+  <provenances />
   <tags>
     <tag>HVAC.Whole System</tag>
   </tags>
@@ -76,12 +77,6 @@
       <checksum>9D7EFAB2</checksum>
     </file>
     <file>
-      <filename>measure_Test.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>test</usage_type>
-      <checksum>9A7A2B53</checksum>
-    </file>
-    <file>
       <filename>VRF_AC.osc</filename>
       <filetype>osc</filetype>
       <usage_type>resource</usage_type>
@@ -92,12 +87,6 @@
       <filetype>osc</filetype>
       <usage_type>resource</usage_type>
       <checksum>49418453</checksum>
-    </file>
-    <file>
-      <filename>LICENSE.md</filename>
-      <filetype>md</filetype>
-      <usage_type>license</usage_type>
-      <checksum>9640B6CB</checksum>
     </file>
     <file>
       <filename>README.md.erb</filename>
@@ -112,6 +101,18 @@
       <checksum>8F22CB1F</checksum>
     </file>
     <file>
+      <filename>measure_Test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>0BBF78F9</checksum>
+    </file>
+    <file>
+      <filename>LICENSE.md</filename>
+      <filetype>md</filetype>
+      <usage_type>license</usage_type>
+      <checksum>E0468DD6</checksum>
+    </file>
+    <file>
       <version>
         <software_program>OpenStudio</software_program>
         <identifier>2.0.0</identifier>
@@ -120,43 +121,43 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>294FAD16</checksum>
+      <checksum>3BC40155</checksum>
     </file>
     <file>
       <filename>OsLib_HVAC_zedg_vrf.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>8226030D</checksum>
+      <checksum>451B843D</checksum>
     </file>
     <file>
       <filename>os_lib_constructions.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>106030FA</checksum>
+      <checksum>E1FA367A</checksum>
     </file>
     <file>
       <filename>os_lib_helper_methods.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>22515A49</checksum>
+      <checksum>07B01D67</checksum>
     </file>
     <file>
       <filename>os_lib_lighting_and_equipment.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>A8E31D03</checksum>
+      <checksum>6CE32103</checksum>
     </file>
     <file>
       <filename>os_lib_schedules.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>CF3D4ACC</checksum>
+      <checksum>C82D00CC</checksum>
     </file>
     <file>
       <filename>os_lib_geometry.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>FBB26B44</checksum>
+      <checksum>47A6EB77</checksum>
     </file>
   </files>
 </measure>

@@ -1,9 +1,10 @@
+<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_fenestration_and_daylighting_controls</name>
   <uid>76683121-d531-46c0-8e1c-749c1ff646f0</uid>
-  <version_id>fb6aad4d-f45f-40e5-871f-67e583a14835</version_id>
-  <version_modified>20191209T064126Z</version_modified>
+  <version_id>04b5f7d3-1af1-4e73-8e15-c92d80eeaf64</version_id>
+  <version_modified>20200316T195032Z</version_modified>
   <xml_checksum>6FAFA9DE</xml_checksum>
   <class_name>AedgK12FenestrationAndDaylightingControls</class_name>
   <display_name>AEDG K12 - Fenestration and Daylighting Controls</display_name>
@@ -51,8 +52,8 @@
       <default_value>0</default_value>
     </argument>
   </arguments>
-  <outputs/>
-  <provenances/>
+  <outputs />
+  <provenances />
   <tags>
     <tag>Envelope.Fenestration</tag>
   </tags>
@@ -76,24 +77,6 @@
       <checksum>3E42FA7D</checksum>
     </file>
     <file>
-      <filename>OsLib_AedgMeasures.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>64624291</checksum>
-    </file>
-    <file>
-      <filename>AedgK12FenestrationAndDaylightingControls_Test.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>test</usage_type>
-      <checksum>854D29E6</checksum>
-    </file>
-    <file>
-      <filename>LICENSE.md</filename>
-      <filetype>md</filetype>
-      <usage_type>license</usage_type>
-      <checksum>9640B6CB</checksum>
-    </file>
-    <file>
       <filename>README.md.erb</filename>
       <filetype>erb</filetype>
       <usage_type>readmeerb</usage_type>
@@ -106,6 +89,24 @@
       <checksum>DDC5DD92</checksum>
     </file>
     <file>
+      <filename>OsLib_AedgMeasures.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>652337A6</checksum>
+    </file>
+    <file>
+      <filename>AedgK12FenestrationAndDaylightingControls_Test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>A8B311EE</checksum>
+    </file>
+    <file>
+      <filename>LICENSE.md</filename>
+      <filetype>md</filetype>
+      <usage_type>license</usage_type>
+      <checksum>E0468DD6</checksum>
+    </file>
+    <file>
       <version>
         <software_program>OpenStudio</software_program>
         <identifier>2.0.0</identifier>
@@ -114,43 +115,43 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>3003196E</checksum>
+      <checksum>B7AB0AB9</checksum>
     </file>
     <file>
       <filename>os_lib_constructions.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>106030FA</checksum>
+      <checksum>E1FA367A</checksum>
     </file>
     <file>
       <filename>os_lib_helper_methods.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>22515A49</checksum>
+      <checksum>07B01D67</checksum>
     </file>
     <file>
       <filename>os_lib_lighting_and_equipment.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>A8E31D03</checksum>
+      <checksum>6CE32103</checksum>
     </file>
     <file>
       <filename>os_lib_outdoorair_and_infiltration.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>F0E0039E</checksum>
+      <checksum>273C65BE</checksum>
     </file>
     <file>
       <filename>os_lib_schedules.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>CF3D4ACC</checksum>
+      <checksum>C82D00CC</checksum>
     </file>
     <file>
       <filename>os_lib_geometry.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>FBB26B44</checksum>
+      <checksum>47A6EB77</checksum>
     </file>
   </files>
 </measure>

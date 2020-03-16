@@ -1,9 +1,10 @@
+<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_interior_finishes</name>
   <uid>9165a1f8-9cd1-4492-b20b-5257c05fc5d9</uid>
-  <version_id>18848ee0-913b-43ea-905b-c6ccdf5067bc</version_id>
-  <version_modified>20190923T182649Z</version_modified>
+  <version_id>05be557d-f841-41b3-89b0-347a0eee3dee</version_id>
+  <version_modified>20200316T195031Z</version_modified>
   <xml_checksum>1E963D9C</xml_checksum>
   <class_name>AedgK12InteriorFinishes</class_name>
   <display_name>AedgK12InteriorFinishes</display_name>
@@ -16,17 +17,17 @@
       <type>Choice</type>
       <required>true</required>
       <model_dependent>false</model_dependent>
-      <default_value>*All Interior Partition Surfaces*</default_value>
+      <default_value>{9ab4fdf6-2e72-46a5-bc6b-f116ec9f7a0f}</default_value>
       <choices>
         <choice>
-          <value>{af93abb7-d3b8-4842-9109-a3bb0b53794a}</value>
+          <value>{9ab4fdf6-2e72-46a5-bc6b-f116ec9f7a0f}</value>
           <display_name>*All Interior Partition Surfaces*</display_name>
         </choice>
       </choices>
     </argument>
   </arguments>
-  <outputs/>
-  <provenances/>
+  <outputs />
+  <provenances />
   <tags>
     <tag>Envelope.Opaque</tag>
   </tags>
@@ -50,35 +51,6 @@
       <checksum>B1595983</checksum>
     </file>
     <file>
-      <filename>OsLib_AedgMeasures.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>E5173D1E</checksum>
-    </file>
-    <file>
-      <version>
-        <software_program>OpenStudio</software_program>
-        <identifier>2.0.0</identifier>
-        <min_compatible>2.0.0</min_compatible>
-      </version>
-      <filename>measure.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>script</usage_type>
-      <checksum>23F9CEC9</checksum>
-    </file>
-    <file>
-      <filename>AedgK12InteriorFinishes_Test.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>test</usage_type>
-      <checksum>4F95955B</checksum>
-    </file>
-    <file>
-      <filename>LICENSE.md</filename>
-      <filetype>md</filetype>
-      <usage_type>license</usage_type>
-      <checksum>9640B6CB</checksum>
-    </file>
-    <file>
       <filename>README.md.erb</filename>
       <filetype>erb</filetype>
       <usage_type>readmeerb</usage_type>
@@ -91,16 +63,45 @@
       <checksum>35548FC2</checksum>
     </file>
     <file>
+      <filename>OsLib_AedgMeasures.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>EDB45706</checksum>
+    </file>
+    <file>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>2.0.0</identifier>
+        <min_compatible>2.0.0</min_compatible>
+      </version>
+      <filename>measure.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>script</usage_type>
+      <checksum>E76DB446</checksum>
+    </file>
+    <file>
+      <filename>AedgK12InteriorFinishes_Test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>A7D9A01B</checksum>
+    </file>
+    <file>
+      <filename>LICENSE.md</filename>
+      <filetype>md</filetype>
+      <usage_type>license</usage_type>
+      <checksum>E0468DD6</checksum>
+    </file>
+    <file>
       <filename>os_lib_constructions.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>106030FA</checksum>
+      <checksum>E1FA367A</checksum>
     </file>
     <file>
       <filename>os_lib_helper_methods.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>22515A49</checksum>
+      <checksum>07B01D67</checksum>
     </file>
   </files>
 </measure>
