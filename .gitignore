@@ -20,3 +20,6 @@
 
 # Ignore IDE files
 /.idea
+
+# DS files
+*.DS_Store

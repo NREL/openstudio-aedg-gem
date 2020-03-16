@@ -45,6 +45,6 @@ RuboCop::RakeTask.new
 require 'openstudio/extension/rake_task'
 require 'openstudio/aedg_measures'
 rake_task = OpenStudio::Extension::RakeTask.new
-rake_task.set_extension_class(OpenStudio::Aedg::Extension)
+rake_task.set_extension_class(OpenStudio::AedgMeasures::Extension)
 
 task default: :spec
