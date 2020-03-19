@@ -1616,7 +1616,7 @@ module OsLib_HVAC
   end
 
   def self.addDCV(model, runner, options)
-    options['primary_airloops']&.each do |airloop|
+    options['primary_airloops'].each do |airloop|
       if options['allHVAC']['primary']['fan'] == 'Variable'
         if airloop.airLoopHVACOutdoorAirSystem.is_initialized
           controller_mv = airloop.airLoopHVACOutdoorAirSystem.get.getControllerOutdoorAir.controllerMechanicalVentilation
@@ -1626,7 +1626,7 @@ module OsLib_HVAC
       end
     end
 
-    options['secondary_airloops']&.each do |airloop|
+    options['secondary_airloops'].each do |airloop|
       if options['allHVAC']['secondary']['fan'] == 'Variable'
         if airloop.airLoopHVACOutdoorAirSystem.is_initialized
           controller_mv = airloop.airLoopHVACOutdoorAirSystem.get.getControllerOutdoorAir.controllerMechanicalVentilation

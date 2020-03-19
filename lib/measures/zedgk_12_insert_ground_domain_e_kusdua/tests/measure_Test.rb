@@ -39,7 +39,7 @@ require 'minitest/autorun'
 require_relative '../measure.rb'
 require 'fileutils'
 
-class ZEDGK12InsertGroundDomainBasementEKusduaTest < MiniTest::Unit::TestCase
+class ZEDGK12InsertGroundDomainBasementEKusduaTest < Minitest::Test
   def test_good_argument_values
     # create an instance of the measure
     measure = ZEDGK12InsertGroundDomainEKusdua.new

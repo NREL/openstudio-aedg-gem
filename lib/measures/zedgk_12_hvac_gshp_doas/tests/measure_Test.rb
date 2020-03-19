@@ -44,7 +44,7 @@ require "#{File.dirname(__FILE__)}/test_support.rb"
 
 require 'minitest/autorun'
 
-class ZEDGK12HVAC_Test < MiniTest::Unit::TestCase
+class ZEDGK12HVAC_Test < Minitest::Test
   def test_ZEDGK12HVAC
     output_dir = OpenStudio::Path.new(File.dirname(__FILE__) + '/output')
     OpenStudio.removeDirectory(output_dir)

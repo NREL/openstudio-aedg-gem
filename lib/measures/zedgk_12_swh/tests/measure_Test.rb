@@ -40,7 +40,7 @@ require 'fileutils'
 require_relative '../measure.rb'
 require 'minitest/autorun'
 
-class ZEDGK12SWH_Test < MiniTest::Unit::TestCase
+class ZEDGK12SWH_Test < Minitest::Test
   def test_ZEDGK12SWH
     # create an instance of the measure
     measure = ZEDGK12SWH.new

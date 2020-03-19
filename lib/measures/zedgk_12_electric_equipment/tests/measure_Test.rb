@@ -38,7 +38,7 @@ require 'openstudio/ruleset/ShowRunnerOutput'
 require "#{File.dirname(__FILE__)}/../measure.rb"
 require 'minitest/autorun'
 
-class ZEDGK12ElectricEquipment_Test < MiniTest::Unit::TestCase
+class ZEDGK12ElectricEquipment_Test < Minitest::Test
   def test_ZEDGK12ElectricEquipment
     # create an instance of the measure
     measure = ZEDGK12ElectricEquipment.new

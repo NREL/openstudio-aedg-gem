@@ -50,7 +50,7 @@ module OsLib_AedgMeasures
     end
 
     if ashraeClimateZone == '' # should this be not applicable or error?
-      runner&.registerError("Please assign an ASHRAE Climate Zone to your model using the site tab in the OpenStudio application. The measure can't make AEDG recommendations without this information.")
+      runner.registerError("Please assign an ASHRAE Climate Zone to your model using the site tab in the OpenStudio application. The measure can't make AEDG recommendations without this information.")
       return false # note - for this to work need to check for false in measure.rb and add return false there as well.
     else
       climateZoneNumber = ashraeClimateZone.split(//).first

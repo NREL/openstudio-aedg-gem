@@ -549,7 +549,7 @@ module OsLib_Schedules
     end
 
     # Rules
-    options['rules']&.each do |data_array|
+    options['rules'].each do |data_array|
       rule = OpenStudio::Model::ScheduleRule.new(sch_ruleset)
       rule.setName("#{sch_ruleset.name} #{data_array[0]} Rule")
       date_range = data_array[1].split('-')

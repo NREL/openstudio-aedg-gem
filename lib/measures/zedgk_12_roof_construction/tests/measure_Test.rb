@@ -41,7 +41,7 @@ require "#{File.dirname(__FILE__)}/../measure.rb"
 
 require 'minitest/autorun'
 
-class ZEDGK12RoofConstruction_Test < MiniTest::Unit::TestCase
+class ZEDGK12RoofConstruction_Test < Minitest::Test
   def test_ZEDGK12RoofConstruction
     # create an instance of the measure
     measure = ZEDGK12RoofConstruction.new

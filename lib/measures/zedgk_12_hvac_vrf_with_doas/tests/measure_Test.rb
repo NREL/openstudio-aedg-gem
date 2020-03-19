@@ -43,7 +43,7 @@ require "#{File.dirname(__FILE__)}/../measure.rb"
 
 require 'minitest/autorun'
 
-class ZEDGVRFWithDOAS_Test < MiniTest::Unit::TestCase
+class ZEDGVRFWithDOAS_Test < Minitest::Test
   def test_ZEDGVRFWithDOAS
     # create an instance of the measure
     measure = ZEDGVRFWithDOAS.new
