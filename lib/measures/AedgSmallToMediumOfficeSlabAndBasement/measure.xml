@@ -1,10 +1,9 @@
-<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>aedg_small_to_medium_office_slab_and_basement</name>
   <uid>9ef02e15-c7af-4bd3-a98a-44d52f3ea385</uid>
-  <version_id>25bd9cca-1b6f-42b3-a551-8beb299ad313</version_id>
-  <version_modified>20200316T195036Z</version_modified>
+  <version_id>9c63819c-edf6-4e1c-9c6f-97004aa9c911</version_id>
+  <version_modified>20200319T195612Z</version_modified>
   <xml_checksum>6A939A50</xml_checksum>
   <class_name>AedgSmallToMediumOfficeSlabAndBasement</class_name>
   <display_name>AedgSmallToMediumOfficeSlabAndBasement</display_name>
@@ -123,8 +122,8 @@
       <default_value>0</default_value>
     </argument>
   </arguments>
-  <outputs />
-  <provenances />
+  <outputs/>
+  <provenances/>
   <tags>
     <tag>Envelope.Opaque</tag>
   </tags>
@@ -220,16 +219,16 @@
       <checksum>6E880ECE</checksum>
     </file>
     <file>
-      <filename>AedgSmallToMediumOfficeSlabAndBasement_Test.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>test</usage_type>
-      <checksum>2607BF63</checksum>
-    </file>
-    <file>
       <filename>os_lib_helper_methods.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
       <checksum>07B01D67</checksum>
+    </file>
+    <file>
+      <filename>AedgSmallToMediumOfficeSlabAndBasement_Test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>4927D1AB</checksum>
     </file>
   </files>
 </measure>

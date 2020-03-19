@@ -1,10 +1,9 @@
-<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_fenestration_and_daylighting_controls</name>
   <uid>76683121-d531-46c0-8e1c-749c1ff646f0</uid>
-  <version_id>04b5f7d3-1af1-4e73-8e15-c92d80eeaf64</version_id>
-  <version_modified>20200316T195032Z</version_modified>
+  <version_id>7adff6ff-f7b8-48a5-bcb6-e1d9b999a224</version_id>
+  <version_modified>20200319T195610Z</version_modified>
   <xml_checksum>6FAFA9DE</xml_checksum>
   <class_name>AedgK12FenestrationAndDaylightingControls</class_name>
   <display_name>AEDG K12 - Fenestration and Daylighting Controls</display_name>
@@ -52,8 +51,8 @@
       <default_value>0</default_value>
     </argument>
   </arguments>
-  <outputs />
-  <provenances />
+  <outputs/>
+  <provenances/>
   <tags>
     <tag>Envelope.Fenestration</tag>
   </tags>
@@ -107,17 +106,6 @@
       <checksum>E0468DD6</checksum>
     </file>
     <file>
-      <version>
-        <software_program>OpenStudio</software_program>
-        <identifier>2.0.0</identifier>
-        <min_compatible>2.0.0</min_compatible>
-      </version>
-      <filename>measure.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>script</usage_type>
-      <checksum>B7AB0AB9</checksum>
-    </file>
-    <file>
       <filename>os_lib_constructions.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
@@ -142,16 +130,27 @@
       <checksum>273C65BE</checksum>
     </file>
     <file>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>2.0.0</identifier>
+        <min_compatible>2.0.0</min_compatible>
+      </version>
+      <filename>measure.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>script</usage_type>
+      <checksum>687CBBD1</checksum>
+    </file>
+    <file>
       <filename>os_lib_schedules.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>C82D00CC</checksum>
+      <checksum>B38668F5</checksum>
     </file>
     <file>
       <filename>os_lib_geometry.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>47A6EB77</checksum>
+      <checksum>674C561A</checksum>
     </file>
   </files>
 </measure>

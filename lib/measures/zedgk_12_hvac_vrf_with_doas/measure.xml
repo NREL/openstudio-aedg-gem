@@ -1,10 +1,9 @@
-<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>zedgvrf_with_doas</name>
   <uid>633b8efc-7bcb-4aa0-8821-d0ee08f960db</uid>
-  <version_id>2dd154f5-7b3d-448e-b327-b72bd52c09ca</version_id>
-  <version_modified>20200316T215641Z</version_modified>
+  <version_id>a8eab13e-e026-4e2e-805d-695617d2be35</version_id>
+  <version_modified>20200319T195609Z</version_modified>
   <xml_checksum>87BA8B1E</xml_checksum>
   <class_name>ZEDGVRFWithDOAS</class_name>
   <display_name>ZEDG VRF with DOAS</display_name>
@@ -46,8 +45,8 @@
       </choices>
     </argument>
   </arguments>
-  <outputs />
-  <provenances />
+  <outputs/>
+  <provenances/>
   <tags>
     <tag>HVAC.Whole System</tag>
   </tags>
@@ -107,12 +106,6 @@
       <checksum>E0468DD6</checksum>
     </file>
     <file>
-      <filename>measure_Test.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>test</usage_type>
-      <checksum>4257A602</checksum>
-    </file>
-    <file>
       <version>
         <software_program>OpenStudio</software_program>
         <identifier>2.0.0</identifier>
@@ -122,12 +115,6 @@
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
       <checksum>E03C742A</checksum>
-    </file>
-    <file>
-      <filename>OsLib_HVAC_zedg_vrf.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>6942F1B8</checksum>
     </file>
     <file>
       <filename>os_lib_constructions.rb</filename>
@@ -148,16 +135,28 @@
       <checksum>2C1B6156</checksum>
     </file>
     <file>
-      <filename>os_lib_schedules.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>8F8F3535</checksum>
-    </file>
-    <file>
       <filename>os_lib_geometry.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
       <checksum>DFD50CB5</checksum>
+    </file>
+    <file>
+      <filename>measure_Test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>06E2BBD8</checksum>
+    </file>
+    <file>
+      <filename>OsLib_HVAC_zedg_vrf.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>0EF6DA77</checksum>
+    </file>
+    <file>
+      <filename>os_lib_schedules.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>E97C0929</checksum>
     </file>
   </files>
 </measure>

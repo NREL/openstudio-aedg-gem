@@ -1,25 +1,24 @@
-<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_exterior_lighting</name>
   <uid>04fd62eb-3e9f-4bfc-98d8-7827b47e034a</uid>
-  <version_id>5b976edb-244e-407c-8641-1fd239e9cb95</version_id>
-  <version_modified>20200316T195033Z</version_modified>
+  <version_id>3b5958b3-7753-40b4-a992-3b74b3af15ef</version_id>
+  <version_modified>20200319T195611Z</version_modified>
   <xml_checksum>2DDDDD82</xml_checksum>
   <class_name>AedgK12ExteriorLighting</class_name>
   <display_name>AedgK12ExteriorLighting</display_name>
   <description>This measure will create exterior lights objects in four different categories described below. The lighting levels and controls will be based on the "How to Implement Recommendations" section in the AEDG; any existing exterior lighting will be removed. A special input is needed for this measure to define the exterior lighting zone, which further describes whether the site is urban or rural. </description>
-  <modeler_description>Provide an area or dimensions as input for each of the exterior lighting categories described below. 
-- Facade and landscape lighting
-- Parking lots and drives
-- Walkways, plaza, and special features areas
-- All other exterior lighting
-    
-Lighting Zones:
-0 - Undeveloped areas within national parks, state parks, forest land, rural areas, and other undeveloped areas as defined by the authority having jurisdiction (no lighting recommendations)
-1 - Developed areas of national parks, state parks, forest land, and rural areas (no lighting recommendations)
-2 - Areas predominantly consisting of residential zoning, neighborhood business districts, light industrial with limited nighttime use and residential mixed use areas
-3 - All other areas
+  <modeler_description>Provide an area or dimensions as input for each of the exterior lighting categories described below. &#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+- Facade and landscape lighting&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+- Parking lots and drives&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+- Walkways, plaza, and special features areas&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+- All other exterior lighting&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    &#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+Lighting Zones:&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+0 - Undeveloped areas within national parks, state parks, forest land, rural areas, and other undeveloped areas as defined by the authority having jurisdiction (no lighting recommendations)&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+1 - Developed areas of national parks, state parks, forest land, and rural areas (no lighting recommendations)&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+2 - Areas predominantly consisting of residential zoning, neighborhood business districts, light industrial with limited nighttime use and residential mixed use areas&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+3 - All other areas&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 4 - High activity commercial districts in major metropolitan areas as designated by the local jurisdiction</modeler_description>
   <arguments>
     <argument>
@@ -95,8 +94,8 @@ Lighting Zones:
       <default_value>0</default_value>
     </argument>
   </arguments>
-  <outputs />
-  <provenances />
+  <outputs/>
+  <provenances/>
   <tags>
     <tag>Electric Lighting.Lighting Equipment</tag>
   </tags>
@@ -155,12 +154,6 @@ Lighting Zones:
       <checksum>E0468DD6</checksum>
     </file>
     <file>
-      <filename>AedgK12ExteriorLighting_Test.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>test</usage_type>
-      <checksum>088BF60B</checksum>
-    </file>
-    <file>
       <filename>os_lib_helper_methods.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
@@ -173,10 +166,16 @@ Lighting Zones:
       <checksum>6CE32103</checksum>
     </file>
     <file>
+      <filename>AedgK12ExteriorLighting_Test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>3A8058BD</checksum>
+    </file>
+    <file>
       <filename>os_lib_schedules.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>C82D00CC</checksum>
+      <checksum>B38668F5</checksum>
     </file>
   </files>
 </measure>

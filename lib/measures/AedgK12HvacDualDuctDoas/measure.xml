@@ -1,10 +1,9 @@
-<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_hvac_dual_duct_doas</name>
   <uid>e45f7185-15c2-40da-be15-2e8406f96dba</uid>
-  <version_id>6494fe58-2289-4436-b766-7613ae4a75fb</version_id>
-  <version_modified>20200316T195034Z</version_modified>
+  <version_id>0cc860c9-f453-4d27-b537-61f2de790c4d</version_id>
+  <version_modified>20200319T195611Z</version_modified>
   <xml_checksum>4435983D</xml_checksum>
   <class_name>AedgK12HvacDualDuctDoas</class_name>
   <display_name>AedgK12HvacDualDuctDoas</display_name>
@@ -45,8 +44,8 @@
       </choices>
     </argument>
   </arguments>
-  <outputs />
-  <provenances />
+  <outputs/>
+  <provenances/>
   <tags>
     <tag>HVAC.Whole System</tag>
   </tags>
@@ -132,19 +131,19 @@
       <filename>os_lib_hvac.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>D359E7D9</checksum>
+      <checksum>0F8A06F5</checksum>
     </file>
     <file>
       <filename>os_lib_schedules.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>C82D00CC</checksum>
+      <checksum>B38668F5</checksum>
     </file>
     <file>
       <filename>os_lib_geometry.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>47A6EB77</checksum>
+      <checksum>674C561A</checksum>
     </file>
   </files>
 </measure>

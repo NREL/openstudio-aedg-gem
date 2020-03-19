@@ -1,10 +1,9 @@
-<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_kitchen</name>
   <uid>92750b5a-7eb5-4df5-899f-c186c7c27935</uid>
-  <version_id>3a42a7d4-9922-4d39-b5e1-a3abea3f8520</version_id>
-  <version_modified>20200316T195032Z</version_modified>
+  <version_id>a3081b42-ac21-4a4d-bcc5-55bc4d309a46</version_id>
+  <version_modified>20200319T195610Z</version_modified>
   <xml_checksum>057E8D9D</xml_checksum>
   <class_name>AedgK12Kitchen</class_name>
   <display_name>AedgK12Kitchen</display_name>
@@ -27,8 +26,8 @@
       <model_dependent>false</model_dependent>
     </argument>
   </arguments>
-  <outputs />
-  <provenances />
+  <outputs/>
+  <provenances/>
   <tags>
     <tag>Whole Building.Space Types</tag>
   </tags>
@@ -114,19 +113,19 @@
       <filename>os_lib_hvac.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>D359E7D9</checksum>
+      <checksum>0F8A06F5</checksum>
     </file>
     <file>
       <filename>os_lib_schedules.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>C82D00CC</checksum>
+      <checksum>B38668F5</checksum>
     </file>
     <file>
       <filename>os_lib_geometry.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>47A6EB77</checksum>
+      <checksum>674C561A</checksum>
     </file>
   </files>
 </measure>

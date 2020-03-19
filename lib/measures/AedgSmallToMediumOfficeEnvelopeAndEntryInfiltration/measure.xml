@@ -1,10 +1,9 @@
-<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>aedg_small_to_medium_office_envelope_and_entry_infiltration</name>
   <uid>9c977bfb-d3f8-4f61-afcf-9524edf82cb8</uid>
-  <version_id>af7e3485-1002-4d62-aad3-f05a39bbafb3</version_id>
-  <version_modified>20200316T195031Z</version_modified>
+  <version_id>b69907a5-0305-44d8-a25c-5c1c5ad1b226</version_id>
+  <version_modified>20200319T195610Z</version_modified>
   <xml_checksum>EACB548E</xml_checksum>
   <class_name>AedgSmallToMediumOfficeEnvelopeAndEntryInfiltration</class_name>
   <display_name>AedgSmallToMediumOfficeEnvelopeAndEntryInfiltration</display_name>
@@ -99,8 +98,8 @@
       <default_value>0</default_value>
     </argument>
   </arguments>
-  <outputs />
-  <provenances />
+  <outputs/>
+  <provenances/>
   <tags>
     <tag>Envelope.Infiltration</tag>
   </tags>
@@ -160,12 +159,6 @@
       <checksum>E0468DD6</checksum>
     </file>
     <file>
-      <filename>AedgSmallToMediumOfficeEnvelopeAndEntryInfiltration_Test.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>test</usage_type>
-      <checksum>A2E776CF</checksum>
-    </file>
-    <file>
       <version>
         <software_program>OpenStudio</software_program>
         <identifier>2.0.0</identifier>
@@ -189,10 +182,16 @@
       <checksum>273C65BE</checksum>
     </file>
     <file>
+      <filename>AedgSmallToMediumOfficeEnvelopeAndEntryInfiltration_Test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>8C0DE68E</checksum>
+    </file>
+    <file>
       <filename>os_lib_schedules.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>C82D00CC</checksum>
+      <checksum>B38668F5</checksum>
     </file>
   </files>
 </measure>

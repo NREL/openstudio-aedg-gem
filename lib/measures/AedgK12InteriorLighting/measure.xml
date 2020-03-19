@@ -1,10 +1,9 @@
-<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_interior_lighting</name>
   <uid>2faf0e50-8589-427f-8ee8-928169b1f7fa</uid>
-  <version_id>84bd97ec-22c5-4fce-b75c-5f14f5a273d9</version_id>
-  <version_modified>20200316T215641Z</version_modified>
+  <version_id>6db3ac1a-1915-46c8-8225-91cee8c486b9</version_id>
+  <version_modified>20200319T195609Z</version_modified>
   <xml_checksum>2DDDDD82</xml_checksum>
   <class_name>AedgK12InteriorLighting</class_name>
   <display_name>AedgK12InteriorLighting</display_name>
@@ -20,8 +19,8 @@
       <default_value>0</default_value>
     </argument>
   </arguments>
-  <outputs />
-  <provenances />
+  <outputs/>
+  <provenances/>
   <tags>
     <tag>Electric Lighting.Lighting Equipment</tag>
   </tags>
@@ -63,12 +62,6 @@
       <checksum>E0468DD6</checksum>
     </file>
     <file>
-      <filename>OsLib_AedgMeasures.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>68AC092B</checksum>
-    </file>
-    <file>
       <filename>AedgK12InteriorLighting_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
@@ -98,10 +91,16 @@
       <checksum>2C1B6156</checksum>
     </file>
     <file>
+      <filename>OsLib_AedgMeasures.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>9600927D</checksum>
+    </file>
+    <file>
       <filename>os_lib_schedules.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>8F8F3535</checksum>
+      <checksum>E97C0929</checksum>
     </file>
   </files>
 </measure>

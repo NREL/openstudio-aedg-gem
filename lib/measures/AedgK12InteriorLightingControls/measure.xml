@@ -1,10 +1,9 @@
-<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_interior_lighting_controls</name>
   <uid>9f395ee4-5f82-4ca6-8a50-cb854893827e</uid>
-  <version_id>1db1c9c7-dbf1-4559-92e6-588f5b811817</version_id>
-  <version_modified>20200316T195031Z</version_modified>
+  <version_id>62ccd713-0910-4a77-851f-79dd11469cf5</version_id>
+  <version_modified>20200319T195610Z</version_modified>
   <xml_checksum>9B7BB4D8</xml_checksum>
   <class_name>AedgK12InteriorLightingControls</class_name>
   <display_name>AedgK12InteriorLightingControls</display_name>
@@ -20,8 +19,8 @@
       <default_value>0</default_value>
     </argument>
   </arguments>
-  <outputs />
-  <provenances />
+  <outputs/>
+  <provenances/>
   <tags>
     <tag>Electric Lighting.Electric Lighting Controls</tag>
   </tags>
@@ -101,7 +100,7 @@
       <filename>os_lib_schedules.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>C82D00CC</checksum>
+      <checksum>B38668F5</checksum>
     </file>
   </files>
 </measure>

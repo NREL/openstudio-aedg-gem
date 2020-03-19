@@ -1,10 +1,9 @@
-<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>zedgk_12_roof_construction</name>
   <uid>d322d264-5855-4b20-bd3e-3c5e5032bc05</uid>
-  <version_id>e5b42584-a4c1-45cc-9d0c-9d235a3b2750</version_id>
-  <version_modified>20200316T195035Z</version_modified>
+  <version_id>384a6104-d99f-49cd-9232-f1f342c7171f</version_id>
+  <version_modified>20200319T195612Z</version_modified>
   <xml_checksum>5091078B</xml_checksum>
   <class_name>ZEDGK12RoofConstruction</class_name>
   <display_name>ZEDG K12 RoofConstruction</display_name>
@@ -61,8 +60,8 @@
       </choices>
     </argument>
   </arguments>
-  <outputs />
-  <provenances />
+  <outputs/>
+  <provenances/>
   <tags>
     <tag>Envelope.Opaque</tag>
   </tags>
@@ -104,29 +103,6 @@
       <checksum>0EBE7325</checksum>
     </file>
     <file>
-      <filename>measure_Test.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>test</usage_type>
-      <checksum>B1A29E36</checksum>
-    </file>
-    <file>
-      <filename>OsLib_AedgMeasures.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>5979EE87</checksum>
-    </file>
-    <file>
-      <version>
-        <software_program>OpenStudio</software_program>
-        <identifier>2.0.0</identifier>
-        <min_compatible>2.0.0</min_compatible>
-      </version>
-      <filename>measure.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>script</usage_type>
-      <checksum>2D726F42</checksum>
-    </file>
-    <file>
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
@@ -143,6 +119,29 @@
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
       <checksum>07B01D67</checksum>
+    </file>
+    <file>
+      <filename>measure_Test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>16A906A6</checksum>
+    </file>
+    <file>
+      <filename>OsLib_AedgMeasures.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>75F40BC3</checksum>
+    </file>
+    <file>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>2.0.0</identifier>
+        <min_compatible>2.0.0</min_compatible>
+      </version>
+      <filename>measure.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>script</usage_type>
+      <checksum>CA529BBB</checksum>
     </file>
   </files>
 </measure>

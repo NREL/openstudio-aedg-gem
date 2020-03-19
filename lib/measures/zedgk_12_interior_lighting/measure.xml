@@ -1,10 +1,9 @@
-<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>zedgk_12_interior_lighting</name>
   <uid>d3283a8e-aee1-4b9d-9217-a7a988726fb4</uid>
-  <version_id>9418b82a-d389-406f-a035-8bf0d902e177</version_id>
-  <version_modified>20200316T195034Z</version_modified>
+  <version_id>b8a34bf8-0d1a-4154-bd55-80a5aa348124</version_id>
+  <version_modified>20200319T195611Z</version_modified>
   <xml_checksum>4B6FFB84</xml_checksum>
   <class_name>ZEDGK12InteriorLighting</class_name>
   <display_name>ZEDG K12 Interior Lighting</display_name>
@@ -20,8 +19,8 @@
       <default_value>0</default_value>
     </argument>
   </arguments>
-  <outputs />
-  <provenances />
+  <outputs/>
+  <provenances/>
   <tags>
     <tag>Electric Lighting.Lighting Equipment</tag>
   </tags>
@@ -57,29 +56,6 @@
       <checksum>9171CC08</checksum>
     </file>
     <file>
-      <filename>measure_Test.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>test</usage_type>
-      <checksum>E3C5D5EB</checksum>
-    </file>
-    <file>
-      <filename>OsLib_AedgMeasures.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>69D4E2FC</checksum>
-    </file>
-    <file>
-      <version>
-        <software_program>OpenStudio</software_program>
-        <identifier>2.0.0</identifier>
-        <min_compatible>2.0.0</min_compatible>
-      </version>
-      <filename>measure.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>script</usage_type>
-      <checksum>17E3D73C</checksum>
-    </file>
-    <file>
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
@@ -98,10 +74,33 @@
       <checksum>6CE32103</checksum>
     </file>
     <file>
+      <filename>measure_Test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>A892016E</checksum>
+    </file>
+    <file>
+      <filename>OsLib_AedgMeasures.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>CAD37D98</checksum>
+    </file>
+    <file>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>2.0.0</identifier>
+        <min_compatible>2.0.0</min_compatible>
+      </version>
+      <filename>measure.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>script</usage_type>
+      <checksum>1630310C</checksum>
+    </file>
+    <file>
       <filename>os_lib_schedules.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>C82D00CC</checksum>
+      <checksum>B38668F5</checksum>
     </file>
   </files>
 </measure>

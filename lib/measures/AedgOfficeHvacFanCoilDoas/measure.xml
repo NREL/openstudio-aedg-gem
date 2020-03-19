@@ -1,10 +1,9 @@
-<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>aedg_office_hvac_fan_coil_doas</name>
   <uid>298c5638-bd9d-4d6a-9c8a-e0514df4db4a</uid>
-  <version_id>701ecd61-f994-44fc-a772-cc0d873a5c57</version_id>
-  <version_modified>20200316T195033Z</version_modified>
+  <version_id>fa0c503a-e8b0-4cc1-975a-d83aecf5603b</version_id>
+  <version_modified>20200319T195611Z</version_modified>
   <xml_checksum>4435983D</xml_checksum>
   <class_name>AedgOfficeHvacFanCoilDoas</class_name>
   <display_name>AedgOfficeHvacFanCoilDoas</display_name>
@@ -45,8 +44,8 @@
       </choices>
     </argument>
   </arguments>
-  <outputs />
-  <provenances />
+  <outputs/>
+  <provenances/>
   <tags>
     <tag>HVAC.Whole System</tag>
   </tags>
@@ -132,19 +131,19 @@
       <filename>os_lib_hvac.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>D359E7D9</checksum>
+      <checksum>0F8A06F5</checksum>
     </file>
     <file>
       <filename>os_lib_schedules.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>C82D00CC</checksum>
+      <checksum>B38668F5</checksum>
     </file>
     <file>
       <filename>os_lib_geometry.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>47A6EB77</checksum>
+      <checksum>674C561A</checksum>
     </file>
   </files>
 </measure>

@@ -1,10 +1,9 @@
-<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>zedgk_12_insert_ground_domain_e_kusdua</name>
   <uid>aa8123f0-4d04-4141-8a00-8a2bccf30315</uid>
-  <version_id>133805e7-62d7-442d-ae49-d2f71c51e089</version_id>
-  <version_modified>20200316T195033Z</version_modified>
+  <version_id>11da51ba-3edf-46c3-b31d-9543b0e5e476</version_id>
+  <version_modified>20200319T195611Z</version_modified>
   <xml_checksum>80A956BE</xml_checksum>
   <class_name>ZEDGK12InsertGroundDomainEKusdua</class_name>
   <display_name>ZEDG K12 Insert Ground Domain E+ Kusdua</display_name>
@@ -21,8 +20,8 @@
       <default_value>120</default_value>
     </argument>
   </arguments>
-  <outputs />
-  <provenances />
+  <outputs/>
+  <provenances/>
   <tags>
     <tag>Envelope.Form</tag>
   </tags>
@@ -109,6 +108,12 @@
       <checksum>3E246ACE</checksum>
     </file>
     <file>
+      <filename>LICENSE.md</filename>
+      <filetype>md</filetype>
+      <usage_type>license</usage_type>
+      <checksum>E0468DD6</checksum>
+    </file>
+    <file>
       <version>
         <software_program>OpenStudio</software_program>
         <identifier>2.0.0</identifier>
@@ -117,19 +122,13 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>EFCF8151</checksum>
+      <checksum>A62EE785</checksum>
     </file>
     <file>
       <filename>measure_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>77B53B30</checksum>
-    </file>
-    <file>
-      <filename>LICENSE.md</filename>
-      <filetype>md</filetype>
-      <usage_type>license</usage_type>
-      <checksum>E0468DD6</checksum>
+      <checksum>68DC2C2A</checksum>
     </file>
   </files>
 </measure>

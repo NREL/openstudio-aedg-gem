@@ -1,10 +1,9 @@
-<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>zedgk_12_hvac</name>
   <uid>59793426-1d07-41d2-9478-d7abf1410764</uid>
-  <version_id>da201492-f669-4ac6-97e9-99cee55719dc</version_id>
-  <version_modified>20200316T215642Z</version_modified>
+  <version_id>f8db944c-b989-40ad-8a65-da719bf59c51</version_id>
+  <version_modified>20200319T195609Z</version_modified>
   <xml_checksum>87BA8B1E</xml_checksum>
   <class_name>ZEDGK12HVAC</class_name>
   <display_name>ZEDG K12 HVAC GSHP with DOAS</display_name>
@@ -45,8 +44,8 @@
       </choices>
     </argument>
   </arguments>
-  <outputs />
-  <provenances />
+  <outputs/>
+  <provenances/>
   <tags>
     <tag>HVAC.Whole System</tag>
   </tags>
@@ -94,12 +93,6 @@
       <checksum>1E9C249B</checksum>
     </file>
     <file>
-      <filename>measure_Test.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>test</usage_type>
-      <checksum>1C223E13</checksum>
-    </file>
-    <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
@@ -110,12 +103,6 @@
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
       <checksum>36D7C5DF</checksum>
-    </file>
-    <file>
-      <filename>OsLib_HVAC_zedg_gshp.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>33CC4B76</checksum>
     </file>
     <file>
       <version>
@@ -147,16 +134,28 @@
       <checksum>2C1B6156</checksum>
     </file>
     <file>
-      <filename>os_lib_schedules.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>8F8F3535</checksum>
-    </file>
-    <file>
       <filename>os_lib_geometry.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
       <checksum>DFD50CB5</checksum>
+    </file>
+    <file>
+      <filename>measure_Test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>C4AF8E0A</checksum>
+    </file>
+    <file>
+      <filename>OsLib_HVAC_zedg_gshp.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>C13C9CDC</checksum>
+    </file>
+    <file>
+      <filename>os_lib_schedules.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>E97C0929</checksum>
     </file>
   </files>
 </measure>

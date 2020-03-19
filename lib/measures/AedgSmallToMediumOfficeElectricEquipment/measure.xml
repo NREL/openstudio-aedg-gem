@@ -1,10 +1,9 @@
-<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>aedg_small_to_medium_office_electric_equipment</name>
   <uid>2b50c112-4ee3-42b2-8c7f-d76d752cd0b4</uid>
-  <version_id>3993593c-f92f-4692-b2fd-6b903cb77d1d</version_id>
-  <version_modified>20200316T195033Z</version_modified>
+  <version_id>5d08d213-5325-4e82-ae6b-730e26558bc3</version_id>
+  <version_modified>20200319T195611Z</version_modified>
   <xml_checksum>126F1C43</xml_checksum>
   <class_name>AedgSmallToMediumOfficeElectricEquipment</class_name>
   <display_name>AedgSmallToMediumOfficeElectricEquipment</display_name>
@@ -20,8 +19,8 @@
       <default_value>0</default_value>
     </argument>
   </arguments>
-  <outputs />
-  <provenances />
+  <outputs/>
+  <provenances/>
   <tags>
     <tag>Equipment.Electric Equipment</tag>
   </tags>
@@ -101,7 +100,7 @@
       <filename>os_lib_schedules.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>C82D00CC</checksum>
+      <checksum>B38668F5</checksum>
     </file>
   </files>
 </measure>

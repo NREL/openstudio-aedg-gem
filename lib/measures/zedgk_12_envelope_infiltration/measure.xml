@@ -1,10 +1,9 @@
-<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>zedgk_12_envelope_infiltration</name>
   <uid>e6232b68-8c72-4986-8693-84c0fe1d00ec</uid>
-  <version_id>2d32b4bb-eb14-4695-a5bf-68fb3e05927d</version_id>
-  <version_modified>20200316T215643Z</version_modified>
+  <version_id>7e8b48b8-2b62-4e9b-89f0-211c1d449c21</version_id>
+  <version_modified>20200319T195609Z</version_modified>
   <xml_checksum>F85A5EF9</xml_checksum>
   <class_name>ZEDGK12EnvelopeInfiltration</class_name>
   <display_name>ZEDG K12 Envelope Infiltration</display_name>
@@ -20,8 +19,8 @@
       <default_value>0</default_value>
     </argument>
   </arguments>
-  <outputs />
-  <provenances />
+  <outputs/>
+  <provenances/>
   <tags>
     <tag>Envelope.Infiltration</tag>
   </tags>
@@ -81,18 +80,6 @@
       <checksum>E0468DD6</checksum>
     </file>
     <file>
-      <filename>measure_Test.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>test</usage_type>
-      <checksum>95F883BB</checksum>
-    </file>
-    <file>
-      <filename>OsLib_AedgMeasures.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>68AC092B</checksum>
-    </file>
-    <file>
       <version>
         <software_program>OpenStudio</software_program>
         <identifier>2.0.0</identifier>
@@ -116,10 +103,22 @@
       <checksum>B56DF2D9</checksum>
     </file>
     <file>
+      <filename>measure_Test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>5721C978</checksum>
+    </file>
+    <file>
+      <filename>OsLib_AedgMeasures.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>9600927D</checksum>
+    </file>
+    <file>
       <filename>os_lib_schedules.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>8F8F3535</checksum>
+      <checksum>E97C0929</checksum>
     </file>
   </files>
 </measure>

@@ -1,10 +1,9 @@
-<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>zedgk_12_hvac_fan_coil_doas</name>
   <uid>791d0da9-00d3-422f-9dd2-fe57c9b59997</uid>
-  <version_id>0bdc99b1-b6a4-4ea9-8976-a4dbcb840ec8</version_id>
-  <version_modified>20200316T195033Z</version_modified>
+  <version_id>e8949887-c15c-4dce-9e96-b2709784c0e0</version_id>
+  <version_modified>20200319T195611Z</version_modified>
   <xml_checksum>87BA8B1E</xml_checksum>
   <class_name>ZEDGK12HVACFanCoilDOAS</class_name>
   <display_name>ZEDG K12 HVAC Fan Coil DOAS</display_name>
@@ -45,8 +44,8 @@
       </choices>
     </argument>
   </arguments>
-  <outputs />
-  <provenances />
+  <outputs/>
+  <provenances/>
   <tags>
     <tag>HVAC.Whole System</tag>
   </tags>
@@ -88,35 +87,6 @@
       <checksum>5B476B05</checksum>
     </file>
     <file>
-      <filename>measure_Test.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>test</usage_type>
-      <checksum>30DB58D4</checksum>
-    </file>
-    <file>
-      <filename>OsLib_AedgMeasures.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>D4BDC01D</checksum>
-    </file>
-    <file>
-      <filename>OsLib_HVAC_zedg_fan_coil.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>75502C20</checksum>
-    </file>
-    <file>
-      <version>
-        <software_program>OpenStudio</software_program>
-        <identifier>2.0.0</identifier>
-        <min_compatible>2.0.0</min_compatible>
-      </version>
-      <filename>measure.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>script</usage_type>
-      <checksum>CD0622B4</checksum>
-    </file>
-    <file>
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
@@ -141,16 +111,45 @@
       <checksum>6CE32103</checksum>
     </file>
     <file>
+      <filename>measure_Test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>086F455D</checksum>
+    </file>
+    <file>
+      <filename>OsLib_AedgMeasures.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>EDB45706</checksum>
+    </file>
+    <file>
+      <filename>OsLib_HVAC_zedg_fan_coil.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>37F83E31</checksum>
+    </file>
+    <file>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>2.0.0</identifier>
+        <min_compatible>2.0.0</min_compatible>
+      </version>
+      <filename>measure.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>script</usage_type>
+      <checksum>2AFD24A9</checksum>
+    </file>
+    <file>
       <filename>os_lib_schedules.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>C82D00CC</checksum>
+      <checksum>B38668F5</checksum>
     </file>
     <file>
       <filename>os_lib_geometry.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>47A6EB77</checksum>
+      <checksum>674C561A</checksum>
     </file>
   </files>
 </measure>

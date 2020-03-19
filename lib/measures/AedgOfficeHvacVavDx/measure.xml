@@ -1,10 +1,9 @@
-<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>aedg_office_hvac_vav_dx</name>
   <uid>ffdf05ce-34c2-498e-9ca8-4ef8fe3a9af5</uid>
-  <version_id>10090430-3f34-40f1-ab0c-58ce9a4213cd</version_id>
-  <version_modified>20200316T215643Z</version_modified>
+  <version_id>98f11da7-8410-4ee4-a70e-2db6d91bd128</version_id>
+  <version_modified>20200319T195609Z</version_modified>
   <xml_checksum>4435983D</xml_checksum>
   <class_name>AedgOfficeHvacVavDx</class_name>
   <display_name>AedgOfficeHvacVavDx</display_name>
@@ -45,8 +44,8 @@
       </choices>
     </argument>
   </arguments>
-  <outputs />
-  <provenances />
+  <outputs/>
+  <provenances/>
   <tags>
     <tag>HVAC.Whole System</tag>
   </tags>
@@ -129,22 +128,22 @@
       <checksum>2C1B6156</checksum>
     </file>
     <file>
+      <filename>os_lib_geometry.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>DFD50CB5</checksum>
+    </file>
+    <file>
       <filename>os_lib_hvac.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>5F715E91</checksum>
+      <checksum>E918C1A2</checksum>
     </file>
     <file>
       <filename>os_lib_schedules.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>8F8F3535</checksum>
-    </file>
-    <file>
-      <filename>os_lib_geometry.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>DFD50CB5</checksum>
+      <checksum>E97C0929</checksum>
     </file>
   </files>
 </measure>

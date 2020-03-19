@@ -1,10 +1,9 @@
-<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>aedg_small_to_medium_office_interior_lighting</name>
   <uid>e1e16b8f-5cbf-447c-9f76-7fe69b3cf01e</uid>
-  <version_id>1aeb4ff1-2690-41fc-834e-80e85d980f79</version_id>
-  <version_modified>20200316T195031Z</version_modified>
+  <version_id>96d5de5b-d9ba-419e-a535-bc579937ba51</version_id>
+  <version_modified>20200319T195610Z</version_modified>
   <xml_checksum>2DDDDD82</xml_checksum>
   <class_name>AedgSmallToMediumOfficeInteriorLighting</class_name>
   <display_name>AedgSmallToMediumOfficeInteriorLighting</display_name>
@@ -20,8 +19,8 @@
       <default_value>0</default_value>
     </argument>
   </arguments>
-  <outputs />
-  <provenances />
+  <outputs/>
+  <provenances/>
   <tags>
     <tag>Electric Lighting.Lighting Equipment</tag>
   </tags>
@@ -101,7 +100,7 @@
       <filename>os_lib_schedules.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>C82D00CC</checksum>
+      <checksum>B38668F5</checksum>
     </file>
   </files>
 </measure>

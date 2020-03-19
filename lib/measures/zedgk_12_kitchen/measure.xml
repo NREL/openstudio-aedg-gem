@@ -1,10 +1,9 @@
-<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>zedgk_12_kitchen</name>
   <uid>6d9f212d-e859-4857-8ee7-1670de9c2bfb</uid>
-  <version_id>de5da93a-e6fd-440f-a011-956d0c6576dc</version_id>
-  <version_modified>20200316T215644Z</version_modified>
+  <version_id>a3fb3a35-6ee6-48f7-a421-ef1f84bb51c7</version_id>
+  <version_modified>20200319T195610Z</version_modified>
   <xml_checksum>CE83CD3D</xml_checksum>
   <class_name>ZEDGK12Kitchen</class_name>
   <display_name>ZEDG K12 Kitchen</display_name>
@@ -27,8 +26,8 @@
       <model_dependent>false</model_dependent>
     </argument>
   </arguments>
-  <outputs />
-  <provenances />
+  <outputs/>
+  <provenances/>
   <tags>
     <tag>Whole Building.Space Types</tag>
   </tags>
@@ -90,33 +89,10 @@
       <checksum>E0468DD6</checksum>
     </file>
     <file>
-      <filename>measure_Test.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>test</usage_type>
-      <checksum>768111AE</checksum>
-    </file>
-    <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
       <checksum>99805712</checksum>
-    </file>
-    <file>
-      <filename>OsLib_HVAC.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>9FA77A1C</checksum>
-    </file>
-    <file>
-      <version>
-        <software_program>OpenStudio</software_program>
-        <identifier>2.0.0</identifier>
-        <min_compatible>2.0.0</min_compatible>
-      </version>
-      <filename>measure.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>script</usage_type>
-      <checksum>FBDD79FC</checksum>
     </file>
     <file>
       <filename>os_lib_constructions.rb</filename>
@@ -137,16 +113,39 @@
       <checksum>2C1B6156</checksum>
     </file>
     <file>
-      <filename>os_lib_schedules.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>8F8F3535</checksum>
-    </file>
-    <file>
       <filename>os_lib_geometry.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
       <checksum>DFD50CB5</checksum>
+    </file>
+    <file>
+      <filename>measure_Test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>03B0197A</checksum>
+    </file>
+    <file>
+      <filename>OsLib_HVAC.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>097C55DA</checksum>
+    </file>
+    <file>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>2.0.0</identifier>
+        <min_compatible>2.0.0</min_compatible>
+      </version>
+      <filename>measure.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>script</usage_type>
+      <checksum>8CC54107</checksum>
+    </file>
+    <file>
+      <filename>os_lib_schedules.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>E97C0929</checksum>
     </file>
   </files>
 </measure>

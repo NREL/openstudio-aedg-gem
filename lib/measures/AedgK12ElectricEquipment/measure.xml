@@ -1,10 +1,9 @@
-<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_electric_equipment</name>
   <uid>4ef1195b-a7b2-4afc-8bbc-e0c28a86dfa4</uid>
-  <version_id>44b6ba02-6923-47de-accf-e8e967393aef</version_id>
-  <version_modified>20200316T195036Z</version_modified>
+  <version_id>abcf76c8-aae5-4fdf-84c4-09103cd77284</version_id>
+  <version_modified>20200319T195612Z</version_modified>
   <xml_checksum>126F1C43</xml_checksum>
   <class_name>AedgK12ElectricEquipment</class_name>
   <display_name>AedgK12ElectricEquipment</display_name>
@@ -20,8 +19,8 @@
       <default_value>0</default_value>
     </argument>
   </arguments>
-  <outputs />
-  <provenances />
+  <outputs/>
+  <provenances/>
   <tags>
     <tag>Equipment.Electric Equipment</tag>
   </tags>
@@ -101,7 +100,7 @@
       <filename>os_lib_schedules.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>C82D00CC</checksum>
+      <checksum>B38668F5</checksum>
     </file>
   </files>
 </measure>

@@ -1,10 +1,9 @@
-<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>aedg_office_hvac_wshp_doas</name>
   <uid>aa5fbc1c-4dc2-4a51-84fa-ce5e291f77b6</uid>
-  <version_id>b1a3b7b5-681d-4fa2-9529-83b08909e1e2</version_id>
-  <version_modified>20200316T195036Z</version_modified>
+  <version_id>14d08715-bd30-4041-aae8-994bd53856d2</version_id>
+  <version_modified>20200319T195612Z</version_modified>
   <xml_checksum>4435983D</xml_checksum>
   <class_name>AedgOfficeHvacWshpDoas</class_name>
   <display_name>AedgOfficeHvacWshpDoas</display_name>
@@ -45,8 +44,8 @@
       </choices>
     </argument>
   </arguments>
-  <outputs />
-  <provenances />
+  <outputs/>
+  <provenances/>
   <tags>
     <tag>HVAC.Whole System</tag>
   </tags>
@@ -132,19 +131,19 @@
       <filename>os_lib_hvac.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>D359E7D9</checksum>
+      <checksum>0F8A06F5</checksum>
     </file>
     <file>
       <filename>os_lib_schedules.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>C82D00CC</checksum>
+      <checksum>B38668F5</checksum>
     </file>
     <file>
       <filename>os_lib_geometry.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>47A6EB77</checksum>
+      <checksum>674C561A</checksum>
     </file>
   </files>
 </measure>
