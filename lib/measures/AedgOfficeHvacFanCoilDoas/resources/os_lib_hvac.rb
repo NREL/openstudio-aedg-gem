@@ -175,8 +175,7 @@ module OsLib_HVAC
     return result
   end
 
-  def self.reportConditions(model, runner, condition,extra_string = '')
-
+  def self.reportConditions(model, runner, condition, extra_string = '')
     airloops = model.getAirLoopHVACs
     plantLoops = model.getPlantLoops
     zones = model.getThermalZones
@@ -186,7 +185,7 @@ module OsLib_HVAC
     zonesWithEquipCounter = 0
 
     zones.each do |zone|
-      if zone.equipment.size > 0
+      if !zone.equipment.empty?
         zone.equipment.each do |equip|
           unless equip.to_FanZoneExhaust.is_initialized
             zonesWithEquipCounter += 1
@@ -196,12 +195,11 @@ module OsLib_HVAC
       end
     end
 
-    if condition == "initial"
+    if condition == 'initial'
       runner.registerInitialCondition("The building started with #{airloops.size} air loops and #{plantLoops.size} plant loops. #{zonesWithEquipCounter} zones were conditioned with zone equipment.")
-    elsif condition == "final"
+    elsif condition == 'final'
       runner.registerFinalCondition("The building finished with #{airloops.size} air loops and #{plantLoops.size} plant loops. #{zonesWithEquipCounter} zones are conditioned with zone equipment. #{extra_string}")
     end
-
   end
 
   def self.removeEquipment(model, runner)

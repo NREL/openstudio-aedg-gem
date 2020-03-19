@@ -445,9 +445,9 @@ class ZEDGK12Kitchen < OpenStudio::Ruleset::ModelUserScript
     # refrigerationSystemMediumTemp.setSumUASuctionPiping(150) # W/K, conservatively estimated from model of real refrigeration system
     # refrigerationSystemMediumTemp.setSuctionPipingZone(kitchenZone)
     # create compressors
-      # compressors = []
+    # compressors = []
     # compressors << compressor1 = OpenStudio::Model::RefrigerationCompressor.new(model)
-      # compressors << compressor2 = OpenStudio::Model::RefrigerationCompressor.new(model)
+    # compressors << compressor2 = OpenStudio::Model::RefrigerationCompressor.new(model)
     # compressors << compressor3 = OpenStudio::Model::RefrigerationCompressor.new(model)
     # # assign curves to compressors and attach to refrigeration system
     # compressors.each do |compressor|
@@ -473,13 +473,13 @@ class ZEDGK12Kitchen < OpenStudio::Ruleset::ModelUserScript
     # compressorMedTempCapCurve.setCoefficient2x(3325)
     # compressorMedTempCapCurve.setCoefficient3xPOW2(34.15)
     # compressorMedTempCapCurve.setCoefficient4y(-683.6)
-      # compressorMedTempCapCurve.setCoefficient5yPOW2(-9.723)
+    # compressorMedTempCapCurve.setCoefficient5yPOW2(-9.723)
     # compressorMedTempCapCurve.setCoefficient6xTIMESY(-30.48)
-      # compressorMedTempCapCurve.setCoefficient7xPOW3(-0.03525)
+    # compressorMedTempCapCurve.setCoefficient7xPOW3(-0.03525)
     # compressorMedTempCapCurve.setCoefficient8yPOW3(0.07694)
     # compressorMedTempCapCurve.setCoefficient9xPOW2TIMESY(-0.3221)
     # compressorMedTempCapCurve.setCoefficient10xTIMESYPOW2(-0.05519)
-                                                                    # compressorMedTempCapCurve.setMinimumValueofx(-17.8)
+    # compressorMedTempCapCurve.setMinimumValueofx(-17.8)
     # compressorMedTempCapCurve.setMaximumValueofx(4.4)
     # compressorMedTempCapCurve.setMinimumValueofy(10.0)
     # compressorMedTempCapCurve.setMaximumValueofy(48.9)
@@ -488,12 +488,12 @@ class ZEDGK12Kitchen < OpenStudio::Ruleset::ModelUserScript
     # compressor.setRefrigerationCompressorCapacityCurve(compressorMedTempCapCurve)
     # refrigerationSystemMediumTemp.addCompressor(compressor)
     # end
-                           # # create condenser and attach to refrigeration system
-                           # condenser = OpenStudio::Model::RefrigerationCondenserAirCooled.new(model)
+    # # create condenser and attach to refrigeration system
+    # condenser = OpenStudio::Model::RefrigerationCondenserAirCooled.new(model)
     # condenser.setCondenserFanSpeedControlType("Fixed") # estimated from model of real refrigeration system
     # condenser.setRatedFanPower(350) # This was missing previously. Anoop added it on 3/28, based on AEDG kitchen measure.
     # condenser.setMinimumFanAirFlowRatio(0.2) # estimated from model of real refrigeration system
-                                                                               # condenserHeatRejectionCurve = OpenStudio::Model::CurveLinear.new(model)
+    # condenserHeatRejectionCurve = OpenStudio::Model::CurveLinear.new(model)
     # condenserHeatRejectionCurve.setCoefficient1Constant(0) # estimated from model of real refrigeration system
     # condenserHeatRejectionCurve.setCoefficient2x(35000) # estimated from model of real refrigeration system
     # condenserHeatRejectionCurve.setMinimumValueofx(8.3) # estimated from model of real refrigeration system

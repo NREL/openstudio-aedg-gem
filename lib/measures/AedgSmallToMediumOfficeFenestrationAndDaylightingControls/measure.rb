@@ -113,7 +113,7 @@ class AedgSmallToMediumOfficeFenestrationAndDaylightingControls < OpenStudio::Me
     cost_light_shelf = runner.getDoubleArgumentValue('cost_light_shelf', user_arguments)
 
     # check arguments for reasonableness
-    checkDoubleArguments = OsLib_HelperMethods.checkDoubleAndIntegerArguments(runner, user_arguments, 'min' => 0.0, 'max' => nil, 'min_eq_bool' => true, 'max_eq_bool' => true, 'arg_array' => ['cost_daylight_glazing', 'cost_view_glazing', 'cost_skylight','cost_shading_surface','cost_light_shelf'])
+    checkDoubleArguments = OsLib_HelperMethods.checkDoubleAndIntegerArguments(runner, user_arguments, 'min' => 0.0, 'max' => nil, 'min_eq_bool' => true, 'max_eq_bool' => true, 'arg_array' => ['cost_daylight_glazing', 'cost_view_glazing', 'cost_skylight', 'cost_shading_surface', 'cost_light_shelf'])
     if !checkDoubleArguments then return false end
 
     # get climate zone

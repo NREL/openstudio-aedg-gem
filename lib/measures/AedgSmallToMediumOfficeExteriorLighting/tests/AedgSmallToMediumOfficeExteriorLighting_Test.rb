@@ -42,7 +42,6 @@ require 'minitest/autorun'
 
 class AedgSmallToMediumOfficeExteriorLighting_Test < Minitest::Test
   def test_AedgSmallToMediumOfficeExteriorLighting
-
     # create an instance of the measure
     measure = AedgSmallToMediumOfficeExteriorLighting.new
 

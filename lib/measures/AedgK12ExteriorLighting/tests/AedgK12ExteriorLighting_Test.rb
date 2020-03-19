@@ -41,7 +41,6 @@ require_relative '../measure.rb'
 require 'minitest/autorun'
 class AedgK12ExteriorLighting_Test < Minitest::Test
   def test_AedgK12ExteriorLighting
-
     # create an instance of the measure
     measure = AedgK12ExteriorLighting.new
 

@@ -41,7 +41,6 @@ require_relative '../measure.rb'
 require 'minitest/autorun'
 
 class AedgSmallToMediumOfficeEnvelopeAndEntryInfiltration_Test < Minitest::Test
-
   def test_AedgSmallToMediumOfficeEnvelopeAndEntryInfiltration
     # create an instance of the measure
     measure = AedgSmallToMediumOfficeEnvelopeAndEntryInfiltration.new

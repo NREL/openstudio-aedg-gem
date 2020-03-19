@@ -40,7 +40,6 @@ require_relative '../measure.rb'
 require 'fileutils'
 
 class ZEDGK12InsertGroundDomainBasementEKusduaTest < MiniTest::Unit::TestCase
-
   def test_good_argument_values
     # create an instance of the measure
     measure = ZEDGK12InsertGroundDomainEKusdua.new
@@ -53,9 +52,9 @@ class ZEDGK12InsertGroundDomainBasementEKusduaTest < MiniTest::Unit::TestCase
 
     # load the test model
     translator = OpenStudio::OSVersion::VersionTranslator.new
-    path = OpenStudio::Path.new(File.dirname(__FILE__) + "/example_model.osm")
+    path = OpenStudio::Path.new(File.dirname(__FILE__) + '/example_model.osm')
     model = translator.loadModel(path)
-    assert((not model.empty?))
+    assert(!model.empty?)
     model = model.get
 
     # forward translate OSM file to IDF file
@@ -69,7 +68,7 @@ class ZEDGK12InsertGroundDomainBasementEKusduaTest < MiniTest::Unit::TestCase
     # create hash of argument values.
     # If the argument has a default that you want to use, you don't need it in the hash
     args_hash = {}
-    #args_hash["insul_target"] = "ClimateZone Specific"
+    # args_hash["insul_target"] = "ClimateZone Specific"
 
     # populate argument with specified hash value if specified
     arguments.each do |arg|
@@ -88,8 +87,6 @@ class ZEDGK12InsertGroundDomainBasementEKusduaTest < MiniTest::Unit::TestCase
     show_output(result)
 
     # assert that it ran correctly
-    assert_equal("Success", result.value.valueName)
-
+    assert_equal('Success', result.value.valueName)
   end
-
 end

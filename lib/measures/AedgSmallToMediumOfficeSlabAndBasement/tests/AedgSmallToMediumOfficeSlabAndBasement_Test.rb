@@ -42,7 +42,6 @@ require 'minitest/autorun'
 
 class AedgSmallToMediumOfficeSlabAndBasement_Test < Minitest::Test
   def test_AedgSmallToMediumOfficeSlabAndBasement_withBasementModel
-
     # create an instance of the measure
     measure = AedgSmallToMediumOfficeSlabAndBasement.new
 
@@ -108,7 +107,6 @@ class AedgSmallToMediumOfficeSlabAndBasement_Test < Minitest::Test
   end
 
   def test_AedgSmallToMediumOfficeSlabAndBasement_withSlabModel
-
     # create an instance of the measure
     measure = AedgSmallToMediumOfficeSlabAndBasement.new
 
