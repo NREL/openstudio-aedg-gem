@@ -1649,12 +1649,14 @@ end
       end
     end
 
-    options['secondary_airloops'].each do |airloop|
-      if options['allHVAC']['secondary']['fan'] == 'Variable'
-        if airloop.airLoopHVACOutdoorAirSystem.is_initialized
-          controller_mv = airloop.airLoopHVACOutdoorAirSystem.get.getControllerOutdoorAir.controllerMechanicalVentilation
-          controller_mv.setDemandControlledVentilation(true)
-          runner.registerInfo("Enabling demand control ventilation for #{airloop.name}")
+    if options.key? 'secondary_airloops'
+      options['secondary_airloops'].each do |airloop|
+        if options['allHVAC']['secondary']['fan'] == 'Variable'
+          if airloop.airLoopHVACOutdoorAirSystem.is_initialized
+            controller_mv = airloop.airLoopHVACOutdoorAirSystem.get.getControllerOutdoorAir.controllerMechanicalVentilation
+            controller_mv.setDemandControlledVentilation(true)
+            runner.registerInfo("Enabling demand control ventilation for #{airloop.name}")
+          end
         end
       end
     end
