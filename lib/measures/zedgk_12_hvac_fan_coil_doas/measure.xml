@@ -2,8 +2,8 @@
   <schema_version>3.0</schema_version>
   <name>zedgk_12_hvac_fan_coil_doas</name>
   <uid>791d0da9-00d3-422f-9dd2-fe57c9b59997</uid>
-  <version_id>e8949887-c15c-4dce-9e96-b2709784c0e0</version_id>
-  <version_modified>20200319T195611Z</version_modified>
+  <version_id>0a33c9ae-44f7-45c6-a4e7-4ef8784d3569</version_id>
+  <version_modified>20200319T210024Z</version_modified>
   <xml_checksum>87BA8B1E</xml_checksum>
   <class_name>ZEDGK12HVACFanCoilDOAS</class_name>
   <display_name>ZEDG K12 HVAC Fan Coil DOAS</display_name>
@@ -111,12 +111,6 @@
       <checksum>6CE32103</checksum>
     </file>
     <file>
-      <filename>measure_Test.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>test</usage_type>
-      <checksum>086F455D</checksum>
-    </file>
-    <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
@@ -129,17 +123,6 @@
       <checksum>37F83E31</checksum>
     </file>
     <file>
-      <version>
-        <software_program>OpenStudio</software_program>
-        <identifier>2.0.0</identifier>
-        <min_compatible>2.0.0</min_compatible>
-      </version>
-      <filename>measure.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>script</usage_type>
-      <checksum>2AFD24A9</checksum>
-    </file>
-    <file>
       <filename>os_lib_schedules.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
@@ -150,6 +133,23 @@
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
       <checksum>674C561A</checksum>
+    </file>
+    <file>
+      <filename>measure_Test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>4AFB7101</checksum>
+    </file>
+    <file>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>2.0.0</identifier>
+        <min_compatible>2.0.0</min_compatible>
+      </version>
+      <filename>measure.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>script</usage_type>
+      <checksum>35B50BE3</checksum>
     </file>
   </files>
 </measure>

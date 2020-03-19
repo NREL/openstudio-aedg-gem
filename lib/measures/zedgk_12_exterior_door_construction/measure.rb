@@ -47,7 +47,7 @@ require "#{File.dirname(__FILE__)}/resources/OsLib_AedgMeasures"
 require "#{File.dirname(__FILE__)}/resources/os_lib_constructions"
 
 # start the measure
-class ZEDGK12ExteriorDoorConstruction < OpenStudio::Ruleset::ModelUserScript
+class ZEDGK12ExteriorDoorConstruction < OpenStudio::Measure::ModelMeasure
   include OsLib_AedgMeasures
   include OsLib_Constructions
 
@@ -59,10 +59,10 @@ class ZEDGK12ExteriorDoorConstruction < OpenStudio::Ruleset::ModelUserScript
 
   # define the arguments that the user will input
   def arguments(model)
-    args = OpenStudio::Ruleset::OSArgumentVector.new
+    args = OpenStudio::Measure::OSArgumentVector.new
 
     # make an argument for material and installation cost
-    material_cost_insulation_increase_ip = OpenStudio::Ruleset::OSArgument.makeDoubleArgument('material_cost_insulation_increase_ip', true)
+    material_cost_insulation_increase_ip = OpenStudio::Measure::OSArgument.makeDoubleArgument('material_cost_insulation_increase_ip', true)
     material_cost_insulation_increase_ip.setDisplayName('Increase Cost per Area of Construction Where Insulation was Improved ($/ft^2).')
     material_cost_insulation_increase_ip.setDefaultValue(0.0)
     args << material_cost_insulation_increase_ip

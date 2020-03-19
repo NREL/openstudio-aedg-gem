@@ -52,7 +52,7 @@ require "#{File.dirname(__FILE__)}/resources/os_lib_helper_methods"
 require "#{File.dirname(__FILE__)}/resources/os_lib_lighting_and_equipment"
 
 # start the measure
-class ZEDGK12FenestrationAndDaylightingControls < OpenStudio::Ruleset::ModelUserScript
+class ZEDGK12FenestrationAndDaylightingControls < OpenStudio::Measure::ModelMeasure
   # define the name that a user will see, this method may be deprecated as
   # the display name in PAT comes from the name field in measure.xml
   def name
@@ -61,28 +61,28 @@ class ZEDGK12FenestrationAndDaylightingControls < OpenStudio::Ruleset::ModelUser
 
   # define the arguments that the user will input
   def arguments(model)
-    args = OpenStudio::Ruleset::OSArgumentVector.new
+    args = OpenStudio::Measure::OSArgumentVector.new
 
     # make an argument for cost of cost_daylight_glazing
-    cost_daylight_glazing = OpenStudio::Ruleset::OSArgument.makeDoubleArgument('cost_daylight_glazing', true)
+    cost_daylight_glazing = OpenStudio::Measure::OSArgument.makeDoubleArgument('cost_daylight_glazing', true)
     cost_daylight_glazing.setDisplayName('Cost per Area for Proposed Daylighting Window Constructions ($/ft^2).')
     cost_daylight_glazing.setDefaultValue(0.0)
     args << cost_daylight_glazing
 
     # make an argument for cost of cost_view_glazing
-    cost_view_glazing = OpenStudio::Ruleset::OSArgument.makeDoubleArgument('cost_view_glazing', true)
+    cost_view_glazing = OpenStudio::Measure::OSArgument.makeDoubleArgument('cost_view_glazing', true)
     cost_view_glazing.setDisplayName('Cost per Area for Proposed View Window Constructions ($/ft^2).')
     cost_view_glazing.setDefaultValue(0.0)
     args << cost_view_glazing
 
     # make an argument for cost of cost_shading_surface (todo - later would be nice to change to linear)
-    cost_shading_surface = OpenStudio::Ruleset::OSArgument.makeDoubleArgument('cost_shading_surface', true)
+    cost_shading_surface = OpenStudio::Measure::OSArgument.makeDoubleArgument('cost_shading_surface', true)
     cost_shading_surface.setDisplayName('Cost per Area for Proposed Exterior Shading Surface Construction ($/ft^2).')
     cost_shading_surface.setDefaultValue(0.0)
     args << cost_shading_surface
 
     # make an argument for cost of cost_light_shelf (todo - later would be nice to change to linear)
-    cost_light_shelf = OpenStudio::Ruleset::OSArgument.makeDoubleArgument('cost_light_shelf', true)
+    cost_light_shelf = OpenStudio::Measure::OSArgument.makeDoubleArgument('cost_light_shelf', true)
     cost_light_shelf.setDisplayName('Cost per Area for Proposed Light Shelf Construction ($/ft^2).')
     cost_light_shelf.setDefaultValue(0.0)
     args << cost_light_shelf

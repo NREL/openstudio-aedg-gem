@@ -1639,12 +1639,14 @@ end
  end
 
   def self.addDCV(model, runner, options)
-    options['primary_airloops'].each do |airloop|
-      if options['allHVAC']['primary']['fan'] == 'Variable'
-        if airloop.airLoopHVACOutdoorAirSystem.is_initialized
-          controller_mv = airloop.airLoopHVACOutdoorAirSystem.get.getControllerOutdoorAir.controllerMechanicalVentilation
-          controller_mv.setDemandControlledVentilation(true)
-          runner.registerInfo("Enabling demand control ventilation for #{airloop.name}")
+    if options.key? 'primary_airloops'
+      options['primary_airloops'].each do |airloop|
+        if options['allHVAC']['primary']['fan'] == 'Variable'
+          if airloop.airLoopHVACOutdoorAirSystem.is_initialized
+            controller_mv = airloop.airLoopHVACOutdoorAirSystem.get.getControllerOutdoorAir.controllerMechanicalVentilation
+            controller_mv.setDemandControlledVentilation(true)
+            runner.registerInfo("Enabling demand control ventilation for #{airloop.name}")
+          end
         end
       end
     end

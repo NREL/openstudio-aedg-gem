@@ -41,7 +41,7 @@ require "#{File.dirname(__FILE__)}/resources/OsLib_HVAC_zedg_vrf"
 require "#{File.dirname(__FILE__)}/resources/os_lib_schedules"
 
 # start the measure
-class ZEDGVRFWithDOAS < OpenStudio::Ruleset::ModelUserScript
+class ZEDGVRFWithDOAS < OpenStudio::Measure::ModelMeasure
   # define the name that a user will see, this method may be deprecated as
   # the display name in PAT comes from the name field in measure.xml
   def name
@@ -50,7 +50,7 @@ class ZEDGVRFWithDOAS < OpenStudio::Ruleset::ModelUserScript
 
   # define the arguments that the user will input
   def arguments(model)
-    args = OpenStudio::Ruleset::OSArgumentVector.new
+    args = OpenStudio::Measure::OSArgumentVector.new
 
     # create an argument for a space type to be used in the model, to see if one should be mapped as ceiling return air plenum
     spaceTypes = model.getSpaceTypes
@@ -64,19 +64,19 @@ class ZEDGVRFWithDOAS < OpenStudio::Ruleset::ModelUserScript
     end
 
     # make an argument for space type
-    ceilingReturnPlenumSpaceType = OpenStudio::Ruleset::OSArgument.makeChoiceArgument('ceilingReturnPlenumSpaceType', usedSpaceTypes_handle, usedSpaceTypes_displayName, false)
+    ceilingReturnPlenumSpaceType = OpenStudio::Measure::OSArgument.makeChoiceArgument('ceilingReturnPlenumSpaceType', usedSpaceTypes_handle, usedSpaceTypes_displayName, false)
     ceilingReturnPlenumSpaceType.setDisplayName('This space type should be part of a ceiling return air plenum.')
     args << ceilingReturnPlenumSpaceType
 
     # make an argument for material and installation cost
     # todo - I would like to split the costing out to the air loops weighted by area of building served vs. just sticking it on the building
-    costTotalHVACSystem = OpenStudio::Ruleset::OSArgument.makeDoubleArgument('costTotalHVACSystem', true)
+    costTotalHVACSystem = OpenStudio::Measure::OSArgument.makeDoubleArgument('costTotalHVACSystem', true)
     costTotalHVACSystem.setDisplayName('Total Cost for HVAC System ($).')
     costTotalHVACSystem.setDefaultValue(0.0)
     args << costTotalHVACSystem
 
     # make an argument to remove existing costs
-    remake_schedules = OpenStudio::Ruleset::OSArgument.makeBoolArgument('remake_schedules', true)
+    remake_schedules = OpenStudio::Measure::OSArgument.makeBoolArgument('remake_schedules', true)
     remake_schedules.setDisplayName('Apply recommended availability and ventilation schedules for air handlers?')
     remake_schedules.setDefaultValue(true)
     args << remake_schedules

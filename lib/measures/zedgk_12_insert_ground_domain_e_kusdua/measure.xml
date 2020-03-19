@@ -2,8 +2,8 @@
   <schema_version>3.0</schema_version>
   <name>zedgk_12_insert_ground_domain_e_kusdua</name>
   <uid>aa8123f0-4d04-4141-8a00-8a2bccf30315</uid>
-  <version_id>11da51ba-3edf-46c3-b31d-9543b0e5e476</version_id>
-  <version_modified>20200319T195611Z</version_modified>
+  <version_id>3b6d8c87-5d8f-4121-8623-80c77aed79f4</version_id>
+  <version_modified>20200319T210024Z</version_modified>
   <xml_checksum>80A956BE</xml_checksum>
   <class_name>ZEDGK12InsertGroundDomainEKusdua</class_name>
   <display_name>ZEDG K12 Insert Ground Domain E+ Kusdua</display_name>
@@ -122,13 +122,13 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>A62EE785</checksum>
+      <checksum>395556AF</checksum>
     </file>
     <file>
       <filename>measure_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>68DC2C2A</checksum>
+      <checksum>7BFCDEC6</checksum>
     </file>
   </files>
 </measure>

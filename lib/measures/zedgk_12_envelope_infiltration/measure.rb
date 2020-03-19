@@ -51,7 +51,7 @@ require "#{File.dirname(__FILE__)}/resources/os_lib_outdoorair_and_infiltration"
 require "#{File.dirname(__FILE__)}/resources/os_lib_schedules"
 
 # start the measure
-class ZEDGK12EnvelopeInfiltration < OpenStudio::Ruleset::ModelUserScript
+class ZEDGK12EnvelopeInfiltration < OpenStudio::Measure::ModelMeasure
   # include measure libraries
   include OsLib_AedgMeasures
   include OsLib_HelperMethods
@@ -66,10 +66,10 @@ class ZEDGK12EnvelopeInfiltration < OpenStudio::Ruleset::ModelUserScript
 
   # define the arguments that the user will input
   def arguments(model)
-    args = OpenStudio::Ruleset::OSArgumentVector.new
+    args = OpenStudio::Measure::OSArgumentVector.new
 
     # make an argument for material and installation cost
-    costTotalEnvelopeInfiltration = OpenStudio::Ruleset::OSArgument.makeDoubleArgument('costTotalEnvelopeInfiltration', true)
+    costTotalEnvelopeInfiltration = OpenStudio::Measure::OSArgument.makeDoubleArgument('costTotalEnvelopeInfiltration', true)
     costTotalEnvelopeInfiltration.setDisplayName('Total cost for all Envelope Improvements ($).')
     costTotalEnvelopeInfiltration.setDefaultValue(0.0)
     args << costTotalEnvelopeInfiltration

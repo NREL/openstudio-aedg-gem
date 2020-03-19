@@ -2,8 +2,8 @@
   <schema_version>3.0</schema_version>
   <name>zedgk_12_fenestration_and_daylighting_controls</name>
   <uid>eb3bfd3d-64b6-4a9f-857d-3dd8a7becec5</uid>
-  <version_id>95795e8b-72be-41ec-83b1-2ab7295a9ee2</version_id>
-  <version_modified>20200319T195609Z</version_modified>
+  <version_id>c2363e4f-e1c3-43ed-8d63-e980cfcaa8eb</version_id>
+  <version_modified>20200319T210022Z</version_modified>
   <xml_checksum>7D3EA3A9</xml_checksum>
   <class_name>ZEDGK12FenestrationAndDaylightingControls</class_name>
   <display_name>ZEDG K12 - Fenestration and Daylighting Controls</display_name>
@@ -86,17 +86,6 @@
       <checksum>E0468DD6</checksum>
     </file>
     <file>
-      <version>
-        <software_program>OpenStudio</software_program>
-        <identifier>2.0.0</identifier>
-        <min_compatible>2.0.0</min_compatible>
-      </version>
-      <filename>measure.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>script</usage_type>
-      <checksum>6BB811D3</checksum>
-    </file>
-    <file>
       <filename>os_lib_constructions.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
@@ -127,12 +116,6 @@
       <checksum>DFD50CB5</checksum>
     </file>
     <file>
-      <filename>measure_Test.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>test</usage_type>
-      <checksum>AB3FBFB3</checksum>
-    </file>
-    <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
@@ -143,6 +126,23 @@
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
       <checksum>E97C0929</checksum>
+    </file>
+    <file>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>2.0.0</identifier>
+        <min_compatible>2.0.0</min_compatible>
+      </version>
+      <filename>measure.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>script</usage_type>
+      <checksum>D5F882DB</checksum>
+    </file>
+    <file>
+      <filename>measure_Test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>FECD75FA</checksum>
     </file>
   </files>
 </measure>

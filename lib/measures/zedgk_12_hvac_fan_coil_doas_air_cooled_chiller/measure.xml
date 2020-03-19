@@ -2,8 +2,8 @@
   <schema_version>3.0</schema_version>
   <name>zedg_k_12_hvac_fan_coil_doas_air_cooled_chiller</name>
   <uid>33ed4338-5e86-415f-8df0-87e32e413711</uid>
-  <version_id>79843d1d-c1e5-42e4-a37b-c6a4b81995c9</version_id>
-  <version_modified>20200319T195610Z</version_modified>
+  <version_id>b9fe5ac9-fcf8-472b-8e84-5f1a07d25994</version_id>
+  <version_modified>20200319T210023Z</version_modified>
   <xml_checksum>87BA8B1E</xml_checksum>
   <class_name>ZedgK12HvacFanCoilDoasAirCooledChiller</class_name>
   <display_name>ZEDG K12 HVAC Fan Coil DOAS Air Cooled Chiller</display_name>
@@ -111,12 +111,6 @@
       <checksum>6CE32103</checksum>
     </file>
     <file>
-      <filename>measure_Test.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>test</usage_type>
-      <checksum>7960EEB4</checksum>
-    </file>
-    <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
@@ -129,17 +123,6 @@
       <checksum>E47424E6</checksum>
     </file>
     <file>
-      <version>
-        <software_program>OpenStudio</software_program>
-        <identifier>2.0.0</identifier>
-        <min_compatible>2.0.0</min_compatible>
-      </version>
-      <filename>measure.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>script</usage_type>
-      <checksum>4BAFE258</checksum>
-    </file>
-    <file>
       <filename>os_lib_schedules.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
@@ -150,6 +133,23 @@
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
       <checksum>674C561A</checksum>
+    </file>
+    <file>
+      <filename>measure_Test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>4DCA9FFC</checksum>
+    </file>
+    <file>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>2.0.0</identifier>
+        <min_compatible>2.0.0</min_compatible>
+      </version>
+      <filename>measure.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>script</usage_type>
+      <checksum>9362AFB2</checksum>
     </file>
   </files>
 </measure>

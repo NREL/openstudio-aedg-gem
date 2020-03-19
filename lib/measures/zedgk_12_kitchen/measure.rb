@@ -51,7 +51,7 @@ require "#{File.dirname(__FILE__)}/resources/OsLib_HVAC"
 require "#{File.dirname(__FILE__)}/resources/os_lib_schedules"
 
 # start the measure
-class ZEDGK12Kitchen < OpenStudio::Ruleset::ModelUserScript
+class ZEDGK12Kitchen < OpenStudio::Measure::ModelMeasure
   # define the name that a user will see, this method may be deprecated as
   # the display name in PAT comes from the name field in measure.xml
   def name
@@ -60,16 +60,16 @@ class ZEDGK12Kitchen < OpenStudio::Ruleset::ModelUserScript
 
   # define the arguments that the user will input
   def arguments(model)
-    args = OpenStudio::Ruleset::OSArgumentVector.new
+    args = OpenStudio::Measure::OSArgumentVector.new
 
     # make an argument for material and installation cost
-    costTotalKitchenSystem = OpenStudio::Ruleset::OSArgument.makeDoubleArgument('costTotalKitchenSystem', true)
+    costTotalKitchenSystem = OpenStudio::Measure::OSArgument.makeDoubleArgument('costTotalKitchenSystem', true)
     costTotalKitchenSystem.setDisplayName('Total Cost for Kitchen System ($).')
     costTotalKitchenSystem.setDefaultValue(0.0)
     args << costTotalKitchenSystem
 
     # make an argument number of students
-    numberOfStudents = OpenStudio::Ruleset::OSArgument.makeIntegerArgument('numberOfStudents', true)
+    numberOfStudents = OpenStudio::Measure::OSArgument.makeIntegerArgument('numberOfStudents', true)
     numberOfStudents.setDisplayName('Total Number of Students.')
     # calculate default value
     # get total number of students

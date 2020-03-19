@@ -49,7 +49,7 @@ require "#{File.dirname(__FILE__)}/resources/os_lib_lighting_and_equipment"
 require "#{File.dirname(__FILE__)}/resources/os_lib_schedules"
 
 # start the measure
-class ZEDGK12InteriorLighting < OpenStudio::Ruleset::ModelUserScript
+class ZEDGK12InteriorLighting < OpenStudio::Measure::ModelMeasure
   # define the name that a user will see, this method may be deprecated as
   # the display name in PAT comes from the name field in measure.xml
   def name
@@ -58,10 +58,10 @@ class ZEDGK12InteriorLighting < OpenStudio::Ruleset::ModelUserScript
 
   # define the arguments that the user will input
   def arguments(model)
-    args = OpenStudio::Ruleset::OSArgumentVector.new
+    args = OpenStudio::Measure::OSArgumentVector.new
 
     # make an argument for material and installation cost
-    material_cost_ip = OpenStudio::Ruleset::OSArgument.makeDoubleArgument('material_cost_ip', true)
+    material_cost_ip = OpenStudio::Measure::OSArgument.makeDoubleArgument('material_cost_ip', true)
     material_cost_ip.setDisplayName('Material and Installation Costs for Lights per Floor Area ($/ft^2).')
     material_cost_ip.setDefaultValue(0.0)
     args << material_cost_ip

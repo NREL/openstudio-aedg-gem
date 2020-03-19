@@ -47,7 +47,7 @@ class ZEDGK12ExteriorDoorConstruction_Test < Minitest::Test
     measure = ZEDGK12ExteriorDoorConstruction.new
 
     # create an instance of a runner
-    runner = OpenStudio::Ruleset::OSRunner.new
+    runner = OpenStudio::Measure::OSRunner.new(OpenStudio::WorkflowJSON.new)
 
     # load the test model
     translator = OpenStudio::OSVersion::VersionTranslator.new
@@ -62,7 +62,7 @@ class ZEDGK12ExteriorDoorConstruction_Test < Minitest::Test
     assert_equal('material_cost_insulation_increase_ip', arguments[0].name)
 
     # set argument values to good values and run the measure on model with spaces
-    argument_map = OpenStudio::Ruleset::OSArgumentMap.new
+    argument_map = OpenStudio::Measure::OSArgumentMap.new
     material_cost_insulation_increase_ip = arguments[0].clone
     assert(material_cost_insulation_increase_ip.setValue(5.0))
     argument_map['material_cost_insulation_increase_ip'] = material_cost_insulation_increase_ip
@@ -79,7 +79,7 @@ class ZEDGK12ExteriorDoorConstruction_Test < Minitest::Test
     measure = ZEDGK12ExteriorDoorConstruction.new
 
     # create an instance of a runner
-    runner = OpenStudio::Ruleset::OSRunner.new
+    runner = OpenStudio::Measure::OSRunner.new(OpenStudio::WorkflowJSON.new)
 
     # load the test model
     translator = OpenStudio::OSVersion::VersionTranslator.new
@@ -94,7 +94,7 @@ class ZEDGK12ExteriorDoorConstruction_Test < Minitest::Test
     assert_equal('material_cost_insulation_increase_ip', arguments[0].name)
 
     # set argument values to good values and run the measure on model with spaces
-    argument_map = OpenStudio::Ruleset::OSArgumentMap.new
+    argument_map = OpenStudio::Measure::OSArgumentMap.new
     material_cost_insulation_increase_ip = arguments[0].clone
     assert(material_cost_insulation_increase_ip.setValue(5.0))
     argument_map['material_cost_insulation_increase_ip'] = material_cost_insulation_increase_ip

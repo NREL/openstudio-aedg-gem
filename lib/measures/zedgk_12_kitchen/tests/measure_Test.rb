@@ -49,7 +49,7 @@ class ZEDGK12Kitchen_Test < Minitest::Test
     measure = ZEDGK12Kitchen.new
 
     # create an instance of a runner
-    runner = OpenStudio::Ruleset::OSRunner.new
+    runner = OpenStudio::Measure::OSRunner.new(OpenStudio::WorkflowJSON.new)
 
     # load the test model
     translator = OpenStudio::OSVersion::VersionTranslator.new
@@ -66,7 +66,7 @@ class ZEDGK12Kitchen_Test < Minitest::Test
     assert_equal('numberOfStudents', arguments[1].name)
 
     # set argument values to good values and run the measure on model with spaces
-    argument_map = OpenStudio::Ruleset::OSArgumentMap.new
+    argument_map = OpenStudio::Measure::OSArgumentMap.new
 
     costTotalKitchenSystem = arguments[0].clone
     assert(costTotalKitchenSystem.setValue(10000.0))

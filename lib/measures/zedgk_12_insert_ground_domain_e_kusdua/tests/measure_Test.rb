@@ -45,7 +45,7 @@ class ZEDGK12InsertGroundDomainBasementEKusduaTest < Minitest::Test
     measure = ZEDGK12InsertGroundDomainEKusdua.new
 
     # create an instance of a runner
-    runner = OpenStudio::Ruleset::OSRunner.new
+    runner = OpenStudio::Measure::OSRunner.new(OpenStudio::WorkflowJSON.new)
 
     # load the last model
     runner.setLastOpenStudioModelPath(OpenStudio::Path.new("#{File.dirname(__FILE__)}/example_model.osm"))
@@ -63,7 +63,7 @@ class ZEDGK12InsertGroundDomainBasementEKusduaTest < Minitest::Test
 
     # get arguments
     arguments = measure.arguments(workspace)
-    argument_map = OpenStudio::Ruleset.convertOSArgumentVectorToMap(arguments)
+    argument_map = OpenStudio::Measure.convertOSArgumentVectorToMap(arguments)
 
     # create hash of argument values.
     # If the argument has a default that you want to use, you don't need it in the hash

@@ -2,8 +2,8 @@
   <schema_version>3.0</schema_version>
   <name>zedgk_12_hvac</name>
   <uid>59793426-1d07-41d2-9478-d7abf1410764</uid>
-  <version_id>f8db944c-b989-40ad-8a65-da719bf59c51</version_id>
-  <version_modified>20200319T195609Z</version_modified>
+  <version_id>3f2427ff-34e0-4215-8bf2-cf3c861f0c5d</version_id>
+  <version_modified>20200319T210022Z</version_modified>
   <xml_checksum>87BA8B1E</xml_checksum>
   <class_name>ZEDGK12HVAC</class_name>
   <display_name>ZEDG K12 HVAC GSHP with DOAS</display_name>
@@ -105,17 +105,6 @@
       <checksum>36D7C5DF</checksum>
     </file>
     <file>
-      <version>
-        <software_program>OpenStudio</software_program>
-        <identifier>2.0.0</identifier>
-        <min_compatible>2.0.0</min_compatible>
-      </version>
-      <filename>measure.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>script</usage_type>
-      <checksum>C57C09A8</checksum>
-    </file>
-    <file>
       <filename>os_lib_constructions.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
@@ -140,22 +129,33 @@
       <checksum>DFD50CB5</checksum>
     </file>
     <file>
+      <filename>os_lib_schedules.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>E97C0929</checksum>
+    </file>
+    <file>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>2.0.0</identifier>
+        <min_compatible>2.0.0</min_compatible>
+      </version>
+      <filename>measure.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>script</usage_type>
+      <checksum>D2BBA2BC</checksum>
+    </file>
+    <file>
       <filename>measure_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>C4AF8E0A</checksum>
+      <checksum>A383D84F</checksum>
     </file>
     <file>
       <filename>OsLib_HVAC_zedg_gshp.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>C13C9CDC</checksum>
-    </file>
-    <file>
-      <filename>os_lib_schedules.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>E97C0929</checksum>
+      <checksum>003C3BC6</checksum>
     </file>
   </files>
 </measure>

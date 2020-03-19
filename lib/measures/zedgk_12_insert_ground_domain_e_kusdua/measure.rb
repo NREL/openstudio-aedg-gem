@@ -37,7 +37,7 @@
 # http://nrel.github.io/OpenStudio-user-documentation/measures/measure_writing_guide/
 
 # start the measure
-class ZEDGK12InsertGroundDomainEKusdua < OpenStudio::Ruleset::WorkspaceUserScript
+class ZEDGK12InsertGroundDomainEKusdua < OpenStudio::Measure::EnergyPlusMeasure
   # human readable name
   def name
     return 'ZEDG K12 Insert Ground Domain E+ Kusdua'
@@ -56,10 +56,10 @@ class ZEDGK12InsertGroundDomainEKusdua < OpenStudio::Ruleset::WorkspaceUserScrip
 
   # define the arguments that the user will input
   def arguments(workspace)
-    args = OpenStudio::Ruleset::OSArgumentVector.new
+    args = OpenStudio::Measure::OSArgumentVector.new
 
     # make argument for multiplier
-    min_warmup_days = OpenStudio::Ruleset::OSArgument.makeDoubleArgument('min_warmup_days', true)
+    min_warmup_days = OpenStudio::Measure::OSArgument.makeDoubleArgument('min_warmup_days', true)
     min_warmup_days.setDisplayName('Set Minimum Number of Warmup Days')
     min_warmup_days.setDescription('Longer warmup period with this measure will provide more consistent ground modeling.')
     min_warmup_days.setDefaultValue(120)

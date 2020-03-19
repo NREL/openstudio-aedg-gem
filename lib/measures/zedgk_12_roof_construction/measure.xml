@@ -2,8 +2,8 @@
   <schema_version>3.0</schema_version>
   <name>zedgk_12_roof_construction</name>
   <uid>d322d264-5855-4b20-bd3e-3c5e5032bc05</uid>
-  <version_id>384a6104-d99f-49cd-9232-f1f342c7171f</version_id>
-  <version_modified>20200319T195612Z</version_modified>
+  <version_id>34164498-3231-4ba8-b1a5-c3717741ce5b</version_id>
+  <version_modified>20200319T210024Z</version_modified>
   <xml_checksum>5091078B</xml_checksum>
   <class_name>ZEDGK12RoofConstruction</class_name>
   <display_name>ZEDG K12 RoofConstruction</display_name>
@@ -121,16 +121,16 @@
       <checksum>07B01D67</checksum>
     </file>
     <file>
-      <filename>measure_Test.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>test</usage_type>
-      <checksum>16A906A6</checksum>
-    </file>
-    <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
       <checksum>75F40BC3</checksum>
+    </file>
+    <file>
+      <filename>measure_Test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>72B9C0FD</checksum>
     </file>
     <file>
       <version>
@@ -141,7 +141,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>CA529BBB</checksum>
+      <checksum>FDCAA791</checksum>
     </file>
   </files>
 </measure>

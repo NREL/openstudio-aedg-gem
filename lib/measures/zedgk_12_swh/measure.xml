@@ -2,8 +2,8 @@
   <schema_version>3.0</schema_version>
   <name>zedgk_12_swh</name>
   <uid>d765082f-34fb-4b03-bd4e-e8e4a418ba2a</uid>
-  <version_id>f38e2f1c-e360-4864-8fee-8d5d0ec88a95</version_id>
-  <version_modified>20200319T195610Z</version_modified>
+  <version_id>87e6c8d5-95ad-4548-b818-46a749ccfdcc</version_id>
+  <version_modified>20200319T210023Z</version_modified>
   <xml_checksum>2B3D3EB4</xml_checksum>
   <class_name>ZEDGK12SWH</class_name>
   <display_name>ZEDG K12 SWH</display_name>
@@ -113,23 +113,6 @@
       <checksum>EDB45706</checksum>
     </file>
     <file>
-      <filename>measure_Test.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>test</usage_type>
-      <checksum>C9581BAA</checksum>
-    </file>
-    <file>
-      <version>
-        <software_program>OpenStudio</software_program>
-        <identifier>2.0.0</identifier>
-        <min_compatible>2.0.0</min_compatible>
-      </version>
-      <filename>measure.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>script</usage_type>
-      <checksum>4FD1C3B5</checksum>
-    </file>
-    <file>
       <filename>os_lib_hvac.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
@@ -146,6 +129,23 @@
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
       <checksum>674C561A</checksum>
+    </file>
+    <file>
+      <filename>measure_Test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>F350CD74</checksum>
+    </file>
+    <file>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>2.0.0</identifier>
+        <min_compatible>2.0.0</min_compatible>
+      </version>
+      <filename>measure.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>script</usage_type>
+      <checksum>B4102687</checksum>
     </file>
   </files>
 </measure>

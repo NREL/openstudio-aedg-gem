@@ -49,7 +49,7 @@ class ZEDGK12FenestrationAndDaylightingControls_Test < Minitest::Test
     measure = ZEDGK12FenestrationAndDaylightingControls.new
 
     # create an instance of a runner
-    runner = OpenStudio::Ruleset::OSRunner.new
+    runner = OpenStudio::Measure::OSRunner.new(OpenStudio::WorkflowJSON.new)
 
     translator = OpenStudio::OSVersion::VersionTranslator.new
     path = OpenStudio::Path.new(File.dirname(__FILE__) + '/SecondarySchoolCustomRef_01_0228.osm')
@@ -67,7 +67,7 @@ class ZEDGK12FenestrationAndDaylightingControls_Test < Minitest::Test
     assert_equal('cost_light_shelf', arguments[3].name)
 
     # set argument values to good values and run the measure on model with spaces
-    argument_map = OpenStudio::Ruleset::OSArgumentMap.new
+    argument_map = OpenStudio::Measure::OSArgumentMap.new
 
     cost_daylight_glazing = arguments[0].clone
     assert(cost_daylight_glazing.setValue(0.0))

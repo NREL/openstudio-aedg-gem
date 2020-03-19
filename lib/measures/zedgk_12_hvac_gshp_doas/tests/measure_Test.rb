@@ -59,7 +59,7 @@ class ZEDGK12HVAC_Test < Minitest::Test
       measure = ZEDGK12HVAC.new
 
       # create an instance of a runner
-      runner = OpenStudio::Ruleset::OSRunner.new
+      runner = OpenStudio::Measure::OSRunner.new(OpenStudio::WorkflowJSON.new)
 
       # load the test model
       translator = OpenStudio::OSVersion::VersionTranslator.new
@@ -75,7 +75,7 @@ class ZEDGK12HVAC_Test < Minitest::Test
       assert_equal('remake_schedules', arguments[2].name)
 
       # set argument values to good values and run the measure on model with spaces
-      argument_map = OpenStudio::Ruleset::OSArgumentMap.new
+      argument_map = OpenStudio::Measure::OSArgumentMap.new
 
       ceilingReturnPlenumSpaceType = arguments[0].clone
       assert(ceilingReturnPlenumSpaceType.setValue('Plenum'))
