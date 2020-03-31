@@ -1,5 +1,5 @@
 # *******************************************************************************
-# OpenStudio(R), Copyright (c) 2008-2018, Alliance for Sustainable Energy, LLC.
+# OpenStudio(R), Copyright (c) 2008-2020, Alliance for Sustainable Energy, LLC.
 # All rights reserved.
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are met:
@@ -132,7 +132,7 @@ class AedgSmallToMediumOfficeExteriorLighting < OpenStudio::Measure::ModelMeasur
     costTotalExteriorLights = runner.getDoubleArgumentValue('costTotalExteriorLights', user_arguments)
 
     # check arguments for reasonableness
-    checkDoubleArguments = OsLib_HelperMethods.checkDoubleAndIntegerArguments(runner, user_arguments, 'min' => 0.0, 'max' => nil, 'min_eq_bool' => true, 'max_eq_bool' => false, 'arg_array' => ['facadeLandscapeLighting', 'parkingDrivesLighting','walkwayPlazaSpecialLighting','costTotalExteriorLights'])
+    checkDoubleArguments = OsLib_HelperMethods.checkDoubleAndIntegerArguments(runner, user_arguments, 'min' => 0.0, 'max' => nil, 'min_eq_bool' => true, 'max_eq_bool' => false, 'arg_array' => ['facadeLandscapeLighting', 'parkingDrivesLighting', 'walkwayPlazaSpecialLighting', 'costTotalExteriorLights'])
     if !checkDoubleArguments then return false end
 
     # prepare rule hash

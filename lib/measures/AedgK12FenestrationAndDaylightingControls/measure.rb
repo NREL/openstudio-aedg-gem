@@ -1,5 +1,5 @@
 # *******************************************************************************
-# OpenStudio(R), Copyright (c) 2008-2018, Alliance for Sustainable Energy, LLC.
+# OpenStudio(R), Copyright (c) 2008-2020, Alliance for Sustainable Energy, LLC.
 # All rights reserved.
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are met:
@@ -113,7 +113,7 @@ class AedgK12FenestrationAndDaylightingControls < OpenStudio::Measure::ModelMeas
     cost_light_shelf = runner.getDoubleArgumentValue('cost_light_shelf', user_arguments)
 
     # check arguments for reasonableness
-    checkDoubleArguments = OsLib_HelperMethods.checkDoubleAndIntegerArguments(runner, user_arguments, 'min' => 0.0, 'max' => nil, 'min_eq_bool' => true, 'max_eq_bool' => true, 'arg_array' => ['cost_daylight_glazing', 'cost_view_glazing', 'cost_skylight','cost_shading_surface','cost_light_shelf'])
+    checkDoubleArguments = OsLib_HelperMethods.checkDoubleAndIntegerArguments(runner, user_arguments, 'min' => 0.0, 'max' => nil, 'min_eq_bool' => true, 'max_eq_bool' => true, 'arg_array' => ['cost_daylight_glazing', 'cost_view_glazing', 'cost_skylight', 'cost_shading_surface', 'cost_light_shelf'])
     if !checkDoubleArguments then return false end
 
     # get climate zone
