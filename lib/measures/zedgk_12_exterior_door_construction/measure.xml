@@ -2,8 +2,8 @@
   <schema_version>3.0</schema_version>
   <name>zedgk_12_exterior_door_construction</name>
   <uid>11c69bb4-3bea-4a7e-8a8e-fea4b5f71a1c</uid>
-  <version_id>55ef7cc1-0b33-4429-a628-1d8661dbaa18</version_id>
-  <version_modified>20190923T182710Z</version_modified>
+  <version_id>da39e384-5d0c-430d-beff-d97bab73a57a</version_id>
+  <version_modified>20200319T210023Z</version_modified>
   <xml_checksum>5091078B</xml_checksum>
   <class_name>ZEDGK12ExteriorDoorConstruction</class_name>
   <display_name>ZEDG K12 ExteriorDoorConstruction</display_name>
@@ -47,39 +47,10 @@
       <checksum>6BCD99F2</checksum>
     </file>
     <file>
-      <filename>measure_Test.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>test</usage_type>
-      <checksum>A4D7CFBD</checksum>
-    </file>
-    <file>
       <filename>no_doors.osm</filename>
       <filetype>osm</filetype>
       <usage_type>test</usage_type>
       <checksum>81C4639F</checksum>
-    </file>
-    <file>
-      <filename>OsLib_AedgMeasures.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>9D51CDB6</checksum>
-    </file>
-    <file>
-      <version>
-        <software_program>OpenStudio</software_program>
-        <identifier>2.0.0</identifier>
-        <min_compatible>2.0.0</min_compatible>
-      </version>
-      <filename>measure.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>script</usage_type>
-      <checksum>58C462DB</checksum>
-    </file>
-    <file>
-      <filename>LICENSE.md</filename>
-      <filetype>md</filetype>
-      <usage_type>license</usage_type>
-      <checksum>9640B6CB</checksum>
     </file>
     <file>
       <filename>README.md.erb</filename>
@@ -94,16 +65,45 @@
       <checksum>A6898E8A</checksum>
     </file>
     <file>
+      <filename>LICENSE.md</filename>
+      <filetype>md</filetype>
+      <usage_type>license</usage_type>
+      <checksum>E0468DD6</checksum>
+    </file>
+    <file>
       <filename>os_lib_constructions.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>106030FA</checksum>
+      <checksum>E1FA367A</checksum>
     </file>
     <file>
       <filename>os_lib_helper_methods.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>22515A49</checksum>
+      <checksum>07B01D67</checksum>
+    </file>
+    <file>
+      <filename>OsLib_AedgMeasures.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>EDB45706</checksum>
+    </file>
+    <file>
+      <filename>measure_Test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>6270D702</checksum>
+    </file>
+    <file>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>2.0.0</identifier>
+        <min_compatible>2.0.0</min_compatible>
+      </version>
+      <filename>measure.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>script</usage_type>
+      <checksum>C66C4D01</checksum>
     </file>
   </files>
 </measure>
