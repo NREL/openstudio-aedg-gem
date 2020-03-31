@@ -49,4 +49,7 @@ require 'openstudio/aedg_measures'
 rake_task = OpenStudio::Extension::RakeTask.new
 rake_task.set_extension_class(OpenStudio::AedgMeasures::Extension)
 
+require 'openstudio_measure_tester/rake_task'
+OpenStudioMeasureTester::RakeTask.new
+
 task default: :spec
