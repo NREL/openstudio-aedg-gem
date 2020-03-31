@@ -14,7 +14,6 @@
 /lib/measures/*/tests/output
 /lib/measures/.rubocop.yml
 .rubocop*s3*
-.rubocop.yml
 
 # rspec failure tracking
 .rspec_status
