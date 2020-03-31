@@ -1,9 +1,10 @@
+<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>aedg_small_to_medium_office_fenestration_and_daylighting_controls</name>
   <uid>4252d6c7-ccd5-4cae-b55e-8d7b1dfcc717</uid>
-  <version_id>d0c15b30-8987-45be-9e02-aaff50ac3d53</version_id>
-  <version_modified>20200319T195611Z</version_modified>
+  <version_id>6c97757a-bb4b-418f-8c78-c1bb92270f6c</version_id>
+  <version_modified>20200331T151022Z</version_modified>
   <xml_checksum>6FAFA9DE</xml_checksum>
   <class_name>AedgSmallToMediumOfficeFenestrationAndDaylightingControls</class_name>
   <display_name>AedgSmallToMediumOfficeFenestrationAndDaylightingControls</display_name>
@@ -51,8 +52,8 @@
       <default_value>0</default_value>
     </argument>
   </arguments>
-  <outputs/>
-  <provenances/>
+  <outputs />
+  <provenances />
   <tags>
     <tag>Envelope.Fenestration</tag>
   </tags>
@@ -106,12 +107,6 @@
       <checksum>E0468DD6</checksum>
     </file>
     <file>
-      <filename>os_lib_constructions.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>E1FA367A</checksum>
-    </file>
-    <file>
       <filename>os_lib_helper_methods.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
@@ -151,6 +146,12 @@
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
       <checksum>674C561A</checksum>
+    </file>
+    <file>
+      <filename>os_lib_constructions.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>18851F8B</checksum>
     </file>
   </files>
 </measure>

@@ -1,9 +1,10 @@
+<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>zedgk_12_fenestration_and_daylighting_controls</name>
   <uid>eb3bfd3d-64b6-4a9f-857d-3dd8a7becec5</uid>
-  <version_id>c2363e4f-e1c3-43ed-8d63-e980cfcaa8eb</version_id>
-  <version_modified>20200319T210022Z</version_modified>
+  <version_id>8bd7f898-d608-4acc-a029-5e82a9c8c874</version_id>
+  <version_modified>20200331T151020Z</version_modified>
   <xml_checksum>7D3EA3A9</xml_checksum>
   <class_name>ZEDGK12FenestrationAndDaylightingControls</class_name>
   <display_name>ZEDG K12 - Fenestration and Daylighting Controls</display_name>
@@ -43,8 +44,8 @@
       <default_value>0</default_value>
     </argument>
   </arguments>
-  <outputs/>
-  <provenances/>
+  <outputs />
+  <provenances />
   <tags>
     <tag>Envelope.Fenestration</tag>
   </tags>
@@ -84,12 +85,6 @@
       <filetype>md</filetype>
       <usage_type>license</usage_type>
       <checksum>E0468DD6</checksum>
-    </file>
-    <file>
-      <filename>os_lib_constructions.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>A30C5218</checksum>
     </file>
     <file>
       <filename>os_lib_helper_methods.rb</filename>
@@ -143,6 +138,12 @@
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
       <checksum>FECD75FA</checksum>
+    </file>
+    <file>
+      <filename>os_lib_constructions.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>18851F8B</checksum>
     </file>
   </files>
 </measure>
