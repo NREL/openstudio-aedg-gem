@@ -42,11 +42,14 @@
 # see the URL below for access to C++ documentation on model objects (click on "model" in the main window to view model objects)
 # http://openstudio.nrel.gov/sites/openstudio.nrel.gov/files/nv_data/cpp_documentation_it/model/html/namespaces.html
 
+# load OpenStudio measure libraries from openstudio-extension gem
+require 'openstudio-extension'
+require 'openstudio/extension/core/os_lib_helper_methods'
+require 'openstudio/extension/core/os_lib_hvac'
+require 'openstudio/extension/core/os_lib_schedules'
+
 # load OpenStudio measure libraries
 require "#{File.dirname(__FILE__)}/resources/OsLib_AedgMeasures"
-require "#{File.dirname(__FILE__)}/resources/os_lib_helper_methods"
-require "#{File.dirname(__FILE__)}/resources/os_lib_hvac"
-require "#{File.dirname(__FILE__)}/resources/os_lib_schedules"
 
 # start the measure
 class AedgOfficeSwh < OpenStudio::Measure::ModelMeasure
