@@ -1,9 +1,10 @@
+<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_swh</name>
   <uid>081b3ccb-fc4a-48f7-ad50-87c90c20f9f9</uid>
-  <version_id>02c50110-4f72-4f4b-820b-bfae27caaebe</version_id>
-  <version_modified>20200319T195612Z</version_modified>
+  <version_id>9bcc8b96-2012-4fd4-ad4e-21623d84182c</version_id>
+  <version_modified>20200401T014104Z</version_modified>
   <xml_checksum>9882CBDB</xml_checksum>
   <class_name>AedgK12Swh</class_name>
   <display_name>AedgK12Swh</display_name>
@@ -26,8 +27,8 @@
       <model_dependent>false</model_dependent>
     </argument>
   </arguments>
-  <outputs/>
-  <provenances/>
+  <outputs />
+  <provenances />
   <tags>
     <tag>Service Water Heating.Water Heating</tag>
   </tags>
@@ -89,43 +90,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>5EF8B12A</checksum>
-    </file>
-    <file>
-      <filename>os_lib_constructions.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>E1FA367A</checksum>
-    </file>
-    <file>
-      <filename>os_lib_helper_methods.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>07B01D67</checksum>
-    </file>
-    <file>
-      <filename>os_lib_lighting_and_equipment.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>6CE32103</checksum>
-    </file>
-    <file>
-      <filename>os_lib_hvac.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>0F8A06F5</checksum>
-    </file>
-    <file>
-      <filename>os_lib_schedules.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>B38668F5</checksum>
-    </file>
-    <file>
-      <filename>os_lib_geometry.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>674C561A</checksum>
+      <checksum>E691A3A4</checksum>
     </file>
   </files>
 </measure>

@@ -1,9 +1,10 @@
+<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>zedgk_12_kitchen</name>
   <uid>6d9f212d-e859-4857-8ee7-1670de9c2bfb</uid>
-  <version_id>628de854-caaa-40b2-b0b3-ee736aa9ddc5</version_id>
-  <version_modified>20200319T210023Z</version_modified>
+  <version_id>97c1aab1-00ae-4b35-851f-41f63a66e636</version_id>
+  <version_modified>20200401T014101Z</version_modified>
   <xml_checksum>CE83CD3D</xml_checksum>
   <class_name>ZEDGK12Kitchen</class_name>
   <display_name>ZEDG K12 Kitchen</display_name>
@@ -26,8 +27,8 @@
       <model_dependent>false</model_dependent>
     </argument>
   </arguments>
-  <outputs/>
-  <provenances/>
+  <outputs />
+  <provenances />
   <tags>
     <tag>Whole Building.Space Types</tag>
   </tags>
@@ -95,42 +96,6 @@
       <checksum>99805712</checksum>
     </file>
     <file>
-      <filename>os_lib_constructions.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>A30C5218</checksum>
-    </file>
-    <file>
-      <filename>os_lib_helper_methods.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>AD62E6A4</checksum>
-    </file>
-    <file>
-      <filename>os_lib_lighting_and_equipment.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>2C1B6156</checksum>
-    </file>
-    <file>
-      <filename>os_lib_geometry.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>DFD50CB5</checksum>
-    </file>
-    <file>
-      <filename>OsLib_HVAC.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>097C55DA</checksum>
-    </file>
-    <file>
-      <filename>os_lib_schedules.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>E97C0929</checksum>
-    </file>
-    <file>
       <filename>measure_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
@@ -145,7 +110,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>2406EBF9</checksum>
+      <checksum>06B87025</checksum>
     </file>
   </files>
 </measure>

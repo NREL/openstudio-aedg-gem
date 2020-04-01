@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>aedg_small_to_medium_office_fenestration_and_daylighting_controls</name>
   <uid>4252d6c7-ccd5-4cae-b55e-8d7b1dfcc717</uid>
-  <version_id>6c97757a-bb4b-418f-8c78-c1bb92270f6c</version_id>
-  <version_modified>20200331T151022Z</version_modified>
+  <version_id>cc6c3e23-94c0-4be1-a496-2b55b92ba155</version_id>
+  <version_modified>20200401T014103Z</version_modified>
   <xml_checksum>6FAFA9DE</xml_checksum>
   <class_name>AedgSmallToMediumOfficeFenestrationAndDaylightingControls</class_name>
   <display_name>AedgSmallToMediumOfficeFenestrationAndDaylightingControls</display_name>
@@ -107,24 +107,6 @@
       <checksum>E0468DD6</checksum>
     </file>
     <file>
-      <filename>os_lib_helper_methods.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>07B01D67</checksum>
-    </file>
-    <file>
-      <filename>os_lib_lighting_and_equipment.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>6CE32103</checksum>
-    </file>
-    <file>
-      <filename>os_lib_outdoorair_and_infiltration.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>273C65BE</checksum>
-    </file>
-    <file>
       <version>
         <software_program>OpenStudio</software_program>
         <identifier>2.0.0</identifier>
@@ -133,25 +115,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>5C6A60E3</checksum>
-    </file>
-    <file>
-      <filename>os_lib_schedules.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>B38668F5</checksum>
-    </file>
-    <file>
-      <filename>os_lib_geometry.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>674C561A</checksum>
-    </file>
-    <file>
-      <filename>os_lib_constructions.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>18851F8B</checksum>
+      <checksum>8A5A5C4D</checksum>
     </file>
   </files>
 </measure>

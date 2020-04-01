@@ -3,15 +3,24 @@
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_roof_construction</name>
   <uid>04f0c955-4885-4974-9930-13601f375d20</uid>
-  <version_id>fe2beeb8-05dc-49b7-b664-adbbe796854e</version_id>
-  <version_modified>20200316T195034Z</version_modified>
+  <version_id>b5f3fd8e-d3da-4f9d-8a8e-d8646fa48aac</version_id>
+  <version_modified>20200401T014104Z</version_modified>
   <xml_checksum>1E963D9C</xml_checksum>
   <class_name>AedgK12RoofConstruction</class_name>
   <display_name>AedgK12RoofConstruction</display_name>
   <description>This measure will modify existing roof insulation levels and Solar Reflective Index (SRI) values based on roof type and climate zone. The roof type and climate zone should be set in the model prior to using this measure. If your model uses an attic, all attic surfaces should have an "Attic' intended surface type. For attics it doesn't matter what you put for "Standards Construction Type". The measure will check attic insulation where the attic is adjacent to other not attic spaces.</description>
-  <modeler_description>Relevant construction types are identified below. 
-- Insulation entirely above deck (IEAD)
-- Attic
+  <modeler_description>Relevant construction types are identified below. 
+
+
+
+- Insulation entirely above deck (IEAD)
+
+
+
+- Attic
+
+
+
 - Metal building</modeler_description>
   <arguments>
     <argument>
@@ -100,19 +109,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>36815F27</checksum>
-    </file>
-    <file>
-      <filename>os_lib_constructions.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>E1FA367A</checksum>
-    </file>
-    <file>
-      <filename>os_lib_helper_methods.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>07B01D67</checksum>
+      <checksum>055B8DF4</checksum>
     </file>
   </files>
 </measure>

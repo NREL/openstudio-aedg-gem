@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_fenestration_and_daylighting_controls</name>
   <uid>76683121-d531-46c0-8e1c-749c1ff646f0</uid>
-  <version_id>1ec338d4-0315-4014-a2da-f245a3b37249</version_id>
-  <version_modified>20200331T151021Z</version_modified>
+  <version_id>1bc74e6e-533f-4d49-bd75-ca7aac8ad720</version_id>
+  <version_modified>20200401T014102Z</version_modified>
   <xml_checksum>6FAFA9DE</xml_checksum>
   <class_name>AedgK12FenestrationAndDaylightingControls</class_name>
   <display_name>AEDG K12 - Fenestration and Daylighting Controls</display_name>
@@ -107,24 +107,6 @@
       <checksum>E0468DD6</checksum>
     </file>
     <file>
-      <filename>os_lib_helper_methods.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>07B01D67</checksum>
-    </file>
-    <file>
-      <filename>os_lib_lighting_and_equipment.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>6CE32103</checksum>
-    </file>
-    <file>
-      <filename>os_lib_outdoorair_and_infiltration.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>273C65BE</checksum>
-    </file>
-    <file>
       <version>
         <software_program>OpenStudio</software_program>
         <identifier>2.0.0</identifier>
@@ -133,25 +115,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>687CBBD1</checksum>
-    </file>
-    <file>
-      <filename>os_lib_schedules.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>B38668F5</checksum>
-    </file>
-    <file>
-      <filename>os_lib_geometry.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>674C561A</checksum>
-    </file>
-    <file>
-      <filename>os_lib_constructions.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>18851F8B</checksum>
+      <checksum>5C4C69BA</checksum>
     </file>
   </files>
 </measure>

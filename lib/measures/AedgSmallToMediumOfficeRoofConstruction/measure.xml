@@ -3,16 +3,32 @@
   <schema_version>3.0</schema_version>
   <name>aedg_small_to_medium_office_roof_construction</name>
   <uid>f35d0cf1-40e4-47d1-84a4-91181a03085e</uid>
-  <version_id>e0cac21f-5ac5-4ce7-94bc-fcc4daf6d692</version_id>
-  <version_modified>20200316T195034Z</version_modified>
+  <version_id>8b585cdf-2612-4c19-bf9b-131245ad1328</version_id>
+  <version_modified>20200401T014103Z</version_modified>
   <xml_checksum>1E963D9C</xml_checksum>
   <class_name>AedgSmallToMediumOfficeRoofConstruction</class_name>
   <display_name>AedgSmallToMediumOfficeRoofConstruction</display_name>
   <description>This measure will modify existing roof insulation levels and Solar Reflective Index (SRI) values based on roof type and climate zone. The roof type and climate zone should be set in the model prior to using this measure. If your model uses an attic, all attic surfaces should have an "Attic' intended surface type. For attics it doesn't matter what you put for "Standards Construction Type". The measure will check attic insulation where the attic is adjacent to other not attic spaces.</description>
-  <modeler_description>Relevant construction types are identified below. 
-- Insulation entirely above deck (IEAD)
-- Attic
-- Metal building
+  <modeler_description>Relevant construction types are identified below. 
+
+
+
+
+- Insulation entirely above deck (IEAD)
+
+
+
+
+- Attic
+
+
+
+
+- Metal building
+
+
+
+
 - Attic surfaces should have an Attic intended use type</modeler_description>
   <arguments>
     <argument>
@@ -101,19 +117,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>30DA9745</checksum>
-    </file>
-    <file>
-      <filename>os_lib_constructions.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>E1FA367A</checksum>
-    </file>
-    <file>
-      <filename>os_lib_helper_methods.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>07B01D67</checksum>
+      <checksum>0C312ED5</checksum>
     </file>
   </files>
 </measure>

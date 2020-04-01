@@ -3,15 +3,24 @@
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_exterior_door_construction</name>
   <uid>87718175-d555-4936-b2f6-a381208341e9</uid>
-  <version_id>2c3f38ea-39fd-4977-93e2-59e52f8bea0a</version_id>
-  <version_modified>20200316T195032Z</version_modified>
+  <version_id>7a377d05-ec86-4e24-882f-f5c49c0b2387</version_id>
+  <version_modified>20200401T014103Z</version_modified>
   <xml_checksum>1E963D9C</xml_checksum>
   <class_name>AedgK12ExteriorDoorConstruction</class_name>
   <display_name>AedgK12ExteriorDoorConstruction</display_name>
   <description>This measure is intended for use on opaque doors; if doors are glass they should be treated as windows. OpenStudio does have a unique object for overhead doors versus standard doors. This measure doesn't alter infiltration. There is a separate measure for infiltration that includes user arguments for primary entry points. </description>
-  <modeler_description>Relevant construction types:
-- Door - Swinging or NonSwinging 
-- Overhead Door - Sliding 
+  <modeler_description>Relevant construction types:
+
+
+
+- Door - Swinging or NonSwinging 
+
+
+
+- Overhead Door - Sliding 
+
+
+
 - Overhead Door - RollUp</modeler_description>
   <arguments>
     <argument>
@@ -86,19 +95,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>0A86CE2D</checksum>
-    </file>
-    <file>
-      <filename>os_lib_constructions.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>E1FA367A</checksum>
-    </file>
-    <file>
-      <filename>os_lib_helper_methods.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>07B01D67</checksum>
+      <checksum>424149FD</checksum>
     </file>
   </files>
 </measure>

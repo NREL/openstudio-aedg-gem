@@ -3,15 +3,27 @@
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_exterior_floor_construction</name>
   <uid>099f148c-7550-45ac-bbfe-0eb2bac5969f</uid>
-  <version_id>e2d97e02-81be-4995-bead-6f003b08a737</version_id>
-  <version_modified>20200316T195033Z</version_modified>
+  <version_id>1e4ae758-3a7c-410a-8192-3e56fad491d9</version_id>
+  <version_modified>20200401T014103Z</version_modified>
   <xml_checksum>1E963D9C</xml_checksum>
   <class_name>AedgK12ExteriorFloorConstruction</class_name>
   <display_name>AedgK12ExteriorFloorConstruction</display_name>
   <description>This measure will modify existing exterior floor (air exposed) insulation levels based on construction type and climate zone. The exterior floor construction type and climate zone should be set in the model prior to using this measure. For mass floors if an existing insulation layer can be found it will be increase or added at the inside of the floor. For steel and wood framed floors, insulation will be enhanced for an existing layer, or a new exterior layer will be added.</description>
-  <modeler_description>Relevant construction types:
-- Mass
-- Steel framed
+  <modeler_description>Relevant construction types:
+
+
+
+
+- Mass
+
+
+
+
+- Steel framed
+
+
+
+
 - Wood framed</modeler_description>
   <arguments>
     <argument>
@@ -86,19 +98,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>94961F37</checksum>
-    </file>
-    <file>
-      <filename>os_lib_constructions.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>E1FA367A</checksum>
-    </file>
-    <file>
-      <filename>os_lib_helper_methods.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>07B01D67</checksum>
+      <checksum>A57E4DE8</checksum>
     </file>
   </files>
 </measure>

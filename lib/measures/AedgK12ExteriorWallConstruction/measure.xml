@@ -3,17 +3,62 @@
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_exterior_wall_construction</name>
   <uid>f555ea01-39b7-4c4d-94ff-73ba6a6b96fd</uid>
-  <version_id>48993823-619c-4ba1-9bf5-81b6246c1036</version_id>
-  <version_modified>20200316T195035Z</version_modified>
+  <version_id>2400de23-ea91-4371-9df2-17a72a64ff14</version_id>
+  <version_modified>20200401T014104Z</version_modified>
   <xml_checksum>1E963D9C</xml_checksum>
   <class_name>AedgK12ExteriorWallConstruction</class_name>
   <display_name>AedgK12ExteriorWallConstruction</display_name>
   <description>This measure will modify existing exterior wall insulation levels based on construction type and climate zone. The exterior wall construction type and climate zone should be set in the model prior to using this measure. For mass and metal walls if an existing insulation layer can be found it will be increased, if not a new insulation layer will be added. For mass this will be at the exterior of the construction. For metal it will be added just behind the exterior layer. For steel and wood framed walls, insulation will be added to the exterior of the construction. </description>
-  <modeler_description>Relevant construction types:
-- Mass
-- Steel framed
-- Wood framed
-- Metal building
+  <modeler_description>Relevant construction types:
+
+
+
+
+
+
+
+
+
+- Mass
+
+
+
+
+
+
+
+
+
+- Steel framed
+
+
+
+
+
+
+
+
+
+- Wood framed
+
+
+
+
+
+
+
+
+
+- Metal building
+
+
+
+
+
+
+
+
+
 - Attic surfaces should have an Attic intended use type</modeler_description>
   <arguments>
     <argument>
@@ -100,19 +145,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>86DAFB76</checksum>
-    </file>
-    <file>
-      <filename>os_lib_constructions.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>E1FA367A</checksum>
-    </file>
-    <file>
-      <filename>os_lib_helper_methods.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>07B01D67</checksum>
+      <checksum>1B70D6FD</checksum>
     </file>
   </files>
 </measure>

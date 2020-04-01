@@ -1,9 +1,10 @@
+<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>aedg_small_to_medium_office_interior_lighting</name>
   <uid>e1e16b8f-5cbf-447c-9f76-7fe69b3cf01e</uid>
-  <version_id>96d5de5b-d9ba-419e-a535-bc579937ba51</version_id>
-  <version_modified>20200319T195610Z</version_modified>
+  <version_id>f0c00788-d951-4810-87b9-ee823fcc6e85</version_id>
+  <version_modified>20200401T014102Z</version_modified>
   <xml_checksum>2DDDDD82</xml_checksum>
   <class_name>AedgSmallToMediumOfficeInteriorLighting</class_name>
   <display_name>AedgSmallToMediumOfficeInteriorLighting</display_name>
@@ -19,8 +20,8 @@
       <default_value>0</default_value>
     </argument>
   </arguments>
-  <outputs/>
-  <provenances/>
+  <outputs />
+  <provenances />
   <tags>
     <tag>Electric Lighting.Lighting Equipment</tag>
   </tags>
@@ -82,25 +83,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>066969FD</checksum>
-    </file>
-    <file>
-      <filename>os_lib_helper_methods.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>07B01D67</checksum>
-    </file>
-    <file>
-      <filename>os_lib_lighting_and_equipment.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>6CE32103</checksum>
-    </file>
-    <file>
-      <filename>os_lib_schedules.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>B38668F5</checksum>
+      <checksum>20C210F3</checksum>
     </file>
   </files>
 </measure>

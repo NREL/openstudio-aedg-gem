@@ -1,9 +1,10 @@
+<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>zedgk_12_electric_equipment</name>
   <uid>d1fc10bc-0ae1-4e1b-b1ac-67fc3923b268</uid>
-  <version_id>75c3ba20-223e-4183-9290-8260971efdc0</version_id>
-  <version_modified>20200319T210023Z</version_modified>
+  <version_id>43d69c44-0cc6-4525-bc5d-386b5434452a</version_id>
+  <version_modified>20200401T014102Z</version_modified>
   <xml_checksum>8C4D4034</xml_checksum>
   <class_name>ZEDGK12ElectricEquipment</class_name>
   <display_name>ZEDG K12 ElectricEquipment</display_name>
@@ -19,8 +20,8 @@
       <default_value>0</default_value>
     </argument>
   </arguments>
-  <outputs/>
-  <provenances/>
+  <outputs />
+  <provenances />
   <tags>
     <tag>Equipment.Electric Equipment</tag>
   </tags>
@@ -62,28 +63,10 @@
       <checksum>E0468DD6</checksum>
     </file>
     <file>
-      <filename>os_lib_helper_methods.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>07B01D67</checksum>
-    </file>
-    <file>
-      <filename>os_lib_lighting_and_equipment.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>6CE32103</checksum>
-    </file>
-    <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
       <checksum>CAD37D98</checksum>
-    </file>
-    <file>
-      <filename>os_lib_schedules.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>B38668F5</checksum>
     </file>
     <file>
       <filename>measure_Test.rb</filename>
@@ -100,7 +83,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>83F11AAA</checksum>
+      <checksum>69B39F80</checksum>
     </file>
   </files>
 </measure>

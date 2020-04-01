@@ -1,9 +1,10 @@
+<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>aedg_small_to_medium_office_electric_equipment_controls</name>
   <uid>b297ea8a-d21f-416b-8b41-3dfc99b430cf</uid>
-  <version_id>bf6d91ed-a11c-4c3e-8d59-ffcfe4c3298e</version_id>
-  <version_modified>20200319T195609Z</version_modified>
+  <version_id>cfd8c882-f8dd-47db-99a0-eeb1217b249e</version_id>
+  <version_modified>20200401T014101Z</version_modified>
   <xml_checksum>1F21832E</xml_checksum>
   <class_name>AedgSmallToMediumOfficeElectricEquipmentControls</class_name>
   <display_name>AedgSmallToMediumOfficeElectricEquipmentControls</display_name>
@@ -19,8 +20,8 @@
       <default_value>0</default_value>
     </argument>
   </arguments>
-  <outputs/>
-  <provenances/>
+  <outputs />
+  <provenances />
   <tags>
     <tag>Equipment.Equipment Controls</tag>
   </tags>
@@ -68,6 +69,12 @@
       <checksum>66D1F434</checksum>
     </file>
     <file>
+      <filename>OsLib_AedgMeasures.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>9600927D</checksum>
+    </file>
+    <file>
       <version>
         <software_program>OpenStudio</software_program>
         <identifier>2.0.0</identifier>
@@ -76,31 +83,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>739EB51F</checksum>
-    </file>
-    <file>
-      <filename>os_lib_helper_methods.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>AD62E6A4</checksum>
-    </file>
-    <file>
-      <filename>os_lib_lighting_and_equipment.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>2C1B6156</checksum>
-    </file>
-    <file>
-      <filename>OsLib_AedgMeasures.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>9600927D</checksum>
-    </file>
-    <file>
-      <filename>os_lib_schedules.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>E97C0929</checksum>
+      <checksum>7B59AE03</checksum>
     </file>
   </files>
 </measure>

@@ -1,9 +1,10 @@
+<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_electric_equipment</name>
   <uid>4ef1195b-a7b2-4afc-8bbc-e0c28a86dfa4</uid>
-  <version_id>abcf76c8-aae5-4fdf-84c4-09103cd77284</version_id>
-  <version_modified>20200319T195612Z</version_modified>
+  <version_id>85c823f8-eb1c-42cd-919f-855383c35cf1</version_id>
+  <version_modified>20200401T014105Z</version_modified>
   <xml_checksum>126F1C43</xml_checksum>
   <class_name>AedgK12ElectricEquipment</class_name>
   <display_name>AedgK12ElectricEquipment</display_name>
@@ -19,8 +20,8 @@
       <default_value>0</default_value>
     </argument>
   </arguments>
-  <outputs/>
-  <provenances/>
+  <outputs />
+  <provenances />
   <tags>
     <tag>Equipment.Electric Equipment</tag>
   </tags>
@@ -82,25 +83,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>35092E90</checksum>
-    </file>
-    <file>
-      <filename>os_lib_helper_methods.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>07B01D67</checksum>
-    </file>
-    <file>
-      <filename>os_lib_lighting_and_equipment.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>6CE32103</checksum>
-    </file>
-    <file>
-      <filename>os_lib_schedules.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>B38668F5</checksum>
+      <checksum>4C6EDDFC</checksum>
     </file>
   </files>
 </measure>
