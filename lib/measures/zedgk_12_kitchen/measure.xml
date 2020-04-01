@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>zedgk_12_kitchen</name>
   <uid>6d9f212d-e859-4857-8ee7-1670de9c2bfb</uid>
-  <version_id>97c1aab1-00ae-4b35-851f-41f63a66e636</version_id>
-  <version_modified>20200401T014101Z</version_modified>
+  <version_id>ad77907f-b0a5-4b5e-85df-73e479c37b08</version_id>
+  <version_modified>20200401T031341Z</version_modified>
   <xml_checksum>CE83CD3D</xml_checksum>
   <class_name>ZEDGK12Kitchen</class_name>
   <display_name>ZEDG K12 Kitchen</display_name>
@@ -110,7 +110,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>06B87025</checksum>
+      <checksum>487F2C0A</checksum>
     </file>
   </files>
 </measure>
