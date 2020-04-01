@@ -239,7 +239,6 @@ module OsLib_HVAC_zedg_fan_coil_air_cooled
   end
 
   def self.assignHVACSchedules(model, runner, options = {})
-    require "#{File.dirname(__FILE__)}/os_lib_schedules"
 
     schedulesHVAC = {}
     airloops = model.getAirLoopHVACs

@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>zedg_k_12_hvac_fan_coil_doas_air_cooled_chiller</name>
   <uid>33ed4338-5e86-415f-8df0-87e32e413711</uid>
-  <version_id>8bea2315-1d6e-4e91-9c22-e200474b3747</version_id>
-  <version_modified>20200401T014102Z</version_modified>
+  <version_id>a8d9b1a9-cc80-424e-8e2b-789ead6b8002</version_id>
+  <version_modified>20200401T030648Z</version_modified>
   <xml_checksum>87BA8B1E</xml_checksum>
   <class_name>ZedgK12HvacFanCoilDoasAirCooledChiller</class_name>
   <display_name>ZEDG K12 HVAC Fan Coil DOAS Air Cooled Chiller</display_name>
@@ -100,12 +100,6 @@
       <checksum>EDB45706</checksum>
     </file>
     <file>
-      <filename>OsLib_HVAC_zedg_fan_coil_air_cooled.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>E47424E6</checksum>
-    </file>
-    <file>
       <filename>measure_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
@@ -121,6 +115,12 @@
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
       <checksum>CB5DE1A7</checksum>
+    </file>
+    <file>
+      <filename>OsLib_HVAC_zedg_fan_coil_air_cooled.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>A9C0A1E3</checksum>
     </file>
   </files>
 </measure>

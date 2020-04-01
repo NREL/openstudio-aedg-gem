@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>zedgvrf_with_doas</name>
   <uid>633b8efc-7bcb-4aa0-8821-d0ee08f960db</uid>
-  <version_id>7a00a9c3-bf1f-4d92-bb5a-d0513aa79fdf</version_id>
-  <version_modified>20200401T014100Z</version_modified>
+  <version_id>fbb8b95b-19b7-4e1a-bbba-5cb79565651b</version_id>
+  <version_modified>20200401T030648Z</version_modified>
   <xml_checksum>87BA8B1E</xml_checksum>
   <class_name>ZEDGVRFWithDOAS</class_name>
   <display_name>ZEDG VRF with DOAS</display_name>
@@ -113,12 +113,6 @@
       <checksum>54B31487</checksum>
     </file>
     <file>
-      <filename>OsLib_HVAC_zedg_vrf.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>F0A4C6C7</checksum>
-    </file>
-    <file>
       <version>
         <software_program>OpenStudio</software_program>
         <identifier>2.0.0</identifier>
@@ -128,6 +122,12 @@
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
       <checksum>B3B80470</checksum>
+    </file>
+    <file>
+      <filename>OsLib_HVAC_zedg_vrf.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>36C2DCB2</checksum>
     </file>
   </files>
 </measure>
