@@ -9,17 +9,72 @@
   <class_name>AedgK12ExteriorLighting</class_name>
   <display_name>AedgK12ExteriorLighting</display_name>
   <description>This measure will create exterior lights objects in four different categories described below. The lighting levels and controls will be based on the "How to Implement Recommendations" section in the AEDG; any existing exterior lighting will be removed. A special input is needed for this measure to define the exterior lighting zone, which further describes whether the site is urban or rural. </description>
-  <modeler_description>Provide an area or dimensions as input for each of the exterior lighting categories described below. 
-- Facade and landscape lighting
-- Parking lots and drives
-- Walkways, plaza, and special features areas
-- All other exterior lighting
-    
-Lighting Zones:
-0 - Undeveloped areas within national parks, state parks, forest land, rural areas, and other undeveloped areas as defined by the authority having jurisdiction (no lighting recommendations)
-1 - Developed areas of national parks, state parks, forest land, and rural areas (no lighting recommendations)
-2 - Areas predominantly consisting of residential zoning, neighborhood business districts, light industrial with limited nighttime use and residential mixed use areas
-3 - All other areas
+  <modeler_description>Provide an area or dimensions as input for each of the exterior lighting categories described below. 
+
+
+
+
+
+- Facade and landscape lighting
+
+
+
+
+
+- Parking lots and drives
+
+
+
+
+
+- Walkways, plaza, and special features areas
+
+
+
+
+
+- All other exterior lighting
+
+
+
+
+
+    
+
+
+
+
+
+Lighting Zones:
+
+
+
+
+
+0 - Undeveloped areas within national parks, state parks, forest land, rural areas, and other undeveloped areas as defined by the authority having jurisdiction (no lighting recommendations)
+
+
+
+
+
+1 - Developed areas of national parks, state parks, forest land, and rural areas (no lighting recommendations)
+
+
+
+
+
+2 - Areas predominantly consisting of residential zoning, neighborhood business districts, light industrial with limited nighttime use and residential mixed use areas
+
+
+
+
+
+3 - All other areas
+
+
+
+
+
 4 - High activity commercial districts in major metropolitan areas as designated by the local jurisdiction</modeler_description>
   <arguments>
     <argument>
@@ -153,7 +208,7 @@ Lighting Zones:
       <version>
         <software_program>OpenStudio</software_program>
         <identifier>2.0.0</identifier>
-        <min_compatible>2.0.0</min_compatible>
+        <min_compatible>2.8.0</min_compatible>
       </version>
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
