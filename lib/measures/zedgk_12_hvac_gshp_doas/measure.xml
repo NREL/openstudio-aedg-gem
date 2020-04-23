@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>zedgk_12_hvac</name>
   <uid>59793426-1d07-41d2-9478-d7abf1410764</uid>
-  <version_id>99ee700c-e65a-414b-8b3c-51add4130883</version_id>
-  <version_modified>20200401T014101Z</version_modified>
+  <version_id>1cb03eb3-5a8e-4492-b4e6-b81762522bcb</version_id>
+  <version_modified>20200423T230045Z</version_modified>
   <xml_checksum>87BA8B1E</xml_checksum>
   <class_name>ZEDGK12HVAC</class_name>
   <display_name>ZEDG K12 HVAC GSHP with DOAS</display_name>
@@ -112,12 +112,6 @@
       <checksum>A383D84F</checksum>
     </file>
     <file>
-      <filename>OsLib_HVAC_zedg_gshp.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>003C3BC6</checksum>
-    </file>
-    <file>
       <version>
         <software_program>OpenStudio</software_program>
         <identifier>2.0.0</identifier>
@@ -127,6 +121,12 @@
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
       <checksum>41339768</checksum>
+    </file>
+    <file>
+      <filename>OsLib_HVAC_zedg_gshp.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>E2DCF17E</checksum>
     </file>
   </files>
 </measure>
