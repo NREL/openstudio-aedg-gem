@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>zedgvrf_with_doas</name>
   <uid>633b8efc-7bcb-4aa0-8821-d0ee08f960db</uid>
-  <version_id>fbb8b95b-19b7-4e1a-bbba-5cb79565651b</version_id>
-  <version_modified>20200401T030648Z</version_modified>
+  <version_id>efba83f0-f6d0-4384-9a99-2de393743787</version_id>
+  <version_modified>20200512T201424Z</version_modified>
   <xml_checksum>87BA8B1E</xml_checksum>
   <class_name>ZEDGVRFWithDOAS</class_name>
   <display_name>ZEDG VRF with DOAS</display_name>
@@ -127,7 +127,7 @@
       <filename>OsLib_HVAC_zedg_vrf.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>36C2DCB2</checksum>
+      <checksum>EE63AD25</checksum>
     </file>
   </files>
 </measure>

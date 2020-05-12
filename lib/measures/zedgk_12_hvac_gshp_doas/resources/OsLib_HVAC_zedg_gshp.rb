@@ -241,7 +241,6 @@ module OsLib_HVAC_zedg_gshp
   end
 
   def self.assignHVACSchedules(model, runner, options = {})
-
     schedulesHVAC = {}
     airloops = model.getAirLoopHVACs
 

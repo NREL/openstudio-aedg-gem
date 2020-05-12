@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_kitchen</name>
   <uid>92750b5a-7eb5-4df5-899f-c186c7c27935</uid>
-  <version_id>385cfdfc-58d1-4467-914f-f47577e4e8d4</version_id>
-  <version_modified>20200401T031342Z</version_modified>
+  <version_id>0607e14a-988e-47c9-b65b-1885006251a8</version_id>
+  <version_modified>20200512T201425Z</version_modified>
   <xml_checksum>057E8D9D</xml_checksum>
   <class_name>AedgK12Kitchen</class_name>
   <display_name>AedgK12Kitchen</display_name>
@@ -90,7 +90,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>2F1B5730</checksum>
+      <checksum>76E904D5</checksum>
     </file>
   </files>
 </measure>

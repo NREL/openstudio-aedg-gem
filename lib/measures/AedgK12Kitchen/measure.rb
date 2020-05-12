@@ -45,7 +45,7 @@
 # load OpenStudio measure libraries from openstudio-extension gem
 require 'openstudio-extension'
 require 'openstudio/extension/core/os_lib_helper_methods'
-#require 'openstudio/extension/core/os_lib_hvac'
+# require 'openstudio/extension/core/os_lib_hvac'
 require 'openstudio/extension/core/os_lib_schedules'
 
 # load OpenStudio measure libraries

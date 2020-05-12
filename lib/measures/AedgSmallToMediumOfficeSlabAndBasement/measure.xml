@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>aedg_small_to_medium_office_slab_and_basement</name>
   <uid>9ef02e15-c7af-4bd3-a98a-44d52f3ea385</uid>
-  <version_id>3bef077b-7289-462f-86f9-f62ae056241e</version_id>
-  <version_modified>20200401T014105Z</version_modified>
+  <version_id>64cc1d59-1ff9-4892-a888-a595b26af778</version_id>
+  <version_modified>20200512T201425Z</version_modified>
   <xml_checksum>6A939A50</xml_checksum>
   <class_name>AedgSmallToMediumOfficeSlabAndBasement</class_name>
   <display_name>AedgSmallToMediumOfficeSlabAndBasement</display_name>
@@ -190,12 +190,6 @@
       <checksum>E776D85C</checksum>
     </file>
     <file>
-      <filename>OsLib_AedgMeasures.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>652337A6</checksum>
-    </file>
-    <file>
       <filename>OsLib_EnergyPlusMethods.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
@@ -230,6 +224,12 @@
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
       <checksum>1176ABC0</checksum>
+    </file>
+    <file>
+      <filename>OsLib_AedgMeasures.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>F1FB3610</checksum>
     </file>
   </files>
 </measure>

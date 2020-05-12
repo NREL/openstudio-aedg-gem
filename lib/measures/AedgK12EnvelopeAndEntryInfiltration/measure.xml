@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_envelope_and_entry_infiltration</name>
   <uid>02447d29-ee6a-436a-af49-3358ad90f7aa</uid>
-  <version_id>807f3239-9b0e-496e-a4c8-868b6ef3a411</version_id>
-  <version_modified>20200401T014105Z</version_modified>
+  <version_id>8b6a50f0-4613-45c2-ae06-854e7ce596da</version_id>
+  <version_modified>20200512T201425Z</version_modified>
   <xml_checksum>EACB548E</xml_checksum>
   <class_name>AedgK12EnvelopeAndEntryInfiltration</class_name>
   <display_name>AedgK12EnvelopeAndEntryInfiltration</display_name>
@@ -154,12 +154,6 @@
       <checksum>748148B7</checksum>
     </file>
     <file>
-      <filename>OsLib_AedgMeasures.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>652337A6</checksum>
-    </file>
-    <file>
       <filename>AedgK12EnvelopeAndEntryInfiltration_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
@@ -181,6 +175,12 @@
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
       <checksum>E5DE766E</checksum>
+    </file>
+    <file>
+      <filename>OsLib_AedgMeasures.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>F1FB3610</checksum>
     </file>
   </files>
 </measure>

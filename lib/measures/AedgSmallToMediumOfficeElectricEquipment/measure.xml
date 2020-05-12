@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>aedg_small_to_medium_office_electric_equipment</name>
   <uid>2b50c112-4ee3-42b2-8c7f-d76d752cd0b4</uid>
-  <version_id>33526bba-cb42-429e-aa34-76de349f54e9</version_id>
-  <version_modified>20200401T014103Z</version_modified>
+  <version_id>0a21c9b2-d3f0-4906-8b44-486c273206e0</version_id>
+  <version_modified>20200512T201425Z</version_modified>
   <xml_checksum>126F1C43</xml_checksum>
   <class_name>AedgSmallToMediumOfficeElectricEquipment</class_name>
   <display_name>AedgSmallToMediumOfficeElectricEquipment</display_name>
@@ -57,12 +57,6 @@
       <checksum>6795D266</checksum>
     </file>
     <file>
-      <filename>OsLib_AedgMeasures.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>652337A6</checksum>
-    </file>
-    <file>
       <filename>AedgSmallToMediumOfficeElectricEquipment_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
@@ -84,6 +78,12 @@
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
       <checksum>DD9543DC</checksum>
+    </file>
+    <file>
+      <filename>OsLib_AedgMeasures.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>F1FB3610</checksum>
     </file>
   </files>
 </measure>

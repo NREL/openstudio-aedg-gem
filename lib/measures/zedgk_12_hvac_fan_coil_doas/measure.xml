@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>zedgk_12_hvac_fan_coil_doas</name>
   <uid>791d0da9-00d3-422f-9dd2-fe57c9b59997</uid>
-  <version_id>48c919f7-0bd5-4908-9497-e136809ba076</version_id>
-  <version_modified>20200421T185936Z</version_modified>
+  <version_id>61454304-79ff-4e77-8b04-f6c761916826</version_id>
+  <version_modified>20200512T201425Z</version_modified>
   <xml_checksum>87BA8B1E</xml_checksum>
   <class_name>ZEDGK12HVACFanCoilDOAS</class_name>
   <display_name>ZEDG K12 HVAC Fan Coil DOAS</display_name>
@@ -120,7 +120,7 @@
       <filename>OsLib_HVAC_zedg_fan_coil.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>2155804C</checksum>
+      <checksum>E261F66B</checksum>
     </file>
   </files>
 </measure>
