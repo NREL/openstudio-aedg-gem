@@ -1,9 +1,10 @@
+<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>zedgk_12_insert_ground_domain_e_kusdua</name>
   <uid>aa8123f0-4d04-4141-8a00-8a2bccf30315</uid>
-  <version_id>3b6d8c87-5d8f-4121-8623-80c77aed79f4</version_id>
-  <version_modified>20200319T210024Z</version_modified>
+  <version_id>95431eb6-81ab-4e17-9f20-bbc379385dbd</version_id>
+  <version_modified>20200423T230024Z</version_modified>
   <xml_checksum>80A956BE</xml_checksum>
   <class_name>ZEDGK12InsertGroundDomainEKusdua</class_name>
   <display_name>ZEDG K12 Insert Ground Domain E+ Kusdua</display_name>
@@ -20,8 +21,8 @@
       <default_value>120</default_value>
     </argument>
   </arguments>
-  <outputs/>
-  <provenances/>
+  <outputs />
+  <provenances />
   <tags>
     <tag>Envelope.Form</tag>
   </tags>
@@ -84,18 +85,6 @@
   </attributes>
   <files>
     <file>
-      <filename>example_model.osm</filename>
-      <filetype>osm</filetype>
-      <usage_type>test</usage_type>
-      <checksum>2E5660B7</checksum>
-    </file>
-    <file>
-      <filename>example_model3A.osm</filename>
-      <filetype>osm</filetype>
-      <usage_type>test</usage_type>
-      <checksum>1385D308</checksum>
-    </file>
-    <file>
       <filename>README.md.erb</filename>
       <filetype>erb</filetype>
       <usage_type>readmeerb</usage_type>
@@ -117,7 +106,7 @@
       <version>
         <software_program>OpenStudio</software_program>
         <identifier>2.0.0</identifier>
-        <min_compatible>2.0.0</min_compatible>
+        <min_compatible>3.0.0</min_compatible>
       </version>
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
@@ -129,6 +118,12 @@
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
       <checksum>7BFCDEC6</checksum>
+    </file>
+    <file>
+      <filename>example_model.osm</filename>
+      <filetype>osm</filetype>
+      <usage_type>test</usage_type>
+      <checksum>39CDF590</checksum>
     </file>
   </files>
 </measure>

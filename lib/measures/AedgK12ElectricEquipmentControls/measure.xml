@@ -1,9 +1,10 @@
+<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_electric_equipment_controls</name>
   <uid>285bc263-7429-4049-a0ce-f60fabf46eec</uid>
-  <version_id>e5e471aa-ee3c-4582-8553-7b58c50b89ff</version_id>
-  <version_modified>20200319T195612Z</version_modified>
+  <version_id>d98faa47-3f28-49b2-8ab3-1bc9e5220776</version_id>
+  <version_modified>20200512T201425Z</version_modified>
   <xml_checksum>1F21832E</xml_checksum>
   <class_name>AedgK12ElectricEquipmentControls</class_name>
   <display_name>AedgK12ElectricEquipmentControls</display_name>
@@ -19,8 +20,8 @@
       <default_value>0</default_value>
     </argument>
   </arguments>
-  <outputs/>
-  <provenances/>
+  <outputs />
+  <provenances />
   <tags>
     <tag>Equipment.Equipment Controls</tag>
   </tags>
@@ -56,23 +57,6 @@
       <checksum>83034D02</checksum>
     </file>
     <file>
-      <filename>OsLib_AedgMeasures.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>CAD37D98</checksum>
-    </file>
-    <file>
-      <version>
-        <software_program>OpenStudio</software_program>
-        <identifier>2.0.0</identifier>
-        <min_compatible>2.0.0</min_compatible>
-      </version>
-      <filename>measure.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>script</usage_type>
-      <checksum>2E723825</checksum>
-    </file>
-    <file>
       <filename>AedgK12ElectricEquipmentControls_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
@@ -85,22 +69,21 @@
       <checksum>E0468DD6</checksum>
     </file>
     <file>
-      <filename>os_lib_helper_methods.rb</filename>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>2.0.0</identifier>
+        <min_compatible>2.8.0</min_compatible>
+      </version>
+      <filename>measure.rb</filename>
       <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>07B01D67</checksum>
+      <usage_type>script</usage_type>
+      <checksum>AB0FDB10</checksum>
     </file>
     <file>
-      <filename>os_lib_lighting_and_equipment.rb</filename>
+      <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>6CE32103</checksum>
-    </file>
-    <file>
-      <filename>os_lib_schedules.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>B38668F5</checksum>
+      <checksum>8212825C</checksum>
     </file>
   </files>
 </measure>

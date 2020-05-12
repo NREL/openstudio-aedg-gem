@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>aedg_small_to_medium_office_interior_finishes</name>
   <uid>d426daf2-995d-4c76-bec4-4b34e7ae2f38</uid>
-  <version_id>79411fb3-4df6-477f-a735-d391a31b7514</version_id>
-  <version_modified>20200316T215642Z</version_modified>
+  <version_id>e03b2fa1-ddc0-4009-9f7f-dcb99d06be97</version_id>
+  <version_modified>20200401T014101Z</version_modified>
   <xml_checksum>1E963D9C</xml_checksum>
   <class_name>AedgSmallToMediumOfficeInteriorFinishes</class_name>
   <display_name>AedgSmallToMediumOfficeInteriorFinishes</display_name>
@@ -17,10 +17,10 @@
       <type>Choice</type>
       <required>true</required>
       <model_dependent>false</model_dependent>
-      <default_value>{74827ad8-9b4b-4f81-b161-26f20401af64}</default_value>
+      <default_value>{f768968c-43cf-4fde-92e6-226ff35479fd}</default_value>
       <choices>
         <choice>
-          <value>{74827ad8-9b4b-4f81-b161-26f20401af64}</value>
+          <value>{f768968c-43cf-4fde-92e6-226ff35479fd}</value>
           <display_name>*All Interior Partition Surfaces*</display_name>
         </choice>
       </choices>
@@ -102,30 +102,12 @@
       <version>
         <software_program>OpenStudio</software_program>
         <identifier>2.0.0</identifier>
-        <min_compatible>2.0.0</min_compatible>
+        <min_compatible>2.8.0</min_compatible>
       </version>
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>4AE1261D</checksum>
-    </file>
-    <file>
-      <filename>os_lib_constructions.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>A30C5218</checksum>
-    </file>
-    <file>
-      <filename>os_lib_helper_methods.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>AD62E6A4</checksum>
-    </file>
-    <file>
-      <filename>os_lib_geometry.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>DFD50CB5</checksum>
+      <checksum>49FD7639</checksum>
     </file>
   </files>
 </measure>

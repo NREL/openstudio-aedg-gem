@@ -1,9 +1,10 @@
+<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>zedgk_12_swh</name>
   <uid>d765082f-34fb-4b03-bd4e-e8e4a418ba2a</uid>
-  <version_id>87e6c8d5-95ad-4548-b818-46a749ccfdcc</version_id>
-  <version_modified>20200319T210023Z</version_modified>
+  <version_id>23ca1126-09ed-4855-aa7a-557592ca914b</version_id>
+  <version_modified>20200401T014102Z</version_modified>
   <xml_checksum>2B3D3EB4</xml_checksum>
   <class_name>ZEDGK12SWH</class_name>
   <display_name>ZEDG K12 SWH</display_name>
@@ -26,8 +27,8 @@
       <model_dependent>false</model_dependent>
     </argument>
   </arguments>
-  <outputs/>
-  <provenances/>
+  <outputs />
+  <provenances />
   <tags>
     <tag>Service Water Heating.Water Heating</tag>
   </tags>
@@ -89,46 +90,10 @@
       <checksum>E0468DD6</checksum>
     </file>
     <file>
-      <filename>os_lib_constructions.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>E1FA367A</checksum>
-    </file>
-    <file>
-      <filename>os_lib_helper_methods.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>07B01D67</checksum>
-    </file>
-    <file>
-      <filename>os_lib_lighting_and_equipment.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>6CE32103</checksum>
-    </file>
-    <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
       <checksum>EDB45706</checksum>
-    </file>
-    <file>
-      <filename>os_lib_hvac.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>0F8A06F5</checksum>
-    </file>
-    <file>
-      <filename>os_lib_schedules.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>B38668F5</checksum>
-    </file>
-    <file>
-      <filename>os_lib_geometry.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>674C561A</checksum>
     </file>
     <file>
       <filename>measure_Test.rb</filename>
@@ -140,12 +105,12 @@
       <version>
         <software_program>OpenStudio</software_program>
         <identifier>2.0.0</identifier>
-        <min_compatible>2.0.0</min_compatible>
+        <min_compatible>2.8.0</min_compatible>
       </version>
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>B4102687</checksum>
+      <checksum>AFDD29A1</checksum>
     </file>
   </files>
 </measure>

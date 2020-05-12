@@ -1,9 +1,10 @@
+<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>aedg_office_swh</name>
   <uid>42e0df75-b1b0-4f52-9c3b-3895dbe5ed0e</uid>
-  <version_id>2b6ced4d-be3d-4235-990c-deaa7e47c169</version_id>
-  <version_modified>20200319T195612Z</version_modified>
+  <version_id>305c62a1-d5ab-49f7-8c07-aad5e2e45e0d</version_id>
+  <version_modified>20200401T014105Z</version_modified>
   <xml_checksum>9882CBDB</xml_checksum>
   <class_name>AedgOfficeSwh</class_name>
   <display_name>AedgOfficeSwh</display_name>
@@ -26,8 +27,8 @@
       <model_dependent>false</model_dependent>
     </argument>
   </arguments>
-  <outputs/>
-  <provenances/>
+  <outputs />
+  <provenances />
   <tags>
     <tag>Service Water Heating.Water Heating</tag>
   </tags>
@@ -84,48 +85,12 @@
       <version>
         <software_program>OpenStudio</software_program>
         <identifier>2.0.0</identifier>
-        <min_compatible>2.0.0</min_compatible>
+        <min_compatible>2.8.0</min_compatible>
       </version>
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>41A482A0</checksum>
-    </file>
-    <file>
-      <filename>os_lib_constructions.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>E1FA367A</checksum>
-    </file>
-    <file>
-      <filename>os_lib_helper_methods.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>07B01D67</checksum>
-    </file>
-    <file>
-      <filename>os_lib_lighting_and_equipment.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>6CE32103</checksum>
-    </file>
-    <file>
-      <filename>os_lib_hvac.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>0F8A06F5</checksum>
-    </file>
-    <file>
-      <filename>os_lib_schedules.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>B38668F5</checksum>
-    </file>
-    <file>
-      <filename>os_lib_geometry.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>674C561A</checksum>
+      <checksum>4A7B5718</checksum>
     </file>
   </files>
 </measure>

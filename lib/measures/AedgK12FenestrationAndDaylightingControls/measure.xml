@@ -1,9 +1,10 @@
+<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_fenestration_and_daylighting_controls</name>
   <uid>76683121-d531-46c0-8e1c-749c1ff646f0</uid>
-  <version_id>7adff6ff-f7b8-48a5-bcb6-e1d9b999a224</version_id>
-  <version_modified>20200319T195610Z</version_modified>
+  <version_id>c9537d7b-137b-4915-a196-efff1f62c376</version_id>
+  <version_modified>20200512T201424Z</version_modified>
   <xml_checksum>6FAFA9DE</xml_checksum>
   <class_name>AedgK12FenestrationAndDaylightingControls</class_name>
   <display_name>AEDG K12 - Fenestration and Daylighting Controls</display_name>
@@ -51,8 +52,8 @@
       <default_value>0</default_value>
     </argument>
   </arguments>
-  <outputs/>
-  <provenances/>
+  <outputs />
+  <provenances />
   <tags>
     <tag>Envelope.Fenestration</tag>
   </tags>
@@ -88,12 +89,6 @@
       <checksum>DDC5DD92</checksum>
     </file>
     <file>
-      <filename>OsLib_AedgMeasures.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>652337A6</checksum>
-    </file>
-    <file>
       <filename>AedgK12FenestrationAndDaylightingControls_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
@@ -106,51 +101,21 @@
       <checksum>E0468DD6</checksum>
     </file>
     <file>
-      <filename>os_lib_constructions.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>E1FA367A</checksum>
-    </file>
-    <file>
-      <filename>os_lib_helper_methods.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>07B01D67</checksum>
-    </file>
-    <file>
-      <filename>os_lib_lighting_and_equipment.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>6CE32103</checksum>
-    </file>
-    <file>
-      <filename>os_lib_outdoorair_and_infiltration.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>273C65BE</checksum>
-    </file>
-    <file>
       <version>
         <software_program>OpenStudio</software_program>
         <identifier>2.0.0</identifier>
-        <min_compatible>2.0.0</min_compatible>
+        <min_compatible>2.8.0</min_compatible>
       </version>
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>687CBBD1</checksum>
+      <checksum>5C4C69BA</checksum>
     </file>
     <file>
-      <filename>os_lib_schedules.rb</filename>
+      <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>B38668F5</checksum>
-    </file>
-    <file>
-      <filename>os_lib_geometry.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>674C561A</checksum>
+      <checksum>F1FB3610</checksum>
     </file>
   </files>
 </measure>

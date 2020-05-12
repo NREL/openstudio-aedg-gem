@@ -1,9 +1,10 @@
+<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>zedgk_12_roof_construction</name>
   <uid>d322d264-5855-4b20-bd3e-3c5e5032bc05</uid>
-  <version_id>34164498-3231-4ba8-b1a5-c3717741ce5b</version_id>
-  <version_modified>20200319T210024Z</version_modified>
+  <version_id>3efcaa84-7411-450a-b527-09bf8944c875</version_id>
+  <version_modified>20200401T014105Z</version_modified>
   <xml_checksum>5091078B</xml_checksum>
   <class_name>ZEDGK12RoofConstruction</class_name>
   <display_name>ZEDG K12 RoofConstruction</display_name>
@@ -60,8 +61,8 @@
       </choices>
     </argument>
   </arguments>
-  <outputs/>
-  <provenances/>
+  <outputs />
+  <provenances />
   <tags>
     <tag>Envelope.Opaque</tag>
   </tags>
@@ -109,18 +110,6 @@
       <checksum>E0468DD6</checksum>
     </file>
     <file>
-      <filename>os_lib_constructions.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>E1FA367A</checksum>
-    </file>
-    <file>
-      <filename>os_lib_helper_methods.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>07B01D67</checksum>
-    </file>
-    <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
@@ -136,12 +125,12 @@
       <version>
         <software_program>OpenStudio</software_program>
         <identifier>2.0.0</identifier>
-        <min_compatible>2.0.0</min_compatible>
+        <min_compatible>2.8.0</min_compatible>
       </version>
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>FDCAA791</checksum>
+      <checksum>1F96768E</checksum>
     </file>
   </files>
 </measure>

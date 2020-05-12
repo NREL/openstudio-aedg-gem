@@ -1,9 +1,10 @@
+<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_slab_and_basement</name>
   <uid>589fcda1-049e-44c5-82e4-804d7d9165aa</uid>
-  <version_id>df6a564e-cbf1-4291-98b5-b81f4d0b4aa9</version_id>
-  <version_modified>20200319T195609Z</version_modified>
+  <version_id>d99e33ed-0618-4629-a2b2-6db46f36500d</version_id>
+  <version_modified>20200401T014101Z</version_modified>
   <xml_checksum>6A939A50</xml_checksum>
   <class_name>AedgK12SlabAndBasement</class_name>
   <display_name>AedgK12SlabAndBasement</display_name>
@@ -81,8 +82,8 @@
       <default_value>0</default_value>
     </argument>
   </arguments>
-  <outputs/>
-  <provenances/>
+  <outputs />
+  <provenances />
   <tags>
     <tag>Envelope.Opaque</tag>
   </tags>
@@ -172,18 +173,6 @@
       <checksum>88E669A8</checksum>
     </file>
     <file>
-      <version>
-        <software_program>OpenStudio</software_program>
-        <identifier>1.5.0</identifier>
-        <min_compatible>1.5.0</min_compatible>
-        <max_compatible>1.14.0</max_compatible>
-      </version>
-      <filename>measure.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>script</usage_type>
-      <checksum>3C1E5E6C</checksum>
-    </file>
-    <file>
       <filename>os_lib_helper_methods.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
@@ -194,6 +183,18 @@
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
       <checksum>9600927D</checksum>
+    </file>
+    <file>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>1.5.0</identifier>
+        <min_compatible>1.5.0</min_compatible>
+        <max_compatible>1.14.0</max_compatible>
+      </version>
+      <filename>measure.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>script</usage_type>
+      <checksum>23874BAC</checksum>
     </file>
   </files>
 </measure>

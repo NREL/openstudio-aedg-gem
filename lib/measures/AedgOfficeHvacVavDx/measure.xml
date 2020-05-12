@@ -1,9 +1,10 @@
+<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>aedg_office_hvac_vav_dx</name>
   <uid>ffdf05ce-34c2-498e-9ca8-4ef8fe3a9af5</uid>
-  <version_id>98f11da7-8410-4ee4-a70e-2db6d91bd128</version_id>
-  <version_modified>20200319T195609Z</version_modified>
+  <version_id>529fefa0-286d-47f0-b8a0-b3c5810ad04a</version_id>
+  <version_modified>20200401T014101Z</version_modified>
   <xml_checksum>4435983D</xml_checksum>
   <class_name>AedgOfficeHvacVavDx</class_name>
   <display_name>AedgOfficeHvacVavDx</display_name>
@@ -44,8 +45,8 @@
       </choices>
     </argument>
   </arguments>
-  <outputs/>
-  <provenances/>
+  <outputs />
+  <provenances />
   <tags>
     <tag>HVAC.Whole System</tag>
   </tags>
@@ -102,48 +103,12 @@
       <version>
         <software_program>OpenStudio</software_program>
         <identifier>2.0.0</identifier>
-        <min_compatible>2.0.0</min_compatible>
+        <min_compatible>2.8.0</min_compatible>
       </version>
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>B906598E</checksum>
-    </file>
-    <file>
-      <filename>os_lib_constructions.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>A30C5218</checksum>
-    </file>
-    <file>
-      <filename>os_lib_helper_methods.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>AD62E6A4</checksum>
-    </file>
-    <file>
-      <filename>os_lib_lighting_and_equipment.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>2C1B6156</checksum>
-    </file>
-    <file>
-      <filename>os_lib_geometry.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>DFD50CB5</checksum>
-    </file>
-    <file>
-      <filename>os_lib_hvac.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>E918C1A2</checksum>
-    </file>
-    <file>
-      <filename>os_lib_schedules.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>E97C0929</checksum>
+      <checksum>186D232A</checksum>
     </file>
   </files>
 </measure>

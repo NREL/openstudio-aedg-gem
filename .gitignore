@@ -23,3 +23,6 @@
 
 # DS files
 *.DS_Store
+
+# Ignore measure tester gem local test results
+test_results/

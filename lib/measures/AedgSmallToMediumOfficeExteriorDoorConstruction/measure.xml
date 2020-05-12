@@ -3,15 +3,27 @@
   <schema_version>3.0</schema_version>
   <name>aedg_small_to_medium_office_exterior_door_construction</name>
   <uid>d9dd27f7-d622-4d85-96e4-c09fcd15603c</uid>
-  <version_id>22b783bd-303a-4dad-a761-f5e6095b1213</version_id>
-  <version_modified>20200316T195034Z</version_modified>
+  <version_id>53e3ab67-9583-4535-89c2-be579496e77c</version_id>
+  <version_modified>20200401T014104Z</version_modified>
   <xml_checksum>1E963D9C</xml_checksum>
   <class_name>AedgSmallToMediumOfficeExteriorDoorConstruction</class_name>
   <display_name>AedgSmallToMediumOfficeExteriorDoorConstruction</display_name>
   <description>This measure is intended for use on opaque doors; if doors are glass they should be treated as windows. OpenStudio does have a unique object for overhead doors versus standard doors. This measure doesn't alter infiltration. There is a separate measure for infiltration that includes user arguments for primary entry points. </description>
-  <modeler_description>Relevant construction types:
-- Door - Swinging or NonSwinging 
-- Overhead Door - Sliding 
+  <modeler_description>Relevant construction types:
+
+
+
+
+- Door - Swinging or NonSwinging 
+
+
+
+
+- Overhead Door - Sliding 
+
+
+
+
 - Overhead Door - RollUp</modeler_description>
   <arguments>
     <argument>
@@ -81,24 +93,12 @@
       <version>
         <software_program>OpenStudio</software_program>
         <identifier>2.0.0</identifier>
-        <min_compatible>2.0.0</min_compatible>
+        <min_compatible>2.8.0</min_compatible>
       </version>
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>1954EDB7</checksum>
-    </file>
-    <file>
-      <filename>os_lib_constructions.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>E1FA367A</checksum>
-    </file>
-    <file>
-      <filename>os_lib_helper_methods.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>07B01D67</checksum>
+      <checksum>C6A407B1</checksum>
     </file>
   </files>
 </measure>
