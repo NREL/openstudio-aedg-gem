@@ -1,9 +1,10 @@
+<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_interior_lighting</name>
   <uid>2faf0e50-8589-427f-8ee8-928169b1f7fa</uid>
-  <version_id>6db3ac1a-1915-46c8-8225-91cee8c486b9</version_id>
-  <version_modified>20200319T195609Z</version_modified>
+  <version_id>ead95331-2cde-40da-8dea-39e5234844ab</version_id>
+  <version_modified>20200401T014100Z</version_modified>
   <xml_checksum>2DDDDD82</xml_checksum>
   <class_name>AedgK12InteriorLighting</class_name>
   <display_name>AedgK12InteriorLighting</display_name>
@@ -19,8 +20,8 @@
       <default_value>0</default_value>
     </argument>
   </arguments>
-  <outputs/>
-  <provenances/>
+  <outputs />
+  <provenances />
   <tags>
     <tag>Electric Lighting.Lighting Equipment</tag>
   </tags>
@@ -68,39 +69,21 @@
       <checksum>C29405D3</checksum>
     </file>
     <file>
-      <version>
-        <software_program>OpenStudio</software_program>
-        <identifier>2.0.0</identifier>
-        <min_compatible>2.0.0</min_compatible>
-      </version>
-      <filename>measure.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>script</usage_type>
-      <checksum>08725ABC</checksum>
-    </file>
-    <file>
-      <filename>os_lib_helper_methods.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>AD62E6A4</checksum>
-    </file>
-    <file>
-      <filename>os_lib_lighting_and_equipment.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>2C1B6156</checksum>
-    </file>
-    <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
       <checksum>9600927D</checksum>
     </file>
     <file>
-      <filename>os_lib_schedules.rb</filename>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>2.0.0</identifier>
+        <min_compatible>2.8.0</min_compatible>
+      </version>
+      <filename>measure.rb</filename>
       <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>E97C0929</checksum>
+      <usage_type>script</usage_type>
+      <checksum>FECB2139</checksum>
     </file>
   </files>
 </measure>

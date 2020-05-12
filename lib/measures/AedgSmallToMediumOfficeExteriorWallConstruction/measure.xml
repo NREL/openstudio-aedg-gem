@@ -3,16 +3,32 @@
   <schema_version>3.0</schema_version>
   <name>aedg_small_to_medium_office_exterior_wall_construction</name>
   <uid>736836f8-1a55-47a6-96b7-9fd157be6744</uid>
-  <version_id>4773934b-5af9-481b-b663-1befd309a926</version_id>
-  <version_modified>20200316T195032Z</version_modified>
+  <version_id>82e5f4f0-11d1-44c2-bc48-d49a3a715e73</version_id>
+  <version_modified>20200401T014102Z</version_modified>
   <xml_checksum>1E963D9C</xml_checksum>
   <class_name>AedgSmallToMediumOfficeExteriorWallConstruction</class_name>
   <display_name>AedgSmallToMediumOfficeExteriorWallConstruction</display_name>
   <description>This measure will modify existing exterior wall insulation levels based on construction type and climate zone. The exterior wall construction type and climate zone should be set in the model prior to using this measure. For mass and metal walls if an existing insulation layer can be found it will be increased, if not a new insulation layer will be added. For mass this will be at the exterior of the construction. For metal it will be added just behind the exterior layer. For steel and wood framed walls, insulation will be added to the exterior of the construction. </description>
-  <modeler_description>Relevant construction types:
-- Mass
-- Steel framed
-- Wood framed and other
+  <modeler_description>Relevant construction types:
+
+
+
+
+- Mass
+
+
+
+
+- Steel framed
+
+
+
+
+- Wood framed and other
+
+
+
+
 - Metal building</modeler_description>
   <arguments>
     <argument>
@@ -82,24 +98,12 @@
       <version>
         <software_program>OpenStudio</software_program>
         <identifier>2.0.0</identifier>
-        <min_compatible>2.0.0</min_compatible>
+        <min_compatible>2.8.0</min_compatible>
       </version>
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>A5CD6517</checksum>
-    </file>
-    <file>
-      <filename>os_lib_constructions.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>E1FA367A</checksum>
-    </file>
-    <file>
-      <filename>os_lib_helper_methods.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>07B01D67</checksum>
+      <checksum>EE0CB4D5</checksum>
     </file>
   </files>
 </measure>

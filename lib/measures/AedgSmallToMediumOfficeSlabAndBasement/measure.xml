@@ -1,9 +1,10 @@
+<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>aedg_small_to_medium_office_slab_and_basement</name>
   <uid>9ef02e15-c7af-4bd3-a98a-44d52f3ea385</uid>
-  <version_id>9c63819c-edf6-4e1c-9c6f-97004aa9c911</version_id>
-  <version_modified>20200319T195612Z</version_modified>
+  <version_id>64cc1d59-1ff9-4892-a888-a595b26af778</version_id>
+  <version_modified>20200512T201425Z</version_modified>
   <xml_checksum>6A939A50</xml_checksum>
   <class_name>AedgSmallToMediumOfficeSlabAndBasement</class_name>
   <display_name>AedgSmallToMediumOfficeSlabAndBasement</display_name>
@@ -122,8 +123,8 @@
       <default_value>0</default_value>
     </argument>
   </arguments>
-  <outputs/>
-  <provenances/>
+  <outputs />
+  <provenances />
   <tags>
     <tag>Envelope.Opaque</tag>
   </tags>
@@ -189,12 +190,6 @@
       <checksum>E776D85C</checksum>
     </file>
     <file>
-      <filename>OsLib_AedgMeasures.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>652337A6</checksum>
-    </file>
-    <file>
       <filename>OsLib_EnergyPlusMethods.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
@@ -207,18 +202,6 @@
       <checksum>E0468DD6</checksum>
     </file>
     <file>
-      <version>
-        <software_program>OpenStudio</software_program>
-        <identifier>1.5.0</identifier>
-        <min_compatible>1.5.0</min_compatible>
-        <max_compatible>1.14.0</max_compatible>
-      </version>
-      <filename>measure.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>script</usage_type>
-      <checksum>6E880ECE</checksum>
-    </file>
-    <file>
       <filename>os_lib_helper_methods.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
@@ -229,6 +212,24 @@
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
       <checksum>4927D1AB</checksum>
+    </file>
+    <file>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>1.5.0</identifier>
+        <min_compatible>1.5.0</min_compatible>
+        <max_compatible>1.14.0</max_compatible>
+      </version>
+      <filename>measure.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>script</usage_type>
+      <checksum>1176ABC0</checksum>
+    </file>
+    <file>
+      <filename>OsLib_AedgMeasures.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>F1FB3610</checksum>
     </file>
   </files>
 </measure>

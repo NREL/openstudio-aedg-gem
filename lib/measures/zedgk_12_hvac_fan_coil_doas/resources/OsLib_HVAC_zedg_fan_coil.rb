@@ -239,8 +239,6 @@ module OsLib_HVAC_zedg_fan_coil
   end
 
   def self.assignHVACSchedules(model, runner, options = {})
-    require "#{File.dirname(__FILE__)}/os_lib_schedules"
-
     schedulesHVAC = {}
     airloops = model.getAirLoopHVACs
 
@@ -1615,26 +1613,22 @@ module OsLib_HVAC_zedg_fan_coil
   end
 
   def self.addDCV(model, runner, options)
-    unless options['primary_airloops'].nil?
-      options['primary_airloops'].each do |airloop|
-        if options['allHVAC']['primary']['fan'] == 'Variable'
-          if airloop.airLoopHVACOutdoorAirSystem.is_initialized
-            controller_mv = airloop.airLoopHVACOutdoorAirSystem.get.getControllerOutdoorAir.controllerMechanicalVentilation
-            controller_mv.setDemandControlledVentilation(true)
-            runner.registerInfo("Enabling demand control ventilation for #{airloop.name}")
-          end
+    options['primary_airloops']&.each do |airloop|
+      if options['allHVAC']['primary']['fan'] == 'Variable'
+        if airloop.airLoopHVACOutdoorAirSystem.is_initialized
+          controller_mv = airloop.airLoopHVACOutdoorAirSystem.get.getControllerOutdoorAir.controllerMechanicalVentilation
+          controller_mv.setDemandControlledVentilation(true)
+          runner.registerInfo("Enabling demand control ventilation for #{airloop.name}")
         end
       end
     end
 
-    unless options['secondary_airloops'].nil?
-      options['secondary_airloops'].each do |airloop|
-        if options['allHVAC']['secondary']['fan'] == 'Variable'
-          if airloop.airLoopHVACOutdoorAirSystem.is_initialized
-            controller_mv = airloop.airLoopHVACOutdoorAirSystem.get.getControllerOutdoorAir.controllerMechanicalVentilation
-            controller_mv.setDemandControlledVentilation(true)
-            runner.registerInfo("Enabling demand control ventilation for #{airloop.name}")
-          end
+    options['secondary_airloops']&.each do |airloop|
+      if options['allHVAC']['secondary']['fan'] == 'Variable'
+        if airloop.airLoopHVACOutdoorAirSystem.is_initialized
+          controller_mv = airloop.airLoopHVACOutdoorAirSystem.get.getControllerOutdoorAir.controllerMechanicalVentilation
+          controller_mv.setDemandControlledVentilation(true)
+          runner.registerInfo("Enabling demand control ventilation for #{airloop.name}")
         end
       end
     end

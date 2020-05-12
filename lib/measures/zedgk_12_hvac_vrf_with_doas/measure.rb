@@ -35,10 +35,13 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 # *******************************************************************************
 
+# load OpenStudio measure libraries from openstudio-extension gem
+require 'openstudio-extension'
+require 'openstudio/extension/core/os_lib_helper_methods'
+require 'openstudio/extension/core/os_lib_schedules'
+
 # load OpenStudio measure libraries
-require "#{File.dirname(__FILE__)}/resources/os_lib_helper_methods"
 require "#{File.dirname(__FILE__)}/resources/OsLib_HVAC_zedg_vrf"
-require "#{File.dirname(__FILE__)}/resources/os_lib_schedules"
 
 # start the measure
 class ZEDGVRFWithDOAS < OpenStudio::Measure::ModelMeasure

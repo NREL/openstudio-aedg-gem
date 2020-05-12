@@ -1,9 +1,10 @@
+<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>zedgk_12_exterior_wall_construction</name>
   <uid>39d1c328-0bbb-40ee-a18c-ba977b462a11</uid>
-  <version_id>4c60cbc4-ece6-4509-a3f5-33a2465884b9</version_id>
-  <version_modified>20200319T210023Z</version_modified>
+  <version_id>2c9b37f4-43ff-4c5f-9eb2-e6518e33011c</version_id>
+  <version_modified>20200401T014101Z</version_modified>
   <xml_checksum>5091078B</xml_checksum>
   <class_name>ZEDGK12ExteriorWallConstruction</class_name>
   <display_name>ZEDG K12 ExteriorWallConstruction</display_name>
@@ -20,8 +21,8 @@
       <default_value>0</default_value>
     </argument>
   </arguments>
-  <outputs/>
-  <provenances/>
+  <outputs />
+  <provenances />
   <tags>
     <tag>Envelope.Opaque</tag>
   </tags>
@@ -87,33 +88,21 @@
       <checksum>46CD8DD9</checksum>
     </file>
     <file>
-      <filename>os_lib_constructions.rb</filename>
+      <filename>measure_Test.rb</filename>
       <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>A30C5218</checksum>
-    </file>
-    <file>
-      <filename>os_lib_helper_methods.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>AD62E6A4</checksum>
+      <usage_type>test</usage_type>
+      <checksum>FF29F792</checksum>
     </file>
     <file>
       <version>
         <software_program>OpenStudio</software_program>
         <identifier>2.0.0</identifier>
-        <min_compatible>2.0.0</min_compatible>
+        <min_compatible>2.8.0</min_compatible>
       </version>
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>16A06974</checksum>
-    </file>
-    <file>
-      <filename>measure_Test.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>test</usage_type>
-      <checksum>FF29F792</checksum>
+      <checksum>CA7101C2</checksum>
     </file>
   </files>
 </measure>

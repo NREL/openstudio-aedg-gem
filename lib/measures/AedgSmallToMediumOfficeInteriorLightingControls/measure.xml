@@ -1,9 +1,10 @@
+<?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
   <name>aedg_small_to_medium_office_interior_lighting_controls</name>
   <uid>57ba8820-6394-4c76-86c3-cc045a8a2b26</uid>
-  <version_id>ec183f53-5e67-46cc-a466-eb7fdee2f9ac</version_id>
-  <version_modified>20200319T195611Z</version_modified>
+  <version_id>23bc0131-48e2-49cb-91d5-cc625daeef31</version_id>
+  <version_modified>20200512T201425Z</version_modified>
   <xml_checksum>9B7BB4D8</xml_checksum>
   <class_name>AedgSmallToMediumOfficeInteriorLightingControls</class_name>
   <display_name>AedgSmallToMediumOfficeInteriorLightingControls</display_name>
@@ -19,8 +20,8 @@
       <default_value>0</default_value>
     </argument>
   </arguments>
-  <outputs/>
-  <provenances/>
+  <outputs />
+  <provenances />
   <tags>
     <tag>Electric Lighting.Electric Lighting Controls</tag>
   </tags>
@@ -56,12 +57,6 @@
       <checksum>C9B5C77A</checksum>
     </file>
     <file>
-      <filename>OsLib_AedgMeasures.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>652337A6</checksum>
-    </file>
-    <file>
       <filename>AedgSmallToMediumOfficeInteriorLightingControls_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
@@ -77,30 +72,18 @@
       <version>
         <software_program>OpenStudio</software_program>
         <identifier>2.0.0</identifier>
-        <min_compatible>2.0.0</min_compatible>
+        <min_compatible>2.8.0</min_compatible>
       </version>
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>C9A2695D</checksum>
+      <checksum>9E2D2063</checksum>
     </file>
     <file>
-      <filename>os_lib_helper_methods.rb</filename>
+      <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>07B01D67</checksum>
-    </file>
-    <file>
-      <filename>os_lib_lighting_and_equipment.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>6CE32103</checksum>
-    </file>
-    <file>
-      <filename>os_lib_schedules.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>B38668F5</checksum>
+      <checksum>F1FB3610</checksum>
     </file>
   </files>
 </measure>
