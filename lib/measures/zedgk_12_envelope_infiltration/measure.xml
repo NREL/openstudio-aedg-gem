@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>zedgk_12_envelope_infiltration</name>
   <uid>e6232b68-8c72-4986-8693-84c0fe1d00ec</uid>
-  <version_id>677dc885-5118-45c0-9416-899da653c1a9</version_id>
-  <version_modified>20200401T014101Z</version_modified>
+  <version_id>782e7a0d-edc1-4199-b5ec-950199421143</version_id>
+  <version_modified>20210429T165034Z</version_modified>
   <xml_checksum>F85A5EF9</xml_checksum>
   <class_name>ZEDGK12EnvelopeInfiltration</class_name>
   <display_name>ZEDG K12 Envelope Infiltration</display_name>
@@ -78,19 +78,19 @@
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
-      <checksum>E0468DD6</checksum>
+      <checksum>A21A3ED2</checksum>
     </file>
     <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>9600927D</checksum>
+      <checksum>621F62E2</checksum>
     </file>
     <file>
       <filename>measure_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>332F5D3E</checksum>
+      <checksum>C7F6AF76</checksum>
     </file>
     <file>
       <version>
@@ -101,7 +101,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>22E7D268</checksum>
+      <checksum>6AD3C02B</checksum>
     </file>
   </files>
 </measure>

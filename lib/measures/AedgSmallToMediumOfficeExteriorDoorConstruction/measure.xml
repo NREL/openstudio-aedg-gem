@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>aedg_small_to_medium_office_exterior_door_construction</name>
   <uid>d9dd27f7-d622-4d85-96e4-c09fcd15603c</uid>
-  <version_id>53e3ab67-9583-4535-89c2-be579496e77c</version_id>
-  <version_modified>20200401T014104Z</version_modified>
+  <version_id>d9b48a29-565d-4f1e-9eb2-8ece2e45b637</version_id>
+  <version_modified>20210429T165037Z</version_modified>
   <xml_checksum>1E963D9C</xml_checksum>
   <class_name>AedgSmallToMediumOfficeExteriorDoorConstruction</class_name>
   <display_name>AedgSmallToMediumOfficeExteriorDoorConstruction</display_name>
@@ -75,19 +75,19 @@
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>EDB45706</checksum>
+      <checksum>F3DEE433</checksum>
     </file>
     <file>
       <filename>AedgSmallToMediumOfficeExteriorDoorConstruction_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>B4B74E19</checksum>
+      <checksum>CC445E49</checksum>
     </file>
     <file>
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
-      <checksum>E0468DD6</checksum>
+      <checksum>A21A3ED2</checksum>
     </file>
     <file>
       <version>
@@ -98,7 +98,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>C6A407B1</checksum>
+      <checksum>DF246A46</checksum>
     </file>
   </files>
 </measure>

@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>zedgk_12_exterior_wall_construction</name>
   <uid>39d1c328-0bbb-40ee-a18c-ba977b462a11</uid>
-  <version_id>2c9b37f4-43ff-4c5f-9eb2-e6518e33011c</version_id>
-  <version_modified>20200401T014101Z</version_modified>
+  <version_id>345b6ae8-8284-41d7-a5d1-1624f6953699</version_id>
+  <version_modified>20210429T165035Z</version_modified>
   <xml_checksum>5091078B</xml_checksum>
   <class_name>ZEDGK12ExteriorWallConstruction</class_name>
   <display_name>ZEDG K12 ExteriorWallConstruction</display_name>
@@ -79,19 +79,19 @@
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
-      <checksum>E0468DD6</checksum>
+      <checksum>A21A3ED2</checksum>
     </file>
     <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>46CD8DD9</checksum>
+      <checksum>233D7B4D</checksum>
     </file>
     <file>
       <filename>measure_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>FF29F792</checksum>
+      <checksum>06C11893</checksum>
     </file>
     <file>
       <version>
@@ -102,7 +102,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>CA7101C2</checksum>
+      <checksum>F68026A4</checksum>
     </file>
   </files>
 </measure>

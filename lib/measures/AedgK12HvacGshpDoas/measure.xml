@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_hvac_gshp_doas</name>
   <uid>b8ba0b97-9caf-42cd-81bb-16eaa0a4402c</uid>
-  <version_id>15c1d41c-70fa-4ed8-8653-24ae7f470c76</version_id>
-  <version_modified>20200401T014103Z</version_modified>
+  <version_id>3ffaf09a-bb96-4b85-abaf-1a9583b04b3f</version_id>
+  <version_modified>20210429T165037Z</version_modified>
   <xml_checksum>4435983D</xml_checksum>
   <class_name>AedgK12HvacGshpDoas</class_name>
   <display_name>AedgK12HvacGshpDoas</display_name>
@@ -85,19 +85,19 @@
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>EDB45706</checksum>
+      <checksum>F3DEE433</checksum>
     </file>
     <file>
       <filename>AedgK12HvacGshpDoas_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>F40DFC2C</checksum>
+      <checksum>4583A763</checksum>
     </file>
     <file>
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
-      <checksum>E0468DD6</checksum>
+      <checksum>A21A3ED2</checksum>
     </file>
     <file>
       <version>
@@ -108,7 +108,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>C26DF91B</checksum>
+      <checksum>5AF37721</checksum>
     </file>
   </files>
 </measure>

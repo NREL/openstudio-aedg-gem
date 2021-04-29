@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_exterior_floor_construction</name>
   <uid>099f148c-7550-45ac-bbfe-0eb2bac5969f</uid>
-  <version_id>1e4ae758-3a7c-410a-8192-3e56fad491d9</version_id>
-  <version_modified>20200401T014103Z</version_modified>
+  <version_id>40c73e5c-d91e-4a59-96e4-998df3703066</version_id>
+  <version_modified>20210429T165036Z</version_modified>
   <xml_checksum>1E963D9C</xml_checksum>
   <class_name>AedgK12ExteriorFloorConstruction</class_name>
   <display_name>AedgK12ExteriorFloorConstruction</display_name>
@@ -75,19 +75,19 @@
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>EDB45706</checksum>
+      <checksum>F3DEE433</checksum>
     </file>
     <file>
       <filename>AedgK12ExteriorFloorConstruction_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>14E9214F</checksum>
+      <checksum>C1BD383D</checksum>
     </file>
     <file>
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
-      <checksum>E0468DD6</checksum>
+      <checksum>A21A3ED2</checksum>
     </file>
     <file>
       <version>
@@ -98,7 +98,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>A57E4DE8</checksum>
+      <checksum>73C96525</checksum>
     </file>
   </files>
 </measure>

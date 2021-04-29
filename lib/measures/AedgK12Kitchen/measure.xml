@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_kitchen</name>
   <uid>92750b5a-7eb5-4df5-899f-c186c7c27935</uid>
-  <version_id>0607e14a-988e-47c9-b65b-1885006251a8</version_id>
-  <version_modified>20200512T201425Z</version_modified>
+  <version_id>9fbd3060-046f-40ce-8b86-5ce82eb4b20f</version_id>
+  <version_modified>20210429T165036Z</version_modified>
   <xml_checksum>057E8D9D</xml_checksum>
   <class_name>AedgK12Kitchen</class_name>
   <display_name>AedgK12Kitchen</display_name>
@@ -67,19 +67,19 @@
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>EDB45706</checksum>
+      <checksum>F3DEE433</checksum>
     </file>
     <file>
       <filename>AedgK12Kitchen_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>16D2557D</checksum>
+      <checksum>959ADEDC</checksum>
     </file>
     <file>
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
-      <checksum>E0468DD6</checksum>
+      <checksum>A21A3ED2</checksum>
     </file>
     <file>
       <version>
@@ -90,7 +90,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>76E904D5</checksum>
+      <checksum>1E30C0ED</checksum>
     </file>
   </files>
 </measure>
