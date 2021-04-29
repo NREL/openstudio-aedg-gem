@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_interior_lighting_controls</name>
   <uid>9f395ee4-5f82-4ca6-8a50-cb854893827e</uid>
-  <version_id>4ba4ba11-e49b-42b3-84f8-abc22063233f</version_id>
-  <version_modified>20200512T201424Z</version_modified>
+  <version_id>12d7941d-1686-46fc-af01-829b5516f876</version_id>
+  <version_modified>20210429T165035Z</version_modified>
   <xml_checksum>9B7BB4D8</xml_checksum>
   <class_name>AedgK12InteriorLightingControls</class_name>
   <display_name>AedgK12InteriorLightingControls</display_name>
@@ -60,13 +60,13 @@
       <filename>AedgK12InteriorLightingControls_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>8F55FBB0</checksum>
+      <checksum>057F1F7E</checksum>
     </file>
     <file>
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
-      <checksum>E0468DD6</checksum>
+      <checksum>A21A3ED2</checksum>
     </file>
     <file>
       <version>
@@ -77,13 +77,13 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>D50DD7CE</checksum>
+      <checksum>8F268DC2</checksum>
     </file>
     <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>8212825C</checksum>
+      <checksum>3088E4CE</checksum>
     </file>
   </files>
 </measure>

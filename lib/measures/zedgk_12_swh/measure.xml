@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>zedgk_12_swh</name>
   <uid>d765082f-34fb-4b03-bd4e-e8e4a418ba2a</uid>
-  <version_id>23ca1126-09ed-4855-aa7a-557592ca914b</version_id>
-  <version_modified>20200401T014102Z</version_modified>
+  <version_id>6bf54d10-8699-4610-a9d4-f8bf075322b2</version_id>
+  <version_modified>20210429T165035Z</version_modified>
   <xml_checksum>2B3D3EB4</xml_checksum>
   <class_name>ZEDGK12SWH</class_name>
   <display_name>ZEDG K12 SWH</display_name>
@@ -87,19 +87,19 @@
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
-      <checksum>E0468DD6</checksum>
+      <checksum>A21A3ED2</checksum>
     </file>
     <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>EDB45706</checksum>
+      <checksum>F3DEE433</checksum>
     </file>
     <file>
       <filename>measure_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>F350CD74</checksum>
+      <checksum>0BBEECF7</checksum>
     </file>
     <file>
       <version>
@@ -110,7 +110,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>AFDD29A1</checksum>
+      <checksum>60EE9BE9</checksum>
     </file>
   </files>
 </measure>

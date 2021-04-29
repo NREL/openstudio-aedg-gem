@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>zedgk_12_electric_equipment</name>
   <uid>d1fc10bc-0ae1-4e1b-b1ac-67fc3923b268</uid>
-  <version_id>c3374ad6-5ef9-4741-908d-f6b57998d240</version_id>
-  <version_modified>20200512T201424Z</version_modified>
+  <version_id>75a7dd7e-0e30-4058-bb87-41f80af682eb</version_id>
+  <version_modified>20210429T165035Z</version_modified>
   <xml_checksum>8C4D4034</xml_checksum>
   <class_name>ZEDGK12ElectricEquipment</class_name>
   <display_name>ZEDG K12 ElectricEquipment</display_name>
@@ -60,13 +60,13 @@
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
-      <checksum>E0468DD6</checksum>
+      <checksum>A21A3ED2</checksum>
     </file>
     <file>
       <filename>measure_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>ACF8FC37</checksum>
+      <checksum>A2AEB199</checksum>
     </file>
     <file>
       <version>
@@ -77,13 +77,13 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>69B39F80</checksum>
+      <checksum>AACD927D</checksum>
     </file>
     <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>8212825C</checksum>
+      <checksum>3088E4CE</checksum>
     </file>
   </files>
 </measure>

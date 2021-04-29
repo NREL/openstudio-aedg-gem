@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>zedgk_12_hvac</name>
   <uid>59793426-1d07-41d2-9478-d7abf1410764</uid>
-  <version_id>0a2a389f-488e-49fb-a3a2-b6473a6aa537</version_id>
-  <version_modified>20200512T201424Z</version_modified>
+  <version_id>056db4ae-47ba-40ce-8942-a1c9a2a3b1b0</version_id>
+  <version_modified>20210429T165034Z</version_modified>
   <xml_checksum>87BA8B1E</xml_checksum>
   <class_name>ZEDGK12HVAC</class_name>
   <display_name>ZEDG K12 HVAC GSHP with DOAS</display_name>
@@ -85,31 +85,31 @@
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
-      <checksum>E0468DD6</checksum>
+      <checksum>A21A3ED2</checksum>
     </file>
     <file>
       <filename>test_support.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>1E9C249B</checksum>
+      <checksum>0C365CF0</checksum>
     </file>
     <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>99805712</checksum>
+      <checksum>87EAE427</checksum>
     </file>
     <file>
       <filename>TableLib.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>36D7C5DF</checksum>
+      <checksum>63CD222D</checksum>
     </file>
     <file>
       <filename>measure_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>A383D84F</checksum>
+      <checksum>581C76EA</checksum>
     </file>
     <file>
       <version>
@@ -120,13 +120,13 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>41339768</checksum>
+      <checksum>42266254</checksum>
     </file>
     <file>
       <filename>OsLib_HVAC_zedg_gshp.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>CD270CA8</checksum>
+      <checksum>ABB4ED4E</checksum>
     </file>
   </files>
 </measure>

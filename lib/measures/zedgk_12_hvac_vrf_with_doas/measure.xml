@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>zedgvrf_with_doas</name>
   <uid>633b8efc-7bcb-4aa0-8821-d0ee08f960db</uid>
-  <version_id>efba83f0-f6d0-4384-9a99-2de393743787</version_id>
-  <version_modified>20200512T201424Z</version_modified>
+  <version_id>9cb92f03-be3e-405b-a5ca-202fda032373</version_id>
+  <version_modified>20210429T165034Z</version_modified>
   <xml_checksum>87BA8B1E</xml_checksum>
   <class_name>ZEDGVRFWithDOAS</class_name>
   <display_name>ZEDG VRF with DOAS</display_name>
@@ -104,13 +104,13 @@
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
-      <checksum>E0468DD6</checksum>
+      <checksum>A21A3ED2</checksum>
     </file>
     <file>
       <filename>measure_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>54B31487</checksum>
+      <checksum>C921A002</checksum>
     </file>
     <file>
       <version>
@@ -121,13 +121,13 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>B3B80470</checksum>
+      <checksum>A672A989</checksum>
     </file>
     <file>
       <filename>OsLib_HVAC_zedg_vrf.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>EE63AD25</checksum>
+      <checksum>FFB4CB27</checksum>
     </file>
   </files>
 </measure>

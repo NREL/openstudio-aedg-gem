@@ -1,5 +1,10 @@
 # OpenStudio AEDG Gem
 
+## Version 0.4.0
+
+* Support Ruby ~> 2.7
+* Support for OpenStudio 3.2 (upgrade to extension gem 0.4.2 and standards gem 0.2.13)
+
 ## Version 0.3.0
 
 * Support for OpenStudio 3.1

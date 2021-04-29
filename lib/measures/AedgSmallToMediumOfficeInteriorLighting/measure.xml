@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>aedg_small_to_medium_office_interior_lighting</name>
   <uid>e1e16b8f-5cbf-447c-9f76-7fe69b3cf01e</uid>
-  <version_id>fe48650c-2b23-4aab-af3d-8e1532a358ef</version_id>
-  <version_modified>20200512T201424Z</version_modified>
+  <version_id>f84768b0-f7c5-4a11-bf30-1ab9d535f863</version_id>
+  <version_modified>20210429T165035Z</version_modified>
   <xml_checksum>2DDDDD82</xml_checksum>
   <class_name>AedgSmallToMediumOfficeInteriorLighting</class_name>
   <display_name>AedgSmallToMediumOfficeInteriorLighting</display_name>
@@ -60,13 +60,13 @@
       <filename>AedgSmallToMediumOfficeInteriorLighting_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>CC5312DB</checksum>
+      <checksum>6AC0EBE7</checksum>
     </file>
     <file>
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
-      <checksum>E0468DD6</checksum>
+      <checksum>A21A3ED2</checksum>
     </file>
     <file>
       <version>
@@ -77,13 +77,13 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>20C210F3</checksum>
+      <checksum>B5A49344</checksum>
     </file>
     <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>F1FB3610</checksum>
+      <checksum>BA9FA6C6</checksum>
     </file>
   </files>
 </measure>
