@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>zedgk_12_insert_ground_domain_e_kusdua</name>
   <uid>aa8123f0-4d04-4141-8a00-8a2bccf30315</uid>
-  <version_id>95431eb6-81ab-4e17-9f20-bbc379385dbd</version_id>
-  <version_modified>20200423T230024Z</version_modified>
+  <version_id>dc1795ea-77cb-43ca-bd0c-5550f05c5dac</version_id>
+  <version_modified>20210429T165037Z</version_modified>
   <xml_checksum>80A956BE</xml_checksum>
   <class_name>ZEDGK12InsertGroundDomainEKusdua</class_name>
   <display_name>ZEDG K12 Insert Ground Domain E+ Kusdua</display_name>
@@ -97,10 +97,16 @@
       <checksum>3E246ACE</checksum>
     </file>
     <file>
+      <filename>example_model.osm</filename>
+      <filetype>osm</filetype>
+      <usage_type>test</usage_type>
+      <checksum>39CDF590</checksum>
+    </file>
+    <file>
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
-      <checksum>E0468DD6</checksum>
+      <checksum>A21A3ED2</checksum>
     </file>
     <file>
       <version>
@@ -111,19 +117,13 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>395556AF</checksum>
+      <checksum>6F35101A</checksum>
     </file>
     <file>
       <filename>measure_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>7BFCDEC6</checksum>
-    </file>
-    <file>
-      <filename>example_model.osm</filename>
-      <filetype>osm</filetype>
-      <usage_type>test</usage_type>
-      <checksum>39CDF590</checksum>
+      <checksum>4F41BD08</checksum>
     </file>
   </files>
 </measure>

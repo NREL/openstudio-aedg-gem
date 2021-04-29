@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>aedg_small_to_medium_office_roof_construction</name>
   <uid>f35d0cf1-40e4-47d1-84a4-91181a03085e</uid>
-  <version_id>8b585cdf-2612-4c19-bf9b-131245ad1328</version_id>
-  <version_modified>20200401T014103Z</version_modified>
+  <version_id>d007f041-d4fb-4de5-a6df-44d9cad891c4</version_id>
+  <version_modified>20210429T165037Z</version_modified>
   <xml_checksum>1E963D9C</xml_checksum>
   <class_name>AedgSmallToMediumOfficeRoofConstruction</class_name>
   <display_name>AedgSmallToMediumOfficeRoofConstruction</display_name>
@@ -94,19 +94,19 @@
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>EDB45706</checksum>
+      <checksum>F3DEE433</checksum>
     </file>
     <file>
       <filename>AedgSmallToMediumOfficeRoofConstruction_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>D98994EA</checksum>
+      <checksum>646F6D95</checksum>
     </file>
     <file>
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
-      <checksum>E0468DD6</checksum>
+      <checksum>A21A3ED2</checksum>
     </file>
     <file>
       <version>
@@ -117,7 +117,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>0C312ED5</checksum>
+      <checksum>A7B4C167</checksum>
     </file>
   </files>
 </measure>

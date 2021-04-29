@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>aedg_small_to_medium_office_exterior_lighting</name>
   <uid>90211a9c-de3f-458d-85c1-b40666b55f06</uid>
-  <version_id>e1071bda-409d-4525-8fc6-4fc9630a9c9f</version_id>
-  <version_modified>20200401T014102Z</version_modified>
+  <version_id>6e1a65de-1bdb-4536-8cf0-aed0b7498dc0</version_id>
+  <version_modified>20210429T165035Z</version_modified>
   <xml_checksum>2DDDDD82</xml_checksum>
   <class_name>AedgSmallToMediumOfficeExteriorLighting</class_name>
   <display_name>AedgSmallToMediumOfficeExteriorLighting</display_name>
@@ -190,19 +190,19 @@ Lighting Zones:
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>EDB45706</checksum>
+      <checksum>F3DEE433</checksum>
     </file>
     <file>
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
-      <checksum>E0468DD6</checksum>
+      <checksum>A21A3ED2</checksum>
     </file>
     <file>
       <filename>AedgSmallToMediumOfficeExteriorLighting_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>B98ADCF3</checksum>
+      <checksum>0A3EA3C4</checksum>
     </file>
     <file>
       <version>
@@ -213,7 +213,7 @@ Lighting Zones:
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>3B3114F4</checksum>
+      <checksum>255B258D</checksum>
     </file>
   </files>
 </measure>

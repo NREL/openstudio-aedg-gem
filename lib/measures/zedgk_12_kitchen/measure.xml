@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>zedgk_12_kitchen</name>
   <uid>6d9f212d-e859-4857-8ee7-1670de9c2bfb</uid>
-  <version_id>ad77907f-b0a5-4b5e-85df-73e479c37b08</version_id>
-  <version_modified>20200401T031341Z</version_modified>
+  <version_id>6eecab93-1c0e-4606-9374-1c61fac91d7a</version_id>
+  <version_modified>20210429T165035Z</version_modified>
   <xml_checksum>CE83CD3D</xml_checksum>
   <class_name>ZEDGK12Kitchen</class_name>
   <display_name>ZEDG K12 Kitchen</display_name>
@@ -87,19 +87,19 @@
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
-      <checksum>E0468DD6</checksum>
+      <checksum>A21A3ED2</checksum>
     </file>
     <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>99805712</checksum>
+      <checksum>87EAE427</checksum>
     </file>
     <file>
       <filename>measure_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>CCC14143</checksum>
+      <checksum>83A22D39</checksum>
     </file>
     <file>
       <version>
@@ -110,7 +110,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>487F2C0A</checksum>
+      <checksum>58146CBE</checksum>
     </file>
   </files>
 </measure>

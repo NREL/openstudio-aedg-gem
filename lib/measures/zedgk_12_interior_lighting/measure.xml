@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>zedgk_12_interior_lighting</name>
   <uid>d3283a8e-aee1-4b9d-9217-a7a988726fb4</uid>
-  <version_id>768054f7-085c-4ae6-a00b-0253029fd695</version_id>
-  <version_modified>20200512T201425Z</version_modified>
+  <version_id>9964e223-d0a4-4318-9d3c-284b1f3cf86f</version_id>
+  <version_modified>20210429T165037Z</version_modified>
   <xml_checksum>4B6FFB84</xml_checksum>
   <class_name>ZEDGK12InteriorLighting</class_name>
   <display_name>ZEDG K12 Interior Lighting</display_name>
@@ -60,13 +60,13 @@
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
-      <checksum>E0468DD6</checksum>
+      <checksum>A21A3ED2</checksum>
     </file>
     <file>
       <filename>measure_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>40797479</checksum>
+      <checksum>0C5D5532</checksum>
     </file>
     <file>
       <version>
@@ -77,13 +77,13 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>BC49E2AF</checksum>
+      <checksum>E0C1142C</checksum>
     </file>
     <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>8212825C</checksum>
+      <checksum>3088E4CE</checksum>
     </file>
   </files>
 </measure>

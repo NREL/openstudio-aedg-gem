@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_exterior_lighting</name>
   <uid>04fd62eb-3e9f-4bfc-98d8-7827b47e034a</uid>
-  <version_id>25c8db85-68d6-44ca-a17c-4f77ecfdf74a</version_id>
-  <version_modified>20200401T014103Z</version_modified>
+  <version_id>6b38f56b-e056-4505-adbb-89dc67eb5d9f</version_id>
+  <version_modified>20210429T165037Z</version_modified>
   <xml_checksum>2DDDDD82</xml_checksum>
   <class_name>AedgK12ExteriorLighting</class_name>
   <display_name>AedgK12ExteriorLighting</display_name>
@@ -190,19 +190,19 @@ Lighting Zones:
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>EDB45706</checksum>
+      <checksum>F3DEE433</checksum>
     </file>
     <file>
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
-      <checksum>E0468DD6</checksum>
+      <checksum>A21A3ED2</checksum>
     </file>
     <file>
       <filename>AedgK12ExteriorLighting_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>3A8058BD</checksum>
+      <checksum>09904E42</checksum>
     </file>
     <file>
       <version>
@@ -213,7 +213,7 @@ Lighting Zones:
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>7FAD63FF</checksum>
+      <checksum>B335753D</checksum>
     </file>
   </files>
 </measure>
