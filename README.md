@@ -18,9 +18,18 @@ Or install it yourself as:
 
     $ gem install 'openstudio-aedg-measures'
 
-## Usage
+# Compatibility Matrix
 
-To be filled out later.
+|OpenStudio AEDG Gem|OpenStudio|Ruby|
+|:--------------:|:----------:|:--------:|
+| 0.4.0 | 3.2      | 2.7    |
+| 0.3.0 | 3.1      | 2.5    |
+| 0.2.0  | 3.0      | 2.5    |
+| 0.1.1 | 2.9     | 2.2.4    |
+
+# Contributing 
+
+Please review the [OpenStudio Contribution Policy](https://openstudio.net/openstudio-contribution-policy) if you would like to contribute code to this gem.
 
 ## TODO
 
@@ -33,6 +42,6 @@ To be filled out later.
 * Update version in `/lib/openstudio/aedg_measures/version.rb`
 * Create PR to master, after tests and reviews complete, then merge
 * Locally - from the master branch, run `rake release`
-* On GitHub, go to the releases page and update the latest release tag. Name it ìVersion x.y.zî and copy the CHANGELOG entry into the description box.
+* On GitHub, go to the releases page and update the latest release tag. Name it ‚ÄúVersion x.y.z‚Äù and copy the CHANGELOG entry into the description box.
 
 
