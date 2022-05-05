@@ -22,6 +22,7 @@ Or install it yourself as:
 
 |OpenStudio AEDG Gem|OpenStudio|Ruby|
 |:--------------:|:----------:|:--------:|
+| 06.0 | 3.4      | 2.7    |
 | 0.5.0 | 3.3      | 2.7    |
 | 0.4.0 | 3.2      | 2.7    |
 | 0.3.0 | 3.1      | 2.5    |
@@ -39,7 +40,11 @@ Please review the [OpenStudio Contribution Policy](https://openstudio.net/openst
 # Releasing
 
 * Update CHANGELOG.md
-* Run `rake rubocop:auto_correct`
+* Run `rake openstudio:rubocop:auto_correct`
+* Run `rake openstudio:update_copyright`
+* Run `rake openstudio:update_measures` (this has to be done last since prior tasks alter measure files)
+* Update version in `readme.md`
+* Update version in `openstudio-aedg.gemspec`
 * Update version in `/lib/openstudio/aedg_measures/version.rb`
 * Create PR to master, after tests and reviews complete, then merge
 * Locally - from the master branch, run `rake release`
