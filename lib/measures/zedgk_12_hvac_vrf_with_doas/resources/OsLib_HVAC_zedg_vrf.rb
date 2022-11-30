@@ -862,7 +862,7 @@ module OsLib_HVAC_zedg_vrf
         # create air loop fan
         if options['primaryHVAC']['fan'] == 'Variable'
           # create variable speed fan and set system sizing accordingly
-          sizing_system.setMinimumSystemAirFlowRatio(0.3) # DCV
+          sizing_system.setCentralHeatingMaximumSystemAirFlowRatio(0.3) # DCV
           # variable speed fan
           fan = OpenStudio::Model::FanVariableVolume.new(model, model.alwaysOnDiscreteSchedule)
           fan.setFanEfficiency(0.6)
@@ -873,7 +873,7 @@ module OsLib_HVAC_zedg_vrf
           fan.setMotorInAirstreamFraction(1.0)
           air_loop_comps << fan
         else
-          sizing_system.setMinimumSystemAirFlowRatio(1.0) # No DCV
+          sizing_system.setCentralHeatingMaximumSystemAirFlowRatio(1.0) # No DCV
           # constant speed fan
           fan = OpenStudio::Model::FanConstantVolume.new(model, model.alwaysOnDiscreteSchedule)
           fan.setFanEfficiency(0.6)

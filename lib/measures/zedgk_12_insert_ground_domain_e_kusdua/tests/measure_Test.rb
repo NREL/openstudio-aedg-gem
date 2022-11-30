@@ -48,11 +48,11 @@ class ZEDGK12InsertGroundDomainBasementEKusduaTest < Minitest::Test
     runner = OpenStudio::Measure::OSRunner.new(OpenStudio::WorkflowJSON.new)
 
     # load the last model
-    runner.setLastOpenStudioModelPath(OpenStudio::Path.new("#{File.dirname(__FILE__)}/example_model.osm"))
+    runner.setLastOpenStudioModelPath(OpenStudio::Path.new("#{File.dirname(__FILE__)}/example_model_350.osm"))
 
     # load the test model
     translator = OpenStudio::OSVersion::VersionTranslator.new
-    path = OpenStudio::Path.new(File.dirname(__FILE__) + '/example_model.osm')
+    path = OpenStudio::Path.new(File.dirname(__FILE__) + '/example_model_350.osm')
     model = translator.loadModel(path)
     assert(!model.empty?)
     model = model.get
