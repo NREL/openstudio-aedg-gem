@@ -295,10 +295,13 @@ class ZEDGVRFWithDOAS < OpenStudio::Measure::ModelMeasure
       options['heat_pump_loop'] = heat_pump_loop
     end
 
+    # string check for components used twice
+    string_check = 'v350.osc' # change to `old.osc` to test using 1.x source OSC files
+
     # added in custom code to load components to be used by createVRFAirConditioners
     files = Dir.entries("#{File.dirname(__FILE__)}/resources/")
     files.each do |new_object|
-      next if !new_object.include?('.osc')
+      next if !new_object.include?(string_check)
 
       # load the osc file
       new_object_path = OpenStudio::Path.new("#{File.dirname(__FILE__)}/resources/#{new_object}")
@@ -409,7 +412,7 @@ class ZEDGVRFWithDOAS < OpenStudio::Measure::ModelMeasure
     base_vrf_terminalUnit = nil
     files = Dir.entries("#{File.dirname(__FILE__)}/resources/")
     files.each do |new_object|
-      next if !new_object.include?('.osc')
+      next if !new_object.include?(string_check)
       runner.registerInfo("Importing component from #{new_object}")
 
       # load the osc file
