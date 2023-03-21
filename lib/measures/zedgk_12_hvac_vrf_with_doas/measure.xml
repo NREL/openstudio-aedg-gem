@@ -1,11 +1,10 @@
 <?xml version="1.0"?>
 <measure>
   <schema_version>3.0</schema_version>
-  <error>Unable to extract OpenStudio::Measure::OSMeasure object from /Users/dgoldwas/Documents/github/nrel/openstudio-aedg-gem/lib/measures/zedgk_12_hvac_vrf_with_doas/measure.rb. The script should contain a class that derives from OpenStudio::Measure::OSMeasure and should close with a line stating the class name followed by .new.registerWithApplication.</error>
   <name>zedgvrf_with_doas</name>
   <uid>633b8efc-7bcb-4aa0-8821-d0ee08f960db</uid>
-  <version_id>7428198c-0e3e-4932-811d-4fa40bf26884</version_id>
-  <version_modified>20221130T070053Z</version_modified>
+  <version_id>c2b2689c-64a5-40ba-9be1-952f5b1c2d68</version_id>
+  <version_modified>20230321T223331Z</version_modified>
   <xml_checksum>87BA8B1E</xml_checksum>
   <class_name>ZEDGVRFWithDOAS</class_name>
   <display_name>ZEDG VRF with DOAS</display_name>
@@ -16,33 +15,22 @@
     <argument>
       <name>ceilingReturnPlenumSpaceType</name>
       <display_name>This space type should be part of a ceiling return air plenum.</display_name>
-      <description></description>
       <type>Choice</type>
-      <units></units>
       <required>false</required>
       <model_dependent>false</model_dependent>
-      <default_value></default_value>
-      <min_value></min_value>
-      <max_value></max_value>
     </argument>
     <argument>
       <name>costTotalHVACSystem</name>
       <display_name>Total Cost for HVAC System ($).</display_name>
-      <description></description>
       <type>Double</type>
-      <units></units>
       <required>true</required>
       <model_dependent>false</model_dependent>
       <default_value>0</default_value>
-      <min_value></min_value>
-      <max_value></max_value>
     </argument>
     <argument>
       <name>remake_schedules</name>
       <display_name>Apply recommended availability and ventilation schedules for air handlers?</display_name>
-      <description></description>
       <type>Boolean</type>
-      <units></units>
       <required>true</required>
       <model_dependent>false</model_dependent>
       <default_value>true</default_value>
@@ -56,8 +44,6 @@
           <display_name>false</display_name>
         </choice>
       </choices>
-      <min_value></min_value>
-      <max_value></max_value>
     </argument>
   </arguments>
   <outputs />
@@ -120,12 +106,6 @@
       <checksum>1DC4506F</checksum>
     </file>
     <file>
-      <filename>OsLib_HVAC_zedg_vrf.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>7B7AF853</checksum>
-    </file>
-    <file>
       <filename>VRF_Terminal_old.osc</filename>
       <filetype>osc</filetype>
       <usage_type>resource</usage_type>
@@ -150,10 +130,16 @@
       <checksum>EAE2D7D6</checksum>
     </file>
     <file>
+      <filename>OsLib_HVAC_zedg_vrf.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>A90A4F16</checksum>
+    </file>
+    <file>
       <filename>README.md</filename>
       <filetype>md</filetype>
       <usage_type>readme</usage_type>
-      <checksum>0B68E96D</checksum>
+      <checksum>8F22CB1F</checksum>
     </file>
   </files>
 </measure>
