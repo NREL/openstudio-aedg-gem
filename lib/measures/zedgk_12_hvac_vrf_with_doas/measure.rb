@@ -473,12 +473,12 @@ class ZEDGVRFWithDOAS < OpenStudio::Measure::ModelMeasure
     min_version_feature1 = OpenStudio::VersionString.new('2.3.1')
     if os_version >= min_version_feature1
       if base_vrf_terminalUnit.coolingCoil.is_initialized
-        vrf_clg_coil = base_vrf_terminalUnit.coolingCoil.get
+        vrf_clg_coil = base_vrf_terminalUnit.coolingCoil.get.to_CoilCoolingDXVariableRefrigerantFlow.get
       else
         runner.registerWarning("Didn't find expected cooling coil for #{base_vrf_terminalUnit.name}")
       end
       if base_vrf_terminalUnit.heatingCoil.is_initialized
-        vrf_htg_coil = base_vrf_terminalUnit.heatingCoil.get
+        vrf_htg_coil = base_vrf_terminalUnit.heatingCoil.get.to_CoilHeatingDXVariableRefrigerantFlow.get
       else
         runner.registerWarning("Didn't find expected heating coil for #{base_vrf_terminalUnit.name}")
       end

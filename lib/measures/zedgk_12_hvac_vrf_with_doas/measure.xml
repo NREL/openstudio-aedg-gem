@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>zedgvrf_with_doas</name>
   <uid>633b8efc-7bcb-4aa0-8821-d0ee08f960db</uid>
-  <version_id>c2b2689c-64a5-40ba-9be1-952f5b1c2d68</version_id>
-  <version_modified>20230321T223331Z</version_modified>
+  <version_id>053133be-1bac-4e96-bbfd-98d756506d1a</version_id>
+  <version_modified>20230321T225459Z</version_modified>
   <xml_checksum>87BA8B1E</xml_checksum>
   <class_name>ZEDGVRFWithDOAS</class_name>
   <display_name>ZEDG VRF with DOAS</display_name>
@@ -95,17 +95,6 @@
       <checksum>C921A002</checksum>
     </file>
     <file>
-      <version>
-        <software_program>OpenStudio</software_program>
-        <identifier>2.0.0</identifier>
-        <min_compatible>2.8.0</min_compatible>
-      </version>
-      <filename>measure.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>script</usage_type>
-      <checksum>1DC4506F</checksum>
-    </file>
-    <file>
       <filename>VRF_Terminal_old.osc</filename>
       <filetype>osc</filetype>
       <usage_type>resource</usage_type>
@@ -140,6 +129,17 @@
       <filetype>md</filetype>
       <usage_type>readme</usage_type>
       <checksum>8F22CB1F</checksum>
+    </file>
+    <file>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>2.0.0</identifier>
+        <min_compatible>2.8.0</min_compatible>
+      </version>
+      <filename>measure.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>script</usage_type>
+      <checksum>136DBD83</checksum>
     </file>
   </files>
 </measure>
