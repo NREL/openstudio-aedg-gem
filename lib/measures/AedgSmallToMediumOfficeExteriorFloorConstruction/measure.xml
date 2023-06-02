@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>aedg_small_to_medium_office_exterior_floor_construction</name>
   <uid>6698017c-52bd-4fc9-9240-f480301f66b8</uid>
-  <version_id>6126f52d-362a-4b47-b322-072aeb04d6d9</version_id>
-  <version_modified>20210429T165037Z</version_modified>
+  <version_id>91cbc961-aaf4-48e7-94a9-68758eb19234</version_id>
+  <version_modified>20230602T181444Z</version_modified>
   <xml_checksum>1E963D9C</xml_checksum>
   <class_name>AedgSmallToMediumOfficeExteriorFloorConstruction</class_name>
   <display_name>AedgSmallToMediumOfficeExteriorFloorConstruction</display_name>
@@ -75,19 +75,19 @@
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>F3DEE433</checksum>
+      <checksum>713EBDC6</checksum>
     </file>
     <file>
       <filename>AedgSmallToMediumOfficeExteriorFloorConstruction_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>5573AB09</checksum>
+      <checksum>C0A44DB2</checksum>
     </file>
     <file>
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
-      <checksum>A21A3ED2</checksum>
+      <checksum>BFFB1AA6</checksum>
     </file>
     <file>
       <version>
@@ -98,7 +98,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>ECF5D81C</checksum>
+      <checksum>8EC23283</checksum>
     </file>
   </files>
 </measure>

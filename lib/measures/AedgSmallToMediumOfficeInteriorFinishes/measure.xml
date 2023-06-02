@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>aedg_small_to_medium_office_interior_finishes</name>
   <uid>d426daf2-995d-4c76-bec4-4b34e7ae2f38</uid>
-  <version_id>07e63ee5-5155-4091-b1a0-fc115ee993cf</version_id>
-  <version_modified>20210429T165034Z</version_modified>
+  <version_id>3ce9ed3d-58b6-4b83-b29a-a3a9ab995f32</version_id>
+  <version_modified>20230602T181442Z</version_modified>
   <xml_checksum>1E963D9C</xml_checksum>
   <class_name>AedgSmallToMediumOfficeInteriorFinishes</class_name>
   <display_name>AedgSmallToMediumOfficeInteriorFinishes</display_name>
@@ -17,10 +17,10 @@
       <type>Choice</type>
       <required>true</required>
       <model_dependent>false</model_dependent>
-      <default_value>{354d9cdb-08ad-4137-a38a-5751a3fc43f4}</default_value>
+      <default_value>{3b592357-8480-4282-9976-183fbebf90bd}</default_value>
       <choices>
         <choice>
-          <value>{354d9cdb-08ad-4137-a38a-5751a3fc43f4}</value>
+          <value>{3b592357-8480-4282-9976-183fbebf90bd}</value>
           <display_name>*All Interior Partition Surfaces*</display_name>
         </choice>
       </choices>
@@ -84,19 +84,19 @@
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
-      <checksum>A21A3ED2</checksum>
+      <checksum>BFFB1AA6</checksum>
     </file>
     <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>87EAE427</checksum>
+      <checksum>AEE924A8</checksum>
     </file>
     <file>
       <filename>AedgSmallToMediumOfficeInteriorFinishes_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>99628B58</checksum>
+      <checksum>0DB9BE65</checksum>
     </file>
     <file>
       <version>
@@ -107,7 +107,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>4F469E9D</checksum>
+      <checksum>24625526</checksum>
     </file>
   </files>
 </measure>

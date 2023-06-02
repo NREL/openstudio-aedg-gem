@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_electric_equipment</name>
   <uid>4ef1195b-a7b2-4afc-8bbc-e0c28a86dfa4</uid>
-  <version_id>9a42e11f-1683-4e8b-8b34-e3009931e45b</version_id>
-  <version_modified>20210429T165039Z</version_modified>
+  <version_id>75f403cf-2525-4bf8-b4d5-46fb503fe89c</version_id>
+  <version_modified>20230602T181446Z</version_modified>
   <xml_checksum>126F1C43</xml_checksum>
   <class_name>AedgK12ElectricEquipment</class_name>
   <display_name>AedgK12ElectricEquipment</display_name>
@@ -60,13 +60,13 @@
       <filename>AedgK12ElectricEquipment_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>081F5799</checksum>
+      <checksum>32397E15</checksum>
     </file>
     <file>
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
-      <checksum>A21A3ED2</checksum>
+      <checksum>BFFB1AA6</checksum>
     </file>
     <file>
       <version>
@@ -77,13 +77,13 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>9588419B</checksum>
+      <checksum>6E70AD88</checksum>
     </file>
     <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>3088E4CE</checksum>
+      <checksum>131F8BB4</checksum>
     </file>
   </files>
 </measure>

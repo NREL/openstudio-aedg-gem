@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>aedg_small_to_medium_office_envelope_and_entry_infiltration</name>
   <uid>9c977bfb-d3f8-4f61-afcf-9524edf82cb8</uid>
-  <version_id>dcefa95e-7dfb-4afb-9ef5-688a6e8fa47d</version_id>
-  <version_modified>20210429T165035Z</version_modified>
+  <version_id>a2f3a136-05c9-4452-b208-053108e0901e</version_id>
+  <version_modified>20230602T181443Z</version_modified>
   <xml_checksum>EACB548E</xml_checksum>
   <class_name>AedgSmallToMediumOfficeEnvelopeAndEntryInfiltration</class_name>
   <display_name>AedgSmallToMediumOfficeEnvelopeAndEntryInfiltration</display_name>
@@ -151,13 +151,13 @@
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
-      <checksum>A21A3ED2</checksum>
+      <checksum>BFFB1AA6</checksum>
     </file>
     <file>
       <filename>AedgSmallToMediumOfficeEnvelopeAndEntryInfiltration_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>996898DA</checksum>
+      <checksum>25B04C63</checksum>
     </file>
     <file>
       <version>
@@ -168,13 +168,13 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>8D250517</checksum>
+      <checksum>28A82DEB</checksum>
     </file>
     <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>BA9FA6C6</checksum>
+      <checksum>4A277C0D</checksum>
     </file>
   </files>
 </measure>

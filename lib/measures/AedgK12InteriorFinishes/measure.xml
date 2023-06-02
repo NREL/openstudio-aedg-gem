@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_interior_finishes</name>
   <uid>9165a1f8-9cd1-4492-b20b-5257c05fc5d9</uid>
-  <version_id>88533928-d342-43ba-b77e-084127ccd6c8</version_id>
-  <version_modified>20210429T165035Z</version_modified>
+  <version_id>023dd4a8-f0c8-4460-a120-32ffec35c93c</version_id>
+  <version_modified>20230602T181442Z</version_modified>
   <xml_checksum>1E963D9C</xml_checksum>
   <class_name>AedgK12InteriorFinishes</class_name>
   <display_name>AedgK12InteriorFinishes</display_name>
@@ -17,10 +17,10 @@
       <type>Choice</type>
       <required>true</required>
       <model_dependent>false</model_dependent>
-      <default_value>{10c69ac1-502a-4f21-98f7-def6d5608a7a}</default_value>
+      <default_value>{bb0e7755-a495-44a3-a0a7-7db1445b9732}</default_value>
       <choices>
         <choice>
-          <value>{10c69ac1-502a-4f21-98f7-def6d5608a7a}</value>
+          <value>{bb0e7755-a495-44a3-a0a7-7db1445b9732}</value>
           <display_name>*All Interior Partition Surfaces*</display_name>
         </choice>
       </choices>
@@ -66,19 +66,19 @@
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
-      <checksum>A21A3ED2</checksum>
+      <checksum>BFFB1AA6</checksum>
     </file>
     <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>87EAE427</checksum>
+      <checksum>AEE924A8</checksum>
     </file>
     <file>
       <filename>AedgK12InteriorFinishes_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>2C336125</checksum>
+      <checksum>87E755EF</checksum>
     </file>
     <file>
       <version>
@@ -89,7 +89,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>CB9021D8</checksum>
+      <checksum>BE27061A</checksum>
     </file>
   </files>
 </measure>

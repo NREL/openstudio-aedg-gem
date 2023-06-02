@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>zedgk_12_exterior_door_construction</name>
   <uid>11c69bb4-3bea-4a7e-8a8e-fea4b5f71a1c</uid>
-  <version_id>1c162b6b-d0dd-40a2-8ecc-702cb8370807</version_id>
-  <version_modified>20210429T165035Z</version_modified>
+  <version_id>7e9b5e22-5a79-4cd2-9630-a795fa0f3c30</version_id>
+  <version_modified>20230602T181443Z</version_modified>
   <xml_checksum>5091078B</xml_checksum>
   <class_name>ZEDGK12ExteriorDoorConstruction</class_name>
   <display_name>ZEDG K12 ExteriorDoorConstruction</display_name>
@@ -69,19 +69,19 @@
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
-      <checksum>A21A3ED2</checksum>
+      <checksum>BFFB1AA6</checksum>
     </file>
     <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>F3DEE433</checksum>
+      <checksum>713EBDC6</checksum>
     </file>
     <file>
       <filename>measure_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>34CEF9D6</checksum>
+      <checksum>BD50B726</checksum>
     </file>
     <file>
       <version>
@@ -92,7 +92,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>1A541AFF</checksum>
+      <checksum>60B36945</checksum>
     </file>
   </files>
 </measure>

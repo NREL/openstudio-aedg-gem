@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>aedg_k_12_fenestration_and_daylighting_controls</name>
   <uid>76683121-d531-46c0-8e1c-749c1ff646f0</uid>
-  <version_id>5b3f219e-e286-486c-9c47-d9d489c759f4</version_id>
-  <version_modified>20210429T165036Z</version_modified>
+  <version_id>78578cf6-233d-48db-98d6-f9fcd1fdf5f0</version_id>
+  <version_modified>20230602T181443Z</version_modified>
   <xml_checksum>6FAFA9DE</xml_checksum>
   <class_name>AedgK12FenestrationAndDaylightingControls</class_name>
   <display_name>AEDG K12 - Fenestration and Daylighting Controls</display_name>
@@ -92,13 +92,13 @@
       <filename>AedgK12FenestrationAndDaylightingControls_Test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>76D6F89F</checksum>
+      <checksum>34D926FE</checksum>
     </file>
     <file>
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
-      <checksum>A21A3ED2</checksum>
+      <checksum>BFFB1AA6</checksum>
     </file>
     <file>
       <version>
@@ -109,13 +109,19 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>93FED802</checksum>
+      <checksum>BF0E0193</checksum>
     </file>
     <file>
       <filename>OsLib_AedgMeasures.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>BA9FA6C6</checksum>
+      <checksum>4A277C0D</checksum>
+    </file>
+    <file>
+      <filename>test/run.db</filename>
+      <filetype>db</filetype>
+      <usage_type>test</usage_type>
+      <checksum>00D5A512</checksum>
     </file>
   </files>
 </measure>
