@@ -1,5 +1,9 @@
 # OpenStudio AEDG Gem
 
+## Version 0.8.0
+* Support for OpenStudio 3.7 (upgrade to standards gem 0.5.0, extension gem 0.7.0)
+* Fixed issues with zedgk_12_hvac_vrf_with_doas 
+
 ## Version 0.7.0
 * Support for OpenStudio 3.5 (upgrade to standards gem 0.3.0, extension gem 0.6.0)
 
